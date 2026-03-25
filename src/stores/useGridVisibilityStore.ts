@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 
 export const useGridVisibilityStore = defineStore('gridVisibility', {
   state: () => ({
-    visibleCubes: new Set<number>()
+    visibleCubes: new Set<number>(),
   }),
 
   actions: {
@@ -11,10 +11,10 @@ export const useGridVisibilityStore = defineStore('gridVisibility', {
     },
     remove(id: number) {
       this.visibleCubes.delete(id)
-    }
+    },
   },
 
   getters: {
-    list: (state) => Array.from(state.visibleCubes)
-  }
+    list: (state) => Array.from(state.visibleCubes),
+  },
 })

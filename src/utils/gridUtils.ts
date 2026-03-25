@@ -9,5 +9,3 @@ export function gridCubesMakeSound() {
   // todo cubes that are on screen (state) should make a sound
   // todo cubes that are same LABEL, more centered one makes sound
 }
-
-
