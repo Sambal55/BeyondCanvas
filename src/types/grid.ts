@@ -1,0 +1,33 @@
+import { Painting } from '@/types/painting'
+
+export interface GridCube {
+  id: number
+  isImportant: boolean
+  importantCubeInfo: ImportantCubeInfo | null
+  audio: string | null
+  cubeSize: Size
+  position: Position
+}
+
+export interface Position {
+  x: number
+  y: number
+}
+
+export interface ImportantCubeInfo {
+  title: string
+  description: string
+}
+
+export interface Grid {
+  painting: Painting
+  columns: number // number of cubes in width
+  rows: number // number of cubes in height
+  cubes: GridCube[]
+}
+
+// size in pixels
+export interface Size {
+  width: number // number of pixels in width
+  height: number // number of pixels in height
+}

@@ -1,17 +1,20 @@
 <!--HomeView
 Where you come only if you remove URL part of Seine or Rowers-->
 
-<script setup lang="ts">
-
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <RouterLink to="/seine">Luncheon of the Boating Party</RouterLink>
-  <br>
+  <br />
   <RouterLink to="/rowers">La Grenouillère</RouterLink>
-
+  <!--  <div class="groen-blok"></div>-->
+  <!--  <img :src="seine" alt="Seine" />-->
 </template>
 
-<style scoped>
-
+<style>
+.groen-blok {
+  width: 100px;
+  height: 100px;
+  background-color: green;
+}
 </style>
