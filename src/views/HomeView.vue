@@ -8,7 +8,6 @@ Where you come only if you remove URL part of Seine or Rowers-->
   <br />
   <RouterLink to="/rowers">La Grenouillère</RouterLink>
   <!--  <div class="groen-blok"></div>-->
-  <!--  <img :src="seine" alt="Seine" />-->
 </template>
 
 <style>
