@@ -11,15 +11,4 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
-  build: {
-    rollupOptions: {
-      output: {
-        sanitizeFileName: (name) => {
-          return name
-            .replace(/\s+/g, '-')
-            .replace(/[^a-zA-Z0-9_.-]/g, '')
-        },
-      },
-    },
-  },
 })
