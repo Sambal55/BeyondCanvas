@@ -1,0 +1,1 @@
+import{f as n,c as a,b as s,u as o,F as t,o as r}from"./index-BRVp-T7m.js";const l="/BeyondCanvas/assets/seine-B1AYB1S8.jpg",c=["src"],p=n({__name:"SeineView",setup(i){return(u,e)=>(r(),a(t,null,[e[0]||(e[0]=s("div",{class:"groen-blok"},null,-1)),s("img",{src:o(l),alt:"Seine"},null,8,c)],64))}});export{p as default};
