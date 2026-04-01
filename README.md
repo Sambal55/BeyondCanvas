@@ -1,4 +1,4 @@
-# .
+# BeyondCanvas
 
 This template should help get you started developing with Vue 3 in Vite.
 
@@ -42,3 +42,7 @@ npm run build
 ```sh
 npm run lint
 ```
+
+
+## Grid generation Workflow
+This script generates a complete Grid object (in JSON) based on a painting and an AI-generated label map. Use this when you want to add a new painting to BeyondCanvas.
