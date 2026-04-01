@@ -1,25 +1,31 @@
 {
   "painting": {
     "id": 1,
+    "year": null,
+    "artform": null,
+    "imagePath": "public/assets/images/rowers.jpg",
     "name": "La Grenouillère",
-    "dimensions": {
+    "paintingSize": {
       "width": 2000,
       "height": 1441
     }
   },
+  "columns": 20,
+  "rows": 14,
   "cubeSize": {
     "width": 100,
     "height": 100
   },
-  "columns": 20,
-  "rows": 14,
   "cubes": [
     {
       "id": 1,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 0
@@ -29,8 +35,11 @@
       "id": 2,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 0
@@ -40,8 +49,11 @@
       "id": 3,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 0
@@ -51,8 +63,11 @@
       "id": 4,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 0
@@ -62,8 +77,11 @@
       "id": 5,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 0
@@ -73,8 +91,11 @@
       "id": 6,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 0
@@ -84,8 +105,11 @@
       "id": 7,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 0
@@ -95,8 +119,11 @@
       "id": 8,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 0
@@ -106,8 +133,11 @@
       "id": 9,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 0
@@ -117,8 +147,11 @@
       "id": 10,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 0
@@ -128,8 +161,11 @@
       "id": 11,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 0
@@ -139,8 +175,11 @@
       "id": 12,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 0
@@ -150,8 +189,11 @@
       "id": 13,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 0
@@ -161,8 +203,11 @@
       "id": 14,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 0
@@ -172,8 +217,11 @@
       "id": 15,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 0
@@ -183,8 +231,11 @@
       "id": 16,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 0
@@ -194,8 +245,11 @@
       "id": 17,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 0
@@ -205,8 +259,11 @@
       "id": 18,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 0
@@ -216,8 +273,11 @@
       "id": 19,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 0
@@ -227,8 +287,11 @@
       "id": 20,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 0
@@ -238,8 +301,11 @@
       "id": 21,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 1
@@ -249,8 +315,11 @@
       "id": 22,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 1
@@ -260,8 +329,11 @@
       "id": 23,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 1
@@ -271,8 +343,11 @@
       "id": 24,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 1
@@ -282,8 +357,11 @@
       "id": 25,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 1
@@ -293,8 +371,11 @@
       "id": 26,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 1
@@ -304,8 +385,11 @@
       "id": 27,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 1
@@ -315,8 +399,11 @@
       "id": 28,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 1
@@ -326,8 +413,11 @@
       "id": 29,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 1
@@ -337,8 +427,11 @@
       "id": 30,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 1
@@ -348,8 +441,11 @@
       "id": 31,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 1
@@ -359,8 +455,11 @@
       "id": 32,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
-      "audio": " flag_flapping_with_metal.mp3",
+      "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 1
@@ -370,8 +469,11 @@
       "id": 33,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sunshade",
       "audio": "flag_flapping.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 1
@@ -381,8 +483,11 @@
       "id": 34,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 1
@@ -392,8 +497,11 @@
       "id": 35,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 1
@@ -403,8 +511,11 @@
       "id": 36,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 1
@@ -414,8 +525,11 @@
       "id": 37,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 1
@@ -425,8 +539,11 @@
       "id": 38,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 1
@@ -436,8 +553,11 @@
       "id": 39,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 1
@@ -447,8 +567,11 @@
       "id": 40,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 1
@@ -458,8 +581,11 @@
       "id": 41,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sky",
       "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 2
@@ -469,8 +595,11 @@
       "id": 42,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 2
@@ -480,8 +609,11 @@
       "id": 43,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 2
@@ -491,8 +623,11 @@
       "id": 44,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "tree_branch.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 2
@@ -502,8 +637,11 @@
       "id": 45,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 2
@@ -513,8 +651,11 @@
       "id": 46,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves.mp3",
+      "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 2
@@ -524,8 +665,11 @@
       "id": 47,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
       "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 2
@@ -535,8 +679,11 @@
       "id": 48,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "tree_branch.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 2
@@ -546,8 +693,11 @@
       "id": 49,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "tree_branch.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 2
@@ -557,8 +707,11 @@
       "id": 50,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 2
@@ -568,8 +721,11 @@
       "id": 51,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 2
@@ -579,8 +735,11 @@
       "id": 52,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 2
@@ -590,8 +749,11 @@
       "id": 53,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 2
@@ -601,8 +763,11 @@
       "id": 54,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 2
@@ -612,8 +777,11 @@
       "id": 55,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 2
@@ -623,8 +791,11 @@
       "id": 56,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 2
@@ -634,8 +805,11 @@
       "id": 57,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 2
@@ -645,8 +819,11 @@
       "id": 58,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 2
@@ -656,8 +833,11 @@
       "id": 59,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 2
@@ -667,8 +847,11 @@
       "id": 60,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 2
@@ -678,8 +861,11 @@
       "id": 61,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "sky",
-      "audio": "morningbreeze_birds.mp3",
+      "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 3
@@ -689,8 +875,11 @@
       "id": 62,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
       "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 3
@@ -700,8 +889,11 @@
       "id": 63,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
       "audio": "tree_branch.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 3
@@ -711,8 +903,11 @@
       "id": 64,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "tree_branch.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 3
@@ -722,8 +917,11 @@
       "id": 65,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 3
@@ -733,8 +931,11 @@
       "id": 66,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 3
@@ -744,8 +945,11 @@
       "id": 67,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 3
@@ -755,8 +959,11 @@
       "id": 68,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
       "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 3
@@ -766,8 +973,11 @@
       "id": 69,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 3
@@ -777,8 +987,11 @@
       "id": 70,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 3
@@ -788,8 +1001,11 @@
       "id": 71,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 3
@@ -799,8 +1015,11 @@
       "id": 72,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 3
@@ -810,8 +1029,11 @@
       "id": 73,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 3
@@ -821,8 +1043,11 @@
       "id": 74,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 3
@@ -832,8 +1057,11 @@
       "id": 75,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 3
@@ -843,8 +1071,11 @@
       "id": 76,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 3
@@ -854,8 +1085,11 @@
       "id": 77,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 3
@@ -865,8 +1099,11 @@
       "id": 78,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 3
@@ -876,8 +1113,11 @@
       "id": 79,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 3
@@ -887,8 +1127,11 @@
       "id": 80,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 3
@@ -898,8 +1141,11 @@
       "id": 81,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 4
@@ -909,8 +1155,11 @@
       "id": 82,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 4
@@ -920,8 +1169,11 @@
       "id": 83,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "tree_branch.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 4
@@ -931,8 +1183,11 @@
       "id": 84,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 4
@@ -942,8 +1197,11 @@
       "id": 85,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "tree_branch.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 4
@@ -953,8 +1211,11 @@
       "id": 86,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 4
@@ -964,8 +1225,11 @@
       "id": 87,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 4
@@ -975,8 +1239,11 @@
       "id": 88,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves.mp3",
+      "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 4
@@ -986,8 +1253,11 @@
       "id": 89,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 4
@@ -997,8 +1267,11 @@
       "id": 90,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 4
@@ -1008,8 +1281,11 @@
       "id": 91,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 4
@@ -1019,8 +1295,11 @@
       "id": 92,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 4
@@ -1030,8 +1309,11 @@
       "id": 93,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 4
@@ -1041,8 +1323,11 @@
       "id": 94,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 4
@@ -1052,8 +1337,11 @@
       "id": 95,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drinkingGirl",
       "audio": "sipping_wine.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 4
@@ -1063,8 +1351,11 @@
       "id": 96,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 4
@@ -1074,8 +1365,11 @@
       "id": 97,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 4
@@ -1085,8 +1379,11 @@
       "id": 98,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 4
@@ -1096,8 +1393,11 @@
       "id": 99,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 4
@@ -1107,8 +1407,11 @@
       "id": 100,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 4
@@ -1118,8 +1421,11 @@
       "id": 101,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 5
@@ -1129,8 +1435,11 @@
       "id": 102,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 5
@@ -1140,8 +1449,11 @@
       "id": 103,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 5
@@ -1151,8 +1463,11 @@
       "id": 104,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves2.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 5
@@ -1162,8 +1477,11 @@
       "id": 105,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
       "audio": "tree_branch.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 5
@@ -1173,8 +1491,11 @@
       "id": 106,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 5
@@ -1184,8 +1505,11 @@
       "id": 107,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "rustling_leaves2.mp3",
+      "audio": "wind_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 5
@@ -1195,8 +1519,11 @@
       "id": 108,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 5
@@ -1206,8 +1533,11 @@
       "id": 109,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 5
@@ -1217,8 +1547,11 @@
       "id": 110,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 5
@@ -1228,8 +1561,11 @@
       "id": 111,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 5
@@ -1239,8 +1575,11 @@
       "id": 112,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 5
@@ -1250,8 +1589,11 @@
       "id": 113,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 5
@@ -1261,8 +1603,11 @@
       "id": 114,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drinkingGirl",
       "audio": "sipping_wine.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 5
@@ -1272,8 +1617,11 @@
       "id": 115,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drinkingGirl",
       "audio": "sipping_wine.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 5
@@ -1283,8 +1631,11 @@
       "id": 116,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 5
@@ -1294,8 +1645,11 @@
       "id": 117,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 5
@@ -1305,8 +1659,11 @@
       "id": 118,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personAlone",
       "audio": "male_slow_breathing.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 5
@@ -1316,8 +1673,11 @@
       "id": 119,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 5
@@ -1327,8 +1687,11 @@
       "id": 120,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 5
@@ -1338,8 +1701,11 @@
       "id": 121,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 6
@@ -1349,8 +1715,11 @@
       "id": 122,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 6
@@ -1360,8 +1729,11 @@
       "id": 123,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 6
@@ -1371,8 +1743,11 @@
       "id": 124,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 6
@@ -1382,8 +1757,11 @@
       "id": 125,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "tree_branch.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 6
@@ -1393,8 +1771,11 @@
       "id": 126,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "leaves",
-      "audio": "wind_leaves.mp3",
+      "audio": "rustling_leaves.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 6
@@ -1404,8 +1785,11 @@
       "id": 127,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 6
@@ -1415,8 +1799,11 @@
       "id": 128,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 6
@@ -1426,8 +1813,11 @@
       "id": 129,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 6
@@ -1437,8 +1827,11 @@
       "id": 130,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 6
@@ -1448,8 +1841,11 @@
       "id": 131,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 6
@@ -1459,8 +1855,11 @@
       "id": 132,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 6
@@ -1470,8 +1869,11 @@
       "id": 133,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 6
@@ -1481,8 +1883,11 @@
       "id": 134,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 6
@@ -1492,8 +1897,11 @@
       "id": 135,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 6
@@ -1503,8 +1911,11 @@
       "id": 136,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 6
@@ -1514,8 +1925,11 @@
       "id": 137,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personAlone",
       "audio": "male_slow_breathing.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 6
@@ -1525,8 +1939,11 @@
       "id": 138,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 6
@@ -1536,8 +1953,11 @@
       "id": 139,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 6
@@ -1547,8 +1967,11 @@
       "id": 140,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 6
@@ -1558,8 +1981,11 @@
       "id": 141,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 7
@@ -1569,8 +1995,11 @@
       "id": 142,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 7
@@ -1580,8 +2009,11 @@
       "id": 143,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 7
@@ -1591,8 +2023,11 @@
       "id": 144,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 7
@@ -1602,8 +2037,11 @@
       "id": 145,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 7
@@ -1613,8 +2051,11 @@
       "id": 146,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 7
@@ -1624,8 +2065,11 @@
       "id": 147,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 7
@@ -1635,8 +2079,11 @@
       "id": 148,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 7
@@ -1646,8 +2093,11 @@
       "id": 149,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 7
@@ -1657,8 +2107,11 @@
       "id": 150,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 7
@@ -1668,8 +2121,11 @@
       "id": 151,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 7
@@ -1679,8 +2135,11 @@
       "id": 152,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 7
@@ -1690,8 +2149,11 @@
       "id": 153,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 7
@@ -1701,8 +2163,11 @@
       "id": 154,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 7
@@ -1712,8 +2177,11 @@
       "id": 155,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 7
@@ -1723,8 +2191,11 @@
       "id": 156,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 7
@@ -1734,8 +2205,11 @@
       "id": 157,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 7
@@ -1745,8 +2219,11 @@
       "id": 158,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 7
@@ -1756,8 +2233,11 @@
       "id": 159,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 7
@@ -1767,8 +2247,11 @@
       "id": 160,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 7
@@ -1778,8 +2261,11 @@
       "id": 161,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 8
@@ -1789,8 +2275,11 @@
       "id": 162,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 8
@@ -1800,8 +2289,11 @@
       "id": 163,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 8
@@ -1811,8 +2303,11 @@
       "id": 164,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 8
@@ -1822,8 +2317,11 @@
       "id": 165,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "dog",
       "audio": "dog_barking.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 8
@@ -1833,8 +2331,11 @@
       "id": 166,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "dog",
-      "audio": "dog_breathing.mp3",
+      "audio": "dog_barking.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 8
@@ -1844,8 +2345,11 @@
       "id": 167,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 8
@@ -1855,8 +2359,11 @@
       "id": 168,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 8
@@ -1866,8 +2373,11 @@
       "id": 169,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 8
@@ -1877,8 +2387,11 @@
       "id": 170,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 8
@@ -1888,8 +2401,11 @@
       "id": 171,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "wine_glass_clink.mp3",
+      "audio": "wine_glass.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 8
@@ -1899,8 +2415,11 @@
       "id": 172,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
       "audio": "clinking_bottles.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 8
@@ -1910,8 +2429,11 @@
       "id": 173,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 8
@@ -1921,8 +2443,11 @@
       "id": 174,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 8
@@ -1932,8 +2457,11 @@
       "id": 175,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 8
@@ -1943,8 +2471,11 @@
       "id": 176,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 8
@@ -1954,8 +2485,11 @@
       "id": 177,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 8
@@ -1965,8 +2499,11 @@
       "id": 178,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 8
@@ -1976,8 +2513,11 @@
       "id": 179,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 8
@@ -1987,8 +2527,11 @@
       "id": 180,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 8
@@ -1998,8 +2541,11 @@
       "id": 181,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 9
@@ -2009,8 +2555,11 @@
       "id": 182,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 9
@@ -2020,8 +2569,11 @@
       "id": 183,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 9
@@ -2031,8 +2583,11 @@
       "id": 184,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
       "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 9
@@ -2042,8 +2597,11 @@
       "id": 185,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "dog",
-      "audio": "dog_breathing.mp3",
+      "audio": "dog_barking.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 9
@@ -2053,8 +2611,11 @@
       "id": 186,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 9
@@ -2064,8 +2625,11 @@
       "id": 187,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 9
@@ -2075,8 +2639,11 @@
       "id": 188,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 9
@@ -2086,8 +2653,11 @@
       "id": 189,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 9
@@ -2097,8 +2667,11 @@
       "id": 190,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 9
@@ -2108,8 +2681,11 @@
       "id": 191,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "clinking_bottles.mp3",
+      "audio": "wine_opening.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 9
@@ -2119,8 +2695,11 @@
       "id": 192,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "clinking_bottles.mp3",
+      "audio": "wine_glass_clink.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 9
@@ -2130,8 +2709,11 @@
       "id": 193,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "glass_clink.mp3",
+      "audio": "wine_glass_clink.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 9
@@ -2141,8 +2723,11 @@
       "id": 194,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 9
@@ -2152,8 +2737,11 @@
       "id": 195,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 9
@@ -2163,8 +2751,11 @@
       "id": 196,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 9
@@ -2174,8 +2765,11 @@
       "id": 197,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 9
@@ -2185,8 +2779,11 @@
       "id": 198,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "terrace_chatter.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 9
@@ -2196,8 +2793,11 @@
       "id": 199,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 9
@@ -2207,8 +2807,11 @@
       "id": 200,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 9
@@ -2218,8 +2821,11 @@
       "id": 201,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 10
@@ -2229,8 +2835,11 @@
       "id": 202,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 10
@@ -2240,8 +2849,11 @@
       "id": 203,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "terrace_chatter.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 10
@@ -2251,8 +2863,11 @@
       "id": 204,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 10
@@ -2262,8 +2877,11 @@
       "id": 205,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 10
@@ -2273,8 +2891,11 @@
       "id": 206,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 10
@@ -2284,8 +2905,11 @@
       "id": 207,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 10
@@ -2295,8 +2919,11 @@
       "id": 208,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 10
@@ -2306,8 +2933,11 @@
       "id": 209,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 10
@@ -2317,8 +2947,11 @@
       "id": 210,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "glass_clink.mp3",
+      "audio": "clinking_bottles.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 10
@@ -2328,8 +2961,11 @@
       "id": 211,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "wine_glass.mp3",
+      "audio": "wine_glass_clink.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 10
@@ -2339,8 +2975,11 @@
       "id": 212,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
       "audio": "wine_glass_clink.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 10
@@ -2350,8 +2989,11 @@
       "id": 213,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "glass_clink.mp3",
+      "audio": "clinking_bottles.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 10
@@ -2361,8 +3003,11 @@
       "id": 214,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 10
@@ -2372,8 +3017,11 @@
       "id": 215,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 10
@@ -2383,8 +3031,11 @@
       "id": 216,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 10
@@ -2394,8 +3045,11 @@
       "id": 217,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 10
@@ -2405,8 +3059,11 @@
       "id": 218,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "crowd_background.mp3",
+      "audio": "people_chatter_with_baby.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 10
@@ -2416,8 +3073,11 @@
       "id": 219,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 10
@@ -2427,8 +3087,11 @@
       "id": 220,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 10
@@ -2438,8 +3101,11 @@
       "id": 221,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 11
@@ -2449,8 +3115,11 @@
       "id": 222,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 11
@@ -2460,8 +3129,11 @@
       "id": 223,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 11
@@ -2471,8 +3143,11 @@
       "id": 224,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 11
@@ -2482,8 +3157,11 @@
       "id": 225,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 11
@@ -2493,8 +3171,11 @@
       "id": 226,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 11
@@ -2504,8 +3185,11 @@
       "id": 227,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 11
@@ -2515,8 +3199,11 @@
       "id": 228,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "food",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 11
@@ -2526,8 +3213,11 @@
       "id": 229,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
       "audio": "wine_glass.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 11
@@ -2537,8 +3227,11 @@
       "id": 230,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "clinking_bottles.mp3",
+      "audio": "wine_opening.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 11
@@ -2548,8 +3241,11 @@
       "id": 231,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "wine_opening.mp3",
+      "audio": "glass_clink.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 11
@@ -2559,8 +3255,11 @@
       "id": 232,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "drink",
-      "audio": "clinking_bottles.mp3",
+      "audio": "wine_glass.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 11
@@ -2570,8 +3269,11 @@
       "id": 233,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 11
@@ -2581,8 +3283,11 @@
       "id": 234,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 11
@@ -2592,8 +3297,11 @@
       "id": 235,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 11
@@ -2603,8 +3311,11 @@
       "id": 236,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 11
@@ -2614,8 +3325,11 @@
       "id": 237,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "personTogether",
-      "audio": "people_chatter_with_baby.mp3",
+      "audio": "crowd_background.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 11
@@ -2625,8 +3339,11 @@
       "id": 238,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 11
@@ -2636,8 +3353,11 @@
       "id": 239,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 11
@@ -2647,8 +3367,11 @@
       "id": 240,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 11
@@ -2658,8 +3381,11 @@
       "id": 241,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 12
@@ -2669,8 +3395,11 @@
       "id": 242,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 12
@@ -2680,8 +3409,11 @@
       "id": 243,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 12
@@ -2691,8 +3423,11 @@
       "id": 244,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 12
@@ -2702,8 +3437,11 @@
       "id": 245,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 12
@@ -2713,8 +3451,11 @@
       "id": 246,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 12
@@ -2724,8 +3465,11 @@
       "id": 247,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 12
@@ -2735,8 +3479,11 @@
       "id": 248,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 12
@@ -2746,8 +3493,11 @@
       "id": 249,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 12
@@ -2757,8 +3507,11 @@
       "id": 250,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 12
@@ -2768,8 +3521,11 @@
       "id": 251,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 12
@@ -2779,8 +3535,11 @@
       "id": 252,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 12
@@ -2790,8 +3549,11 @@
       "id": 253,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 12
@@ -2801,8 +3563,11 @@
       "id": 254,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 12
@@ -2812,8 +3577,11 @@
       "id": 255,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 12
@@ -2823,8 +3591,11 @@
       "id": 256,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 12
@@ -2834,8 +3605,11 @@
       "id": 257,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "clothing",
       "audio": "clothing_rustle.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 12
@@ -2845,8 +3619,11 @@
       "id": 258,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 12
@@ -2856,8 +3633,11 @@
       "id": 259,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 12
@@ -2867,8 +3647,11 @@
       "id": 260,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 12
@@ -2878,8 +3661,11 @@
       "id": 261,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 0,
         "y": 13
@@ -2889,8 +3675,11 @@
       "id": 262,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 1,
         "y": 13
@@ -2900,8 +3689,11 @@
       "id": 263,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 2,
         "y": 13
@@ -2911,8 +3703,11 @@
       "id": 264,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 3,
         "y": 13
@@ -2922,8 +3717,11 @@
       "id": 265,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 4,
         "y": 13
@@ -2933,8 +3731,11 @@
       "id": 266,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 5,
         "y": 13
@@ -2944,8 +3745,11 @@
       "id": 267,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 6,
         "y": 13
@@ -2955,8 +3759,11 @@
       "id": 268,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 7,
         "y": 13
@@ -2966,8 +3773,11 @@
       "id": 269,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 8,
         "y": 13
@@ -2977,8 +3787,11 @@
       "id": 270,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 9,
         "y": 13
@@ -2988,8 +3801,11 @@
       "id": 271,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 10,
         "y": 13
@@ -2999,8 +3815,11 @@
       "id": 272,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 11,
         "y": 13
@@ -3010,8 +3829,11 @@
       "id": 273,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 12,
         "y": 13
@@ -3021,8 +3843,11 @@
       "id": 274,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "tablecloth",
       "audio": "tablecloth_underside.mp3",
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 13,
         "y": 13
@@ -3032,8 +3857,11 @@
       "id": 275,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 14,
         "y": 13
@@ -3043,8 +3871,11 @@
       "id": 276,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 15,
         "y": 13
@@ -3054,8 +3885,11 @@
       "id": 277,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 16,
         "y": 13
@@ -3065,8 +3899,11 @@
       "id": 278,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 17,
         "y": 13
@@ -3076,8 +3913,11 @@
       "id": 279,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 18,
         "y": 13
@@ -3087,8 +3927,11 @@
       "id": 280,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "wood",
       "audio": null,
+      "cubeSize": {
+        "width": 100,
+        "height": 100
+      },
       "position": {
         "x": 19,
         "y": 13

@@ -1,12 +1,11 @@
 <!--SeineView
 View which has the painting La Grenouillère of Renoir -->
 <script setup lang="ts">
-import seine from '@/assets/images/seine.jpg'
+// TODO add PaintingGrid to this page
 </script>
 
 <template>
-  <div class="groen-blok"></div>
-  <img :src="seine" alt="Seine" />
+  <h1>temp</h1>
 </template>
 
 <style scoped></style>

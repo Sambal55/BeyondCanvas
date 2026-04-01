@@ -5,7 +5,6 @@ export interface GridCube {
   isImportant: boolean
   importantCubeInfo: ImportantCubeInfo | null
   audio: string | null
-  cubeSize: Size
   position: Position
 }
 
@@ -24,6 +23,7 @@ export interface Grid {
   columns: number // number of cubes in width
   rows: number // number of cubes in height
   cubes: GridCube[]
+  cubeSize: Size
 }
 
 // size in pixels

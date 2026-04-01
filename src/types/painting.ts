@@ -5,7 +5,6 @@ export interface Painting {
   name: string
   year: string | null
   paintingSize: Size
-  country: string | null
   artform: string | null
   imagePath: string
 }

@@ -1,19 +1,21 @@
 <!--RowersView
 View which has the painting Luncheon of the Boating Party by Renoir-->
 <script setup lang="ts">
-import rowers from '@/assets/images/rowers.jpg'
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { onMounted, watch } from 'vue'
-import rowerGridCubes from '@/data/rowerGrid.json'
+import rowerGrid from '@/data/rowerGrid.json'
+import PaintingGrid from '@/components/PaintingGrid.vue'
 
-const cubeSize = rowerGridCubes.cubeSize
+const grid = rowerGrid
 
-const cubes = rowerGridCubes.cubes.map((c) => ({
-  ...c,
-  left: c.position.x * cubeSize.width,
-  top: c.position.y * cubeSize.height,
-}))
+// all cubes
+// const positionedCubes = rowerGridCubes.cubes.map((c) => ({
+//   ...c,
+//   left: c.position.x * cubeSize.width,
+//   top: c.position.y * cubeSize.height,
+// }))
+// cubes which are visible on screen
 const visibility = useGridVisibilityStore()
 onMounted(() => {
   observeGridCubes()
@@ -29,31 +31,26 @@ watch(
 </script>
 
 <template>
-  <div class="image-wrapper">
-    <img :src="rowers" alt="Seine" width="2000" height="1441" />
-    <div
-      v-for="cube in cubes"
-      :key="cube.id"
-      class="cube"
-      :data-id="cube.id"
-      :style="{
-        left: cube.left + 'px',
-        top: cube.top + 'px',
-        width: cubeSize.width + 'px',
-        height: cubeSize.height + 'px',
-      }"
-    />
-  </div>
+ <PaintingGrid :grid="grid"></PaintingGrid>
 </template>
 
 <style scoped>
 .image-wrapper {
   position: relative;
+  display: inline-block;
+}
+
+.image-wrapper img {
+  display: block;
 }
 
 .cube {
   position: absolute;
-  border: 1px solid red; /* debug */
+  border: 1px solid transparent;
   pointer-events: none;
+}
+
+.cube.visible {
+  border-color: red;
 }
 </style>
