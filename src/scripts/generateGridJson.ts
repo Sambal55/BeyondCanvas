@@ -1,44 +1,29 @@
+/**
+ * @author  Lisa Welling
+ *
+ * Script that generates grid for painting in JSON format
+ * See README on how to use this script
+ */
 import { writeFileSync } from 'fs'
 import { Painting } from '../types/painting'
 import { Grid, GridCube } from '../types/grid'
 import rowerGridLabels from '../data/rowerGridLabels.json'
-
-/**
- * Plan for making this work:
- * 1. create a json with AI (claud epreferably) and use this prompt
- * Describe this painting in 280 short labels (no sentences), in a 20×14 grid.
- * Use exact coordinates (x,y).
- * Use only categories such as: water, leaves, tree, sky, boat, person, clothing, wood, grass, reflection, shadow, wind, food, drink, dog, animal
- * and put this in JSON format
- *  as attachment put the painting img
- *
- *  2. you recieve json in this format
- *    {
- *     "x": 0,
- *     "y": 0,
- *     "label": "sunshade"
- *   },
- *
- *   3. import the label JSON file (not vue path but normal path) and put it in the format of the generation const
- *  4. Adjust const paintingPath to path of the image you are trying to grid
- * 4. Add new labels which don't exist yet (but do exist in labelJSON) to the audioMap Record
- * 5. You could also add new sounds to existing labels
- * 6. Run script with     node scripts/generateGrid.js
- */
+// import seineGridLabels from '../data/seineGridLabels.json'
 
 const paintingPath = 'public/assets/images/rowers.jpg'
+// const paintingPath = 'public/assets/images/seine.jpg'
 
-// TODO use one random sound for objects such as sunshade and sky, so the object dont change sound when entering diff cube
 const audioMap: Record<string, string[]> = {
   sky: [
     'bike_breeze.mp3',
     'morningbreeze_birds.mp3',
     'outside_terrace.mp3',
     'sky1.mp3',
-    'wind_leaves.mp3',
+    'wind_leaves.mp3'
   ],
   leaves: ['rustling_leaves.mp3', 'rustling_leaves2.mp3', 'tree_branch.mp3', 'wind_leaves.mp3'],
   drinkingGirl: ['sipping_wine.mp3'],
+  dogGirl: ['pss_pssst.mp3'],
   personTogether: ['crowd_background.mp3', 'people_chatter_with_baby.mp3', 'terrace_chatter.mp3'],
   personAlone: ['male_slow_breathing.mp3'],
   clothing: ['clothing_rustle.mp3'],
@@ -49,21 +34,42 @@ const audioMap: Record<string, string[]> = {
     'glass_clink.mp3',
     'wine_glass.mp3',
     'wine_glass_clink.mp3',
-    'wine_opening.mp3',
+    'wine_opening.mp3'
   ],
+  glass: ['wine_glass_clink.mp3', 'wine_glass.mp3', 'glass_clink.mp3'],
   wood: [],
   sunshade: ['flag_flapping.mp3', ' flag_flapping_with_metal.mp3'],
   tablecloth: ['tablecloth_underside.mp3'],
+  water: [],
+  // TODO same sound as leaves?
+  tree: [],
+  // TODO a bit of a dumb label
+  shadow: [],
+  // TODO probably just water reflections
+  reflection: [],
+  boat: [],
+  hat: [],
+  swimmer: [],
+  dock: [],
+  cafe: [],
+  sign: [],
+  // TODO make this personTogether or personAlone
+  person: [],
+  nothing: []
 }
 // Saves which sounds have already been chosen for certain labels
 const fixedSoundCache: Record<string, string> = {}
 
+// TODO
+// Adjoning gridCubbes should have same sound for all
+// this could mean that the fixedcache is not nessacary because sky is always touching other skyblock
+// if no adjoning same box/sound then random
 function getAudio(label: string): string | null {
   const sounds = audioMap[label]
   if (!sounds || sounds.length === 0) return null
 
   // Labels which always require same sounds for consistency
-  const fixedLabels = ['sky', 'sunshade', 'dog']
+  const fixedLabels = ['sky', 'sunshade', 'dog', 'leaves']
 
   if (fixedLabels.includes(label)) {
     // If a sound is already picked, then use that sound
@@ -84,7 +90,7 @@ function getAudio(label: string): string | null {
 function generateGridJson(
   painting: Painting,
   cubeSize: number,
-  gridLabels: { x: number; y: number; label: string }[],
+  gridLabels: { x: number; y: number; label: string }[]
 ): Grid {
   const columns = Math.floor(painting.paintingSize.width / cubeSize)
   const rows = Math.floor(painting.paintingSize.height / cubeSize)
@@ -103,7 +109,7 @@ function generateGridJson(
       importantCubeInfo: null,
       audio,
       cubeSize: { width: cubeSize, height: cubeSize },
-      position: { x, y },
+      position: { x, y }
     }
   })
 
@@ -112,10 +118,11 @@ function generateGridJson(
     columns,
     rows,
     cubeSize: { width: cubeSize, height: cubeSize },
-    cubes,
+    cubes
   }
 }
 
+//
 const generation = generateGridJson(
   {
     id: 1,
@@ -128,19 +135,20 @@ const generation = generateGridJson(
   100,
   rowerGridLabels,
 )
-
-// const seineGrid = generateGridJson(
+// const generationSeine = generateGridJson(
 //   {
-//     id: 2,
+//     id: 1,
+//     year: null,
+//     artform: null,
+//     imagePath: paintingPath,
 //     name: 'Luncheon of the Boating Party',
-//     dimensions: { width: 2000, height: 1612 },
+//     paintingSize: { width: 2000, height: 1441 }
 //   },
 //   100,
-//
+//   seineGridLabels
 // )
 
-// make files
 writeFileSync('src/data/rowerGrid.json', JSON.stringify(generation, null, 2))
-// writeFileSync('src/data/seine.json', JSON.stringify(seineGrid, null, 2))
+// writeFileSync('src/data/seineGrid.json', JSON.stringify(generationSeine, null, 2))
 
 console.log('JSON FILES MADE')

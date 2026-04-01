@@ -72,32 +72,32 @@
   {
     "x": 14,
     "y": 0,
-    "label": "sunshade"
+    "label": "sky"
   },
   {
     "x": 15,
     "y": 0,
-    "label": "sunshade"
+    "label": "leaves"
   },
   {
     "x": 16,
     "y": 0,
-    "label": "sunshade"
+    "label": "leaves"
   },
   {
     "x": 17,
     "y": 0,
-    "label": "sunshade"
+    "label": "leaves"
   },
   {
     "x": 18,
     "y": 0,
-    "label": "sunshade"
+    "label": "leaves"
   },
   {
     "x": 19,
     "y": 0,
-    "label": "sunshade"
+    "label": "leaves"
   },
   {
     "x": 0,
@@ -107,12 +107,12 @@
   {
     "x": 1,
     "y": 1,
-    "label": "sunshade"
+    "label": "clothing"
   },
   {
     "x": 2,
     "y": 1,
-    "label": "sunshade"
+    "label": "clothing"
   },
   {
     "x": 3,
@@ -147,22 +147,22 @@
   {
     "x": 9,
     "y": 1,
-    "label": "sunshade"
+    "label": "sky"
   },
   {
     "x": 10,
     "y": 1,
-    "label": "sunshade"
+    "label": "sky"
   },
   {
     "x": 11,
     "y": 1,
-    "label": "sunshade"
+    "label": "sky"
   },
   {
     "x": 12,
     "y": 1,
-    "label": "sunshade"
+    "label": "sky"
   },
   {
     "x": 13,
@@ -172,12 +172,12 @@
   {
     "x": 14,
     "y": 1,
-    "label": "clothing"
+    "label": "sky"
   },
   {
     "x": 15,
     "y": 1,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 16,
@@ -192,12 +192,12 @@
   {
     "x": 18,
     "y": 1,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 19,
     "y": 1,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 0,
@@ -207,52 +207,52 @@
   {
     "x": 1,
     "y": 2,
-    "label": "leaves"
+    "label": "personAlone"
   },
   {
     "x": 2,
     "y": 2,
-    "label": "leaves"
+    "label": "personAlone"
   },
   {
     "x": 3,
     "y": 2,
-    "label": "leaves"
+    "label": "personAlone"
   },
   {
     "x": 4,
     "y": 2,
-    "label": "leaves"
+    "label": "boat"
   },
   {
     "x": 5,
     "y": 2,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 6,
     "y": 2,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 7,
     "y": 2,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 8,
     "y": 2,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 9,
     "y": 2,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 10,
     "y": 2,
-    "label": "personTogether"
+    "label": "sky"
   },
   {
     "x": 11,
@@ -262,17 +262,17 @@
   {
     "x": 12,
     "y": 2,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 13,
     "y": 2,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 14,
     "y": 2,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 15,
@@ -292,12 +292,12 @@
   {
     "x": 18,
     "y": 2,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 19,
     "y": 2,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 0,
@@ -307,384 +307,384 @@
   {
     "x": 1,
     "y": 3,
-    "label": "leaves"
+    "label": "sky"
   },
   {
     "x": 2,
     "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 3,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 4,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 5,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 6,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 7,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 8,
-    "y": 3,
-    "label": "leaves"
-  },
-  {
-    "x": 9,
-    "y": 3,
-    "label": "personTogether"
-  },
-  {
-    "x": 10,
-    "y": 3,
-    "label": "personTogether"
-  },
-  {
-    "x": 11,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 12,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 13,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 14,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 15,
-    "y": 3,
-    "label": "personTogether"
-  },
-  {
-    "x": 16,
-    "y": 3,
-    "label": "personTogether"
-  },
-  {
-    "x": 17,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 18,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 19,
-    "y": 3,
-    "label": "clothing"
-  },
-  {
-    "x": 0,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 1,
-    "y": 4,
-    "label": "personTogether"
-  },
-  {
-    "x": 2,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 3,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 4,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 5,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 6,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 7,
-    "y": 4,
-    "label": "leaves"
-  },
-  {
-    "x": 8,
-    "y": 4,
-    "label": "personTogether"
-  },
-  {
-    "x": 9,
-    "y": 4,
-    "label": "personTogether"
-  },
-  {
-    "x": 10,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 11,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 12,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 13,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 14,
-    "y": 4,
-    "label": "drinkingGirl"
-  },
-  {
-    "x": 15,
-    "y": 4,
-    "label": "personTogether"
-  },
-  {
-    "x": 16,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 17,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 18,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 19,
-    "y": 4,
-    "label": "clothing"
-  },
-  {
-    "x": 0,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 1,
-    "y": 5,
-    "label": "personTogether"
-  },
-  {
-    "x": 2,
-    "y": 5,
-    "label": "personTogether"
-  },
-  {
-    "x": 3,
-    "y": 5,
-    "label": "leaves"
-  },
-  {
-    "x": 4,
-    "y": 5,
-    "label": "leaves"
-  },
-  {
-    "x": 5,
-    "y": 5,
-    "label": "leaves"
-  },
-  {
-    "x": 6,
-    "y": 5,
-    "label": "leaves"
-  },
-  {
-    "x": 7,
-    "y": 5,
-    "label": "personTogether"
-  },
-  {
-    "x": 8,
-    "y": 5,
-    "label": "personTogether"
-  },
-  {
-    "x": 9,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 10,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 11,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 12,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 13,
-    "y": 5,
-    "label": "drinkingGirl"
-  },
-  {
-    "x": 14,
-    "y": 5,
-    "label": "drinkingGirl"
-  },
-  {
-    "x": 15,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 16,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 17,
-    "y": 5,
     "label": "personAlone"
   },
   {
-    "x": 18,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 19,
-    "y": 5,
-    "label": "clothing"
-  },
-  {
-    "x": 0,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 1,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 2,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
     "x": 3,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
-    "x": 4,
-    "y": 6,
-    "label": "leaves"
-  },
-  {
-    "x": 5,
-    "y": 6,
-    "label": "leaves"
-  },
-  {
-    "x": 6,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
-    "x": 7,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
-    "x": 8,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 9,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 10,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 11,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 12,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
-    "x": 13,
-    "y": 6,
-    "label": "personTogether"
-  },
-  {
-    "x": 14,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 15,
-    "y": 6,
-    "label": "clothing"
-  },
-  {
-    "x": 16,
-    "y": 6,
+    "y": 3,
     "label": "personAlone"
   },
   {
+    "x": 4,
+    "y": 3,
+    "label": "sky"
+  },
+  {
+    "x": 5,
+    "y": 3,
+    "label": "sky"
+  },
+  {
+    "x": 6,
+    "y": 3,
+    "label": "sky"
+  },
+  {
+    "x": 7,
+    "y": 3,
+    "label": "personAlone"
+  },
+  {
+    "x": 8,
+    "y": 3,
+    "label": "personAlone"
+  },
+  {
+    "x": 9,
+    "y": 3,
+    "label": "leaves"
+  },
+  {
+    "x": 10,
+    "y": 3,
+    "label": "leaves"
+  },
+  {
+    "x": 11,
+    "y": 3,
+    "label": "clothing"
+  },
+  {
+    "x": 12,
+    "y": 3,
+    "label": "clothing"
+  },
+  {
+    "x": 13,
+    "y": 3,
+    "label": "clothing"
+  },
+  {
+    "x": 14,
+    "y": 3,
+    "label": "clothing"
+  },
+  {
+    "x": 15,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 16,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 17,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 18,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 19,
+    "y": 3,
+    "label": "clothing"
+  },
+  {
+    "x": 0,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 1,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 2,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 3,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 4,
+    "y": 4,
+    "label": "leaves"
+  },
+  {
+    "x": 5,
+    "y": 4,
+    "label": "leaves"
+  },
+  {
+    "x": 6,
+    "y": 4,
+    "label": "leaves"
+  },
+  {
+    "x": 7,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 8,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 9,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 10,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 11,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 12,
+    "y": 4,
+    "label": "drinkingGirl"
+  },
+  {
+    "x": 13,
+    "y": 4,
+    "label": "leaves"
+  },
+  {
+    "x": 14,
+    "y": 4,
+    "label": "personAlone"
+  },
+  {
+    "x": 15,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 16,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 17,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 18,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 19,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 0,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 1,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 2,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 3,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 4,
+    "y": 5,
+    "label": "leaves"
+  },
+  {
+    "x": 5,
+    "y": 5,
+    "label": "leaves"
+  },
+  {
+    "x": 6,
+    "y": 5,
+    "label": "leaves"
+  },
+  {
+    "x": 7,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 8,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 9,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 10,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 11,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 12,
+    "y": 5,
+    "label": "drinkingGirl"
+  },
+  {
+    "x": 13,
+    "y": 5,
+    "label": "drinkingGirl"
+  },
+  {
+    "x": 14,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 15,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 16,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 17,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 18,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 19,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 0,
+    "y": 6,
+    "label": "clothing"
+  },
+  {
+    "x": 1,
+    "y": 6,
+    "label": "clothing"
+  },
+  {
+    "x": 2,
+    "y": 6,
+    "label": "dogGirl"
+  },
+  {
+    "x": 3,
+    "y": 6,
+    "label": "dogGirl"
+  },
+  {
+    "x": 4,
+    "y": 6,
+    "label": "dogGirl"
+  },
+  {
+    "x": 5,
+    "y": 6,
+    "label": "leaves"
+  },
+  {
+    "x": 6,
+    "y": 6,
+    "label": "leaves"
+  },
+  {
+    "x": 7,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 8,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 9,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 10,
+    "y": 6,
+    "label": "clothing"
+  },
+  {
+    "x": 11,
+    "y": 6,
+    "label": "clothing"
+  },
+  {
+    "x": 12,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 13,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 14,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 15,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
+    "x": 16,
+    "y": 6,
+    "label": "personTogether"
+  },
+  {
     "x": 17,
     "y": 6,
     "label": "clothing"
@@ -712,37 +712,37 @@
   {
     "x": 2,
     "y": 7,
-    "label": "clothing"
+    "label": "dogGirl"
   },
   {
     "x": 3,
     "y": 7,
-    "label": "personTogether"
+    "label": "dogGirl"
   },
   {
     "x": 4,
     "y": 7,
-    "label": "personTogether"
+    "label": "dogGirl"
   },
   {
     "x": 5,
     "y": 7,
-    "label": "personTogether"
+    "label": "dog"
   },
   {
     "x": 6,
     "y": 7,
-    "label": "personTogether"
+    "label": "dog"
   },
   {
     "x": 7,
     "y": 7,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 8,
     "y": 7,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 9,
@@ -752,42 +752,42 @@
   {
     "x": 10,
     "y": 7,
-    "label": "clothing"
+    "label": "drink"
   },
   {
     "x": 11,
     "y": 7,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 12,
     "y": 7,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 13,
     "y": 7,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 14,
     "y": 7,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 15,
     "y": 7,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 16,
     "y": 7,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 17,
     "y": 7,
-    "label": "clothing"
+    "label": "personTogether"
   },
   {
     "x": 18,
@@ -797,27 +797,27 @@
   {
     "x": 19,
     "y": 7,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 0,
     "y": 8,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 1,
     "y": 8,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 2,
     "y": 8,
-    "label": "clothing"
+    "label": "dogGirl"
   },
   {
     "x": 3,
     "y": 8,
-    "label": "personTogether"
+    "label": "dogGirl"
   },
   {
     "x": 4,
@@ -832,22 +832,22 @@
   {
     "x": 6,
     "y": 8,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 7,
     "y": 8,
-    "label": "clothing"
+    "label": "drink"
   },
   {
     "x": 8,
     "y": 8,
-    "label": "food"
+    "label": "drink"
   },
   {
     "x": 9,
     "y": 8,
-    "label": "food"
+    "label": "drink"
   },
   {
     "x": 10,
@@ -892,32 +892,32 @@
   {
     "x": 18,
     "y": 8,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 19,
     "y": 8,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 0,
     "y": 9,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 1,
     "y": 9,
-    "label": "clothing"
+    "label": "leaves"
   },
   {
     "x": 2,
     "y": 9,
-    "label": "personTogether"
+    "label": "dogGirl"
   },
   {
     "x": 3,
     "y": 9,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 4,
@@ -927,27 +927,27 @@
   {
     "x": 5,
     "y": 9,
-    "label": "clothing"
+    "label": "dog"
   },
   {
     "x": 6,
     "y": 9,
-    "label": "clothing"
+    "label": "dog"
   },
   {
     "x": 7,
     "y": 9,
-    "label": "food"
+    "label": "drink"
   },
   {
     "x": 8,
     "y": 9,
-    "label": "food"
+    "label": "drink"
   },
   {
     "x": 9,
     "y": 9,
-    "label": "food"
+    "label": "drink"
   },
   {
     "x": 10,
@@ -957,12 +957,12 @@
   {
     "x": 11,
     "y": 9,
-    "label": "drink"
+    "label": "clothing"
   },
   {
     "x": 12,
     "y": 9,
-    "label": "drink"
+    "label": "clothing"
   },
   {
     "x": 13,
@@ -987,12 +987,12 @@
   {
     "x": 17,
     "y": 9,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 18,
     "y": 9,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 19,
@@ -1022,17 +1022,17 @@
   {
     "x": 4,
     "y": 10,
-    "label": "clothing"
+    "label": "glass"
   },
   {
     "x": 5,
     "y": 10,
-    "label": "clothing"
+    "label": "dog"
   },
   {
     "x": 6,
     "y": 10,
-    "label": "food"
+    "label": "dog"
   },
   {
     "x": 7,
@@ -1047,47 +1047,47 @@
   {
     "x": 9,
     "y": 10,
-    "label": "drink"
+    "label": "food"
   },
   {
     "x": 10,
     "y": 10,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 11,
     "y": 10,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 12,
     "y": 10,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 13,
     "y": 10,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 14,
     "y": 10,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 15,
     "y": 10,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 16,
     "y": 10,
-    "label": "personTogether"
+    "label": "nothing"
   },
   {
     "x": 17,
     "y": 10,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 18,
@@ -1097,17 +1097,17 @@
   {
     "x": 19,
     "y": 10,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 0,
     "y": 11,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 1,
     "y": 11,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 2,
@@ -1122,17 +1122,17 @@
   {
     "x": 4,
     "y": 11,
-    "label": "clothing"
+    "label": "glass"
   },
   {
     "x": 5,
     "y": 11,
-    "label": "food"
+    "label": "tablecloth"
   },
   {
     "x": 6,
     "y": 11,
-    "label": "food"
+    "label": "glass"
   },
   {
     "x": 7,
@@ -1147,42 +1147,42 @@
   {
     "x": 9,
     "y": 11,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 10,
     "y": 11,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 11,
     "y": 11,
-    "label": "drink"
+    "label": "glass"
   },
   {
     "x": 12,
     "y": 11,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 13,
     "y": 11,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 14,
     "y": 11,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 15,
     "y": 11,
-    "label": "clothing"
+    "label": "nothing"
   },
   {
     "x": 16,
     "y": 11,
-    "label": "personTogether"
+    "label": "clothing"
   },
   {
     "x": 17,
@@ -1202,17 +1202,17 @@
   {
     "x": 0,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 1,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 2,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 3,
@@ -1227,22 +1227,22 @@
   {
     "x": 5,
     "y": 12,
-    "label": "tablecloth"
+    "label": "glass"
   },
   {
     "x": 6,
     "y": 12,
-    "label": "tablecloth"
+    "label": "food"
   },
   {
     "x": 7,
     "y": 12,
-    "label": "tablecloth"
+    "label": "food"
   },
   {
     "x": 8,
     "y": 12,
-    "label": "tablecloth"
+    "label": "glass"
   },
   {
     "x": 9,
@@ -1287,32 +1287,32 @@
   {
     "x": 17,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 18,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 19,
     "y": 12,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 0,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 1,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 2,
     "y": 13,
-    "label": "wood"
+    "label": "tablecloth"
   },
   {
     "x": 3,
@@ -1367,36 +1367,36 @@
   {
     "x": 13,
     "y": 13,
-    "label": "tablecloth"
+    "label": "clothing"
   },
   {
     "x": 14,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 15,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 16,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 17,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 18,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   },
   {
     "x": 19,
     "y": 13,
-    "label": "wood"
+    "label": "clothing"
   }
 ]

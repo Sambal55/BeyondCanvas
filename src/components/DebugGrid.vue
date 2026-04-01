@@ -39,13 +39,17 @@ onMounted(() => {
       class="cube"
       :class="{ visible: visibility.list.includes(cube.id) }"
       :data-id="cube.id"
+      :data-x="cube.position.x"
+      :data-y="cube.position.y"
       :style="{
         left: cube.left + 'px',
         top: cube.top + 'px',
         width: '100px',
         height: '100px',
       }"
-    />
+    >
+      <span style="color: greenyellow" class="coords">{{ cube.position.x }}, {{ cube.position.y }}</span>
+    </div>
   </div>
 </template>
 
@@ -66,6 +70,6 @@ onMounted(() => {
 }
 
 .cube.visible {
-  border-color: red;
+  border-color: magenta;
 }
 </style>

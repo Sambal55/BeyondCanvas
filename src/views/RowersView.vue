@@ -5,7 +5,7 @@ import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { onMounted, watch } from 'vue'
 import rowerGrid from '@/data/rowerGrid.json'
-import PaintingGrid from '@/components/PaintingGrid.vue'
+import DebugGrid from '@/components/DebugGrid.vue'
 
 const grid = rowerGrid
 
@@ -31,7 +31,7 @@ watch(
 </script>
 
 <template>
- <PaintingGrid :grid="grid"></PaintingGrid>
+  <DebugGrid :grid="grid"></DebugGrid>
 </template>
 
 <style scoped>

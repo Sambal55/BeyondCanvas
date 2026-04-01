@@ -1,7 +1,7 @@
 <!--SeineView
 View which has the painting La Grenouillère of Renoir -->
 <script setup lang="ts">
-// TODO add PaintingGrid to this page
+// TODO add DebugGrid to this page
 </script>
 
 <template>
