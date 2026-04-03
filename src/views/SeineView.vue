@@ -1,12 +1,32 @@
 <!--SeineView
-View which has the painting La Grenouillère of Renoir -->
+View which has the painting La Grenouillèrey by Renoir-->
 <script setup lang="ts">
-import seine from '@/assets/images/seine.jpg'
+import { observeGridCubes } from '@/utils/observerGridCubes'
+import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
+import { onMounted, watch } from 'vue'
+import seineGrid from '@/data/json/seineGrid.json'
+import DebugGrid from '@/components/DebugGrid.vue'
+
+const grid = seineGrid
+
+
+const visibility = useGridVisibilityStore()
+onMounted(() => {
+  observeGridCubes()
+})
+
+watch(
+  () => visibility.list,
+  (newList) => {
+    console.log('Visible cubes:', newList)
+  },
+  { deep: true },
+)
 </script>
 
 <template>
-  <div class="groen-blok"></div>
-  <img :src="seine" alt="Seine" />
+  <DebugGrid :grid="grid"></DebugGrid>
 </template>
 
-<style scoped></style>
+<style scoped>
+</style>

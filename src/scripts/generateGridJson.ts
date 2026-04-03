@@ -1,89 +1,83 @@
+/**
+ * @author Lisa Welling
+ *
+ * Script that generates grid for a painting in JSON format
+ * Based on label → zone mapping
+ */
+
 import { writeFileSync } from 'fs'
-import rowerGridLabels from '../data/rowerGridLabels.json'
+import { Painting } from '@/types/painting'
+import { Grid, GridCube, Size } from '@/types/grid'
+import rowerGridLabels from '../data/json/rowerGridLabels.json'
+import seineGridLabels from '../data/json/seineGridLabels.json'
+import { getZoneForLabel } from '../utils/zoneHelper'
 
-const audioMap: Record<string, string[]> = {
-  sky: [
-    'bike_breeze.mp3',
-    'morningbreeze_birds.mp3',
-    'outside_terrace.mp3',
-    'sky1.mp3',
-    'wind_leaves.mp3',
-  ],
-  leaves: ['rustling_leaves.mp3', 'rustling_leaves2.mp3', 'tree_branch.mp3', 'wind_leaves.mp3'],
-  drinkingGirl: ['sipping_wine.mp3'],
-  personTogether: ['crowd_background.mp3', 'people_chatter_with_baby.mp3', 'terrace_chatter.mp3'],
-  personAlone: ['male_slow_breathing.mp3'],
-  clothing: ['clothing_rustle.mp3'],
-  dog: ['dog_barking.mp3', 'dog_breathing.mp3'],
-  food: [],
-  drink: [
-    'clinking_bottles.mp3',
-    'glass_clink.mp3',
-    'wine_glass.mp3',
-    'wine_glass_clink.mp3',
-    'wine_opening.mp3',
-  ],
-  wood: [],
-  sunshade: ['flag_flapping.mp3', ' flag_flapping_with_metal.mp3'],
-  tablecloth: ['tablecloth_underside.mp3'],
-}
-
-function getAudio(label: string): string | null {
-  const sounds = audioMap[label]
-  if (!sounds || sounds.length === 0) return null
-  return sounds[Math.floor(Math.random() * sounds.length)]
-}
+const rowersPath = 'public/assets/images/rowers.jpg'
+const seinePath = 'public/assets/images/seine.jpg'
 
 function generateGridJson(
-  painting: any,
-  cubeSize: number,
+  painting: Painting,
+  cubeSize: Size,
   gridLabels: { x: number; y: number; label: string }[],
-) {
-  const columns = Math.floor(painting.dimensions.width / cubeSize)
-  const rows = Math.floor(painting.dimensions.height / cubeSize)
+): Grid {
+  const columns = Math.floor(painting.paintingSize.width / cubeSize.width)
+  const rows = Math.floor(painting.paintingSize.height / cubeSize.height)
   const totalCubes = columns * rows
 
-  const cubes = Array.from({ length: totalCubes }, (_, index) => {
+  const cubes: GridCube[] = Array.from({ length: totalCubes }, (_, index) => {
     const x = index % columns
     const y = Math.floor(index / columns)
+
     const labelEntry = gridLabels.find((l) => l.x === x && l.y === y)
     const label = labelEntry?.label ?? null
-    const audio = label ? getAudio(label) : null
+    const zone = getZoneForLabel(label)
 
     return {
       id: index + 1,
       isImportant: false,
       importantCubeInfo: null,
-      label,
-      audio,
+      label: label ?? 'nothing',
+      zone: zone ?? 'none',
       position: { x, y },
     }
   })
 
-  return { painting, cubeSize: { width: cubeSize, height: cubeSize }, columns, rows, cubes }
+  return {
+    painting,
+    columns,
+    rows,
+    cubeSize,
+    cubes,
+  }
 }
 
-const rowersGrid = generateGridJson(
+// Generate JSON for rowers
+const generateRowersGrid = generateGridJson(
   {
     id: 1,
-    name: 'La Grenouillère',
-    dimensions: { width: 2000, height: 1441 },
+    year: null,
+    artform: null,
+    imagePath: rowersPath,
+    name: 'Luncheon of the Boating Party',
+    paintingSize: { width: 2000, height: 1441 },
   },
-  100,
+  { width: 100, height: 100 },
   rowerGridLabels,
 )
+const generateSeineGrid = generateGridJson(
+  {
+    id: 1,
+    year: null,
+    artform: null,
+    imagePath: seinePath,
+    name: 'La Grenouillèrey',
+    paintingSize: { width: 2000, height: 1400 },
+  },
+  { width: 100, height: 100 },
+  seineGridLabels,
+)
 
-// const seineGrid = generateGridJson(
-//   {
-//     id: 2,
-//     name: 'Luncheon of the Boating Party',
-//     dimensions: { width: 2000, height: 1612 },
-//   },
-//   100,
-//
-// )
+writeFileSync('src/data/json/rowerGrid.json', JSON.stringify(generateRowersGrid, null, 2))
+writeFileSync('src/data/json/seineGrid.json', JSON.stringify(generateSeineGrid, null, 2))
 
-writeFileSync('src/data/rowerGrid.json', JSON.stringify(rowersGrid, null, 2))
-// writeFileSync('src/data/seine.json', JSON.stringify(seineGrid, null, 2))
-
-console.log('✅ JSON bestanden aangemaakt!')
+console.log('JSON FILES MADE')
