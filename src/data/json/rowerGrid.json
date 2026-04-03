@@ -3,7 +3,7 @@
     "id": 1,
     "year": null,
     "artform": null,
-    "imagePath": "public/assets/images/rowers.jpg",
+    "imagePath": "./assets/images/rowers.jpg",
     "name": "Luncheon of the Boating Party",
     "paintingSize": {
       "width": 2000,

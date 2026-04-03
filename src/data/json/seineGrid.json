@@ -3,7 +3,7 @@
     "id": 1,
     "year": null,
     "artform": null,
-    "imagePath": "public/assets/images/seine.jpg",
+    "imagePath": "./assets/images/seine.jpg",
     "name": "La Grenouillèrey",
     "paintingSize": {
       "width": 2000,
