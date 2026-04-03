@@ -12,7 +12,7 @@ export const zoneLabelsMap: Record<string, string[]> = {
   sky: ['sky', 'sunshade'],
   leaves: ['leaves', 'tree'],
   people: [
-    'person',
+    'personTogether',
     'personTogether',
     'personAlone',
     'drinkingGirl',

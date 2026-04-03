@@ -9,9 +9,11 @@ import { writeFileSync } from 'fs'
 import { Painting } from '@/types/painting'
 import { Grid, GridCube, Size } from '@/types/grid'
 import rowerGridLabels from '../data/json/rowerGridLabels.json'
+import seineGridLabels from '../data/json/seineGridLabels.json'
 import { getZoneForLabel } from '../utils/zoneHelper'
 
-const paintingPath = 'public/assets/images/rowers.jpg'
+const rowersPath = 'public/assets/images/rowers.jpg'
+const seinePath = 'public/assets/images/seine.jpg'
 
 function generateGridJson(
   painting: Painting,
@@ -50,19 +52,32 @@ function generateGridJson(
 }
 
 // Generate JSON for rowers
-const generation = generateGridJson(
+const generateRowersGrid = generateGridJson(
   {
     id: 1,
     year: null,
     artform: null,
-    imagePath: paintingPath,
+    imagePath: rowersPath,
     name: 'Luncheon of the Boating Party',
     paintingSize: { width: 2000, height: 1441 },
   },
-  {width: 100, height: 100},
+  { width: 100, height: 100 },
   rowerGridLabels,
 )
+const generateSeineGrid = generateGridJson(
+  {
+    id: 1,
+    year: null,
+    artform: null,
+    imagePath: seinePath,
+    name: 'La Grenouillèrey',
+    paintingSize: { width: 2000, height: 1400 },
+  },
+  { width: 100, height: 100 },
+  seineGridLabels,
+)
 
-writeFileSync('src/data/json/rowerGrid.json', JSON.stringify(generation, null, 2))
+writeFileSync('src/data/json/rowerGrid.json', JSON.stringify(generateRowersGrid, null, 2))
+writeFileSync('src/data/json/seineGrid.json', JSON.stringify(generateSeineGrid, null, 2))
 
 console.log('JSON FILES MADE')

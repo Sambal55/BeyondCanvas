@@ -5,14 +5,13 @@
  *
  */
 
-
 const eventSoundMap: Record<string, string[]> = {
   sky: [
     'bike_breeze.mp3',
     'morningbreeze_birds.mp3',
     'outside_terrace.mp3',
     'sky1.mp3',
-    'wind_leaves.mp3'
+    'wind_leaves.mp3',
   ],
   leaves: ['rustling_leaves.mp3', 'rustling_leaves2.mp3', 'tree_branch.mp3', 'wind_leaves.mp3'],
   drinkingGirl: ['sipping_wine.mp3'],
@@ -27,7 +26,7 @@ const eventSoundMap: Record<string, string[]> = {
     'glass_clink.mp3',
     'wine_glass.mp3',
     'wine_glass_clink.mp3',
-    'wine_opening.mp3'
+    'wine_opening.mp3',
   ],
   glass: ['wine_glass_clink.mp3', 'wine_glass.mp3', 'glass_clink.mp3'],
   wood: [],
@@ -44,8 +43,13 @@ const eventSoundMap: Record<string, string[]> = {
   hat: [],
   swimmer: [],
   dock: [],
-  cafe: [],
+  signature: [],
+  jetty: [],
+  building: [],
+  foliage: [],
+  dress: [],
   sign: [],
   // TODO make this personTogether or personAlone
-  person: []
+  person: [],
+  simmer: [],
 }

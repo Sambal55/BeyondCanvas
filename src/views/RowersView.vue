@@ -9,13 +9,6 @@ import DebugGrid from '@/components/DebugGrid.vue'
 
 const grid = rowerGrid
 
-// all cubes
-// const positionedCubes = rowerGridCubes.cubes.map((c) => ({
-//   ...c,
-//   left: c.position.x * cubeSize.width,
-//   top: c.position.y * cubeSize.height,
-// }))
-// cubes which are visible on screen
 const visibility = useGridVisibilityStore()
 onMounted(() => {
   observeGridCubes()
@@ -35,22 +28,4 @@ watch(
 </template>
 
 <style scoped>
-.image-wrapper {
-  position: relative;
-  display: inline-block;
-}
-
-.image-wrapper img {
-  display: block;
-}
-
-.cube {
-  position: absolute;
-  border: 1px solid transparent;
-  pointer-events: none;
-}
-
-.cube.visible {
-  border-color: red;
-}
 </style>

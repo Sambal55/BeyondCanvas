@@ -1,1317 +1,1402 @@
 [
   {
-    "x": 60,
-    "y": 50,
+    "x": 0,
+    "y": 0,
+    "label": "leaves"
+  },
+  {
+    "x": 1,
+    "y": 0,
+    "label": "leaves"
+  },
+  {
+    "x": 2,
+    "y": 0,
     "label": "tree"
   },
   {
-    "x": 160,
-    "y": 40,
+    "x": 3,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 4,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 5,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 6,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 7,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 8,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 9,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 10,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 11,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 12,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 13,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 14,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 15,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 16,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 17,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 18,
+    "y": 0,
+    "label": "foliage"
+  },
+  {
+    "x": 19,
+    "y": 0,
+    "label": "building"
+  },
+  {
+    "x": 0,
+    "y": 1,
     "label": "leaves"
   },
   {
-    "x": 280,
-    "y": 30,
-    "label": "leaves"
-  },
-  {
-    "x": 400,
-    "y": 25,
-    "label": "leaves"
-  },
-  {
-    "x": 520,
-    "y": 20,
-    "label": "leaves"
-  },
-  {
-    "x": 640,
-    "y": 30,
-    "label": "leaves"
-  },
-  {
-    "x": 760,
-    "y": 45,
-    "label": "leaves"
-  },
-  {
-    "x": 880,
-    "y": 35,
-    "label": "leaves"
-  },
-  {
-    "x": 1000,
-    "y": 25,
-    "label": "leaves"
-  },
-  {
-    "x": 1120,
-    "y": 30,
-    "label": "leaves"
-  },
-  {
-    "x": 1240,
-    "y": 40,
-    "label": "leaves"
-  },
-  {
-    "x": 1360,
-    "y": 35,
-    "label": "leaves"
-  },
-  {
-    "x": 1480,
-    "y": 30,
-    "label": "leaves"
-  },
-  {
-    "x": 1600,
-    "y": 40,
-    "label": "leaves"
-  },
-  {
-    "x": 1700,
-    "y": 50,
-    "label": "leaves"
-  },
-  {
-    "x": 1800,
-    "y": 60,
-    "label": "leaves"
-  },
-  {
-    "x": 1880,
-    "y": 45,
-    "label": "leaves"
-  },
-  {
-    "x": 1950,
-    "y": 35,
-    "label": "leaves"
-  },
-  {
-    "x": 80,
-    "y": 120,
+    "x": 1,
+    "y": 1,
     "label": "tree"
   },
   {
-    "x": 200,
-    "y": 100,
-    "label": "leaves"
-  },
-  {
-    "x": 320,
-    "y": 90,
-    "label": "leaves"
-  },
-  {
-    "x": 440,
-    "y": 80,
-    "label": "leaves"
-  },
-  {
-    "x": 560,
-    "y": 95,
-    "label": "leaves"
-  },
-  {
-    "x": 680,
-    "y": 100,
-    "label": "leaves"
-  },
-  {
-    "x": 800,
-    "y": 85,
-    "label": "leaves"
-  },
-  {
-    "x": 920,
-    "y": 75,
-    "label": "leaves"
-  },
-  {
-    "x": 1040,
-    "y": 80,
-    "label": "leaves"
-  },
-  {
-    "x": 1160,
-    "y": 90,
-    "label": "leaves"
-  },
-  {
-    "x": 1280,
-    "y": 100,
-    "label": "leaves"
-  },
-  {
-    "x": 1400,
-    "y": 95,
-    "label": "leaves"
-  },
-  {
-    "x": 1520,
-    "y": 85,
-    "label": "leaves"
-  },
-  {
-    "x": 1640,
-    "y": 110,
-    "label": "leaves"
-  },
-  {
-    "x": 1760,
-    "y": 120,
-    "label": "leaves"
-  },
-  {
-    "x": 1860,
-    "y": 110,
-    "label": "leaves"
-  },
-  {
-    "x": 1940,
-    "y": 100,
-    "label": "leaves"
-  },
-  {
-    "x": 100,
-    "y": 200,
+    "x": 2,
+    "y": 1,
     "label": "tree"
   },
   {
-    "x": 180,
-    "y": 180,
+    "x": 3,
+    "y": 1,
     "label": "leaves"
   },
   {
-    "x": 300,
-    "y": 170,
+    "x": 4,
+    "y": 1,
     "label": "leaves"
   },
   {
-    "x": 450,
-    "y": 160,
+    "x": 5,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 6,
+    "y": 1,
+    "label": "sky"
+  },
+  {
+    "x": 7,
+    "y": 1,
+    "label": "sky"
+  },
+  {
+    "x": 8,
+    "y": 1,
+    "label": "sky"
+  },
+  {
+    "x": 9,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 10,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 11,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 12,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 13,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 14,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 15,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 16,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 17,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 18,
+    "y": 1,
+    "label": "foliage"
+  },
+  {
+    "x": 19,
+    "y": 1,
+    "label": "building"
+  },
+  {
+    "x": 0,
+    "y": 2,
+    "label": "boat"
+  },
+  {
+    "x": 1,
+    "y": 2,
     "label": "leaves"
   },
   {
-    "x": 600,
-    "y": 155,
-    "label": "leaves"
-  },
-  {
-    "x": 750,
-    "y": 160,
-    "label": "leaves"
-  },
-  {
-    "x": 900,
-    "y": 155,
-    "label": "leaves"
-  },
-  {
-    "x": 1050,
-    "y": 165,
-    "label": "leaves"
-  },
-  {
-    "x": 1200,
-    "y": 160,
-    "label": "leaves"
-  },
-  {
-    "x": 1350,
-    "y": 170,
-    "label": "leaves"
-  },
-  {
-    "x": 1500,
-    "y": 165,
-    "label": "leaves"
-  },
-  {
-    "x": 1650,
-    "y": 175,
-    "label": "leaves"
-  },
-  {
-    "x": 1800,
-    "y": 180,
-    "label": "leaves"
-  },
-  {
-    "x": 1920,
-    "y": 170,
-    "label": "leaves"
-  },
-  {
-    "x": 90,
-    "y": 280,
+    "x": 2,
+    "y": 2,
     "label": "tree"
   },
   {
-    "x": 170,
-    "y": 260,
+    "x": 3,
+    "y": 2,
     "label": "leaves"
   },
   {
-    "x": 260,
-    "y": 250,
-    "label": "leaves"
+    "x": 4,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 380,
-    "y": 245,
-    "label": "leaves"
+    "x": 5,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 500,
-    "y": 240,
-    "label": "leaves"
+    "x": 6,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 630,
-    "y": 235,
-    "label": "leaves"
+    "x": 7,
+    "y": 2,
+    "label": "boat"
   },
   {
-    "x": 760,
-    "y": 240,
-    "label": "leaves"
+    "x": 8,
+    "y": 2,
+    "label": "boat"
   },
   {
-    "x": 900,
-    "y": 230,
-    "label": "leaves"
+    "x": 9,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 1030,
-    "y": 235,
-    "label": "leaves"
+    "x": 10,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 1150,
-    "y": 240,
-    "label": "leaves"
+    "x": 11,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 1260,
-    "y": 235,
-    "label": "leaves"
+    "x": 12,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 1370,
-    "y": 245,
-    "label": "leaves"
+    "x": 13,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 1460,
-    "y": 255,
-    "label": "leaves"
+    "x": 14,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 110,
-    "y": 360,
-    "label": "shadow"
+    "x": 15,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 240,
-    "y": 350,
-    "label": "person"
+    "x": 16,
+    "y": 2,
+    "label": "personTogether"
   },
   {
-    "x": 360,
-    "y": 340,
-    "label": "person"
+    "x": 17,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 480,
-    "y": 330,
-    "label": "person"
+    "x": 18,
+    "y": 2,
+    "label": "water"
   },
   {
-    "x": 600,
-    "y": 320,
+    "x": 19,
+    "y": 2,
+    "label": "building"
+  },
+  {
+    "x": 0,
+    "y": 3,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 2,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 3,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 4,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 5,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 720,
-    "y": 315,
+    "x": 6,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 7,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 840,
-    "y": 325,
-    "label": "person"
+    "x": 8,
+    "y": 3,
+    "label": "personTogether"
   },
   {
-    "x": 960,
-    "y": 310,
-    "label": "person"
-  },
-  {
-    "x": 1080,
-    "y": 300,
+    "x": 9,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 1200,
-    "y": 310,
-    "label": "person"
+    "x": 10,
+    "y": 3,
+    "label": "personTogether"
   },
   {
-    "x": 1320,
-    "y": 320,
-    "label": "person"
-  },
-  {
-    "x": 1440,
-    "y": 315,
+    "x": 11,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 1560,
-    "y": 310,
-    "label": "person"
-  },
-  {
-    "x": 1650,
-    "y": 305,
-    "label": "person"
-  },
-  {
-    "x": 1750,
-    "y": 315,
-    "label": "person"
-  },
-  {
-    "x": 1850,
-    "y": 310,
-    "label": "dock"
-  },
-  {
-    "x": 1950,
-    "y": 320,
-    "label": "cafe"
-  },
-  {
-    "x": 150,
-    "y": 420,
-    "label": "person"
-  },
-  {
-    "x": 280,
-    "y": 410,
+    "x": 12,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 410,
-    "y": 415,
+    "x": 13,
+    "y": 3,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 3,
+    "label": "personTogether"
+  },
+  {
+    "x": 15,
+    "y": 3,
     "label": "clothing"
   },
   {
-    "x": 540,
-    "y": 405,
-    "label": "hat"
+    "x": 16,
+    "y": 3,
+    "label": "water"
   },
   {
-    "x": 670,
-    "y": 400,
-    "label": "hat"
+    "x": 17,
+    "y": 3,
+    "label": "water"
   },
   {
-    "x": 800,
-    "y": 395,
-    "label": "person"
+    "x": 18,
+    "y": 3,
+    "label": "building"
   },
   {
-    "x": 930,
-    "y": 390,
+    "x": 19,
+    "y": 3,
+    "label": "building"
+  },
+  {
+    "x": 0,
+    "y": 4,
+    "label": "swimmer"
+  },
+  {
+    "x": 1,
+    "y": 4,
+    "label": "swimmer"
+  },
+  {
+    "x": 2,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 3,
+    "y": 4,
     "label": "clothing"
   },
   {
-    "x": 1060,
-    "y": 395,
-    "label": "person"
+    "x": 4,
+    "y": 4,
+    "label": "personTogether"
   },
   {
-    "x": 1180,
-    "y": 400,
-    "label": "person"
-  },
-  {
-    "x": 1300,
-    "y": 395,
+    "x": 5,
+    "y": 4,
     "label": "clothing"
   },
   {
-    "x": 1420,
-    "y": 400,
-    "label": "person"
+    "x": 6,
+    "y": 4,
+    "label": "personTogether"
   },
   {
-    "x": 1540,
-    "y": 395,
-    "label": "person"
+    "x": 7,
+    "y": 4,
+    "label": "clothing"
   },
   {
-    "x": 1660,
-    "y": 400,
-    "label": "person"
+    "x": 8,
+    "y": 4,
+    "label": "dress"
   },
   {
-    "x": 1780,
-    "y": 395,
-    "label": "dock"
+    "x": 9,
+    "y": 4,
+    "label": "dress"
   },
   {
-    "x": 1900,
-    "y": 390,
-    "label": "cafe"
+    "x": 10,
+    "y": 4,
+    "label": "personTogether"
   },
   {
-    "x": 1970,
-    "y": 400,
+    "x": 11,
+    "y": 4,
+    "label": "clothing"
+  },
+  {
+    "x": 12,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 13,
+    "y": 4,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 4,
+    "label": "personTogether"
+  },
+  {
+    "x": 15,
+    "y": 4,
+    "label": "dress"
+  },
+  {
+    "x": 16,
+    "y": 4,
+    "label": "water"
+  },
+  {
+    "x": 17,
+    "y": 4,
+    "label": "boat"
+  },
+  {
+    "x": 18,
+    "y": 4,
+    "label": "building"
+  },
+  {
+    "x": 19,
+    "y": 4,
     "label": "sign"
   },
   {
-    "x": 200,
-    "y": 480,
-    "label": "clothing"
-  },
-  {
-    "x": 340,
-    "y": 470,
-    "label": "clothing"
-  },
-  {
-    "x": 480,
-    "y": 465,
-    "label": "person"
-  },
-  {
-    "x": 620,
-    "y": 455,
-    "label": "clothing"
-  },
-  {
-    "x": 760,
-    "y": 450,
-    "label": "person"
-  },
-  {
-    "x": 900,
-    "y": 455,
-    "label": "clothing"
-  },
-  {
-    "x": 1040,
-    "y": 460,
-    "label": "person"
-  },
-  {
-    "x": 1160,
-    "y": 455,
-    "label": "water"
-  },
-  {
-    "x": 1280,
-    "y": 460,
-    "label": "water"
-  },
-  {
-    "x": 1400,
-    "y": 450,
-    "label": "person"
-  },
-  {
-    "x": 1500,
-    "y": 445,
-    "label": "clothing"
-  },
-  {
-    "x": 1600,
-    "y": 455,
-    "label": "water"
-  },
-  {
-    "x": 1700,
-    "y": 460,
-    "label": "dock"
-  },
-  {
-    "x": 1820,
-    "y": 450,
-    "label": "dock"
-  },
-  {
-    "x": 1920,
-    "y": 460,
-    "label": "cafe"
-  },
-  {
-    "x": 120,
-    "y": 540,
-    "label": "water"
-  },
-  {
-    "x": 240,
-    "y": 530,
+    "x": 0,
+    "y": 5,
     "label": "swimmer"
   },
   {
-    "x": 370,
-    "y": 525,
+    "x": 1,
+    "y": 5,
     "label": "water"
   },
   {
-    "x": 500,
-    "y": 520,
-    "label": "swimmer"
+    "x": 2,
+    "y": 5,
+    "label": "personTogether"
   },
   {
-    "x": 640,
-    "y": 515,
+    "x": 3,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 4,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 5,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 6,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 7,
+    "y": 5,
+    "label": "dress"
+  },
+  {
+    "x": 8,
+    "y": 5,
+    "label": "dress"
+  },
+  {
+    "x": 9,
+    "y": 5,
+    "label": "dress"
+  },
+  {
+    "x": 10,
+    "y": 5,
+    "label": "dress"
+  },
+  {
+    "x": 11,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 12,
+    "y": 5,
+    "label": "clothing"
+  },
+  {
+    "x": 13,
+    "y": 5,
+    "label": "jetty"
+  },
+  {
+    "x": 14,
+    "y": 5,
+    "label": "personTogether"
+  },
+  {
+    "x": 15,
+    "y": 5,
     "label": "water"
   },
   {
-    "x": 780,
-    "y": 510,
+    "x": 16,
+    "y": 5,
     "label": "water"
   },
   {
-    "x": 920,
-    "y": 515,
-    "label": "water"
-  },
-  {
-    "x": 1060,
-    "y": 520,
-    "label": "water"
-  },
-  {
-    "x": 1200,
-    "y": 515,
-    "label": "water"
-  },
-  {
-    "x": 1330,
-    "y": 520,
+    "x": 17,
+    "y": 5,
     "label": "boat"
   },
   {
-    "x": 1450,
-    "y": 510,
-    "label": "boat"
-  },
-  {
-    "x": 1570,
-    "y": 515,
-    "label": "water"
-  },
-  {
-    "x": 1680,
-    "y": 520,
-    "label": "water"
-  },
-  {
-    "x": 1790,
-    "y": 510,
-    "label": "dock"
-  },
-  {
-    "x": 1900,
-    "y": 515,
-    "label": "water"
-  },
-  {
-    "x": 100,
-    "y": 600,
-    "label": "water"
-  },
-  {
-    "x": 220,
-    "y": 590,
-    "label": "swimmer"
-  },
-  {
-    "x": 350,
-    "y": 585,
-    "label": "water"
-  },
-  {
-    "x": 480,
-    "y": 580,
-    "label": "swimmer"
-  },
-  {
-    "x": 620,
-    "y": 575,
-    "label": "water"
-  },
-  {
-    "x": 760,
-    "y": 570,
-    "label": "reflection"
-  },
-  {
-    "x": 900,
-    "y": 565,
-    "label": "water"
-  },
-  {
-    "x": 1040,
-    "y": 570,
-    "label": "reflection"
-  },
-  {
-    "x": 1180,
-    "y": 575,
-    "label": "boat"
-  },
-  {
-    "x": 1310,
-    "y": 570,
-    "label": "boat"
-  },
-  {
-    "x": 1440,
-    "y": 575,
-    "label": "boat"
-  },
-  {
-    "x": 1570,
-    "y": 570,
-    "label": "water"
-  },
-  {
-    "x": 1690,
-    "y": 575,
-    "label": "water"
-  },
-  {
-    "x": 1810,
-    "y": 565,
-    "label": "dock"
-  },
-  {
-    "x": 1940,
-    "y": 570,
-    "label": "reflection"
-  },
-  {
-    "x": 80,
-    "y": 660,
-    "label": "water"
-  },
-  {
-    "x": 200,
-    "y": 650,
-    "label": "reflection"
-  },
-  {
-    "x": 330,
-    "y": 645,
-    "label": "water"
-  },
-  {
-    "x": 460,
-    "y": 640,
-    "label": "water"
-  },
-  {
-    "x": 600,
-    "y": 635,
-    "label": "water"
-  },
-  {
-    "x": 740,
-    "y": 630,
-    "label": "reflection"
-  },
-  {
-    "x": 880,
-    "y": 625,
-    "label": "water"
-  },
-  {
-    "x": 1020,
-    "y": 630,
-    "label": "reflection"
-  },
-  {
-    "x": 1160,
-    "y": 635,
-    "label": "water"
-  },
-  {
-    "x": 1300,
-    "y": 630,
-    "label": "water"
-  },
-  {
-    "x": 1440,
-    "y": 625,
-    "label": "water"
-  },
-  {
-    "x": 1580,
-    "y": 630,
-    "label": "reflection"
-  },
-  {
-    "x": 1720,
-    "y": 635,
-    "label": "water"
-  },
-  {
-    "x": 1860,
-    "y": 625,
-    "label": "water"
-  },
-  {
-    "x": 1960,
-    "y": 630,
-    "label": "reflection"
-  },
-  {
-    "x": 300,
-    "y": 720,
-    "label": "boat"
-  },
-  {
-    "x": 500,
-    "y": 710,
+    "x": 18,
+    "y": 5,
     "label": "wood"
   },
   {
-    "x": 700,
-    "y": 700,
-    "label": "wood"
+    "x": 19,
+    "y": 5,
+    "label": "building"
   },
   {
-    "x": 900,
-    "y": 695,
-    "label": "boat"
-  },
-  {
-    "x": 1100,
-    "y": 700,
+    "x": 0,
+    "y": 6,
     "label": "water"
   },
   {
-    "x": 1300,
-    "y": 695,
+    "x": 1,
+    "y": 6,
     "label": "water"
   },
   {
-    "x": 1500,
-    "y": 700,
-    "label": "water"
+    "x": 2,
+    "y": 6,
+    "label": "jetty"
   },
   {
-    "x": 1700,
-    "y": 705,
-    "label": "dock"
+    "x": 3,
+    "y": 6,
+    "label": "personTogether"
   },
   {
-    "x": 1900,
-    "y": 700,
-    "label": "water"
-  },
-  {
-    "x": 250,
-    "y": 780,
-    "label": "boat"
-  },
-  {
-    "x": 450,
-    "y": 770,
-    "label": "wood"
-  },
-  {
-    "x": 650,
-    "y": 760,
-    "label": "wood"
-  },
-  {
-    "x": 850,
-    "y": 755,
+    "x": 4,
+    "y": 6,
     "label": "shadow"
   },
   {
-    "x": 1050,
-    "y": 760,
-    "label": "water"
-  },
-  {
-    "x": 1250,
-    "y": 755,
-    "label": "reflection"
-  },
-  {
-    "x": 1450,
-    "y": 760,
-    "label": "water"
-  },
-  {
-    "x": 1650,
-    "y": 765,
-    "label": "water"
-  },
-  {
-    "x": 1850,
-    "y": 760,
-    "label": "reflection"
-  },
-  {
-    "x": 180,
-    "y": 850,
-    "label": "boat"
-  },
-  {
-    "x": 380,
-    "y": 840,
-    "label": "wood"
-  },
-  {
-    "x": 580,
-    "y": 835,
-    "label": "wood"
-  },
-  {
-    "x": 780,
-    "y": 830,
+    "x": 5,
+    "y": 6,
     "label": "shadow"
   },
   {
-    "x": 980,
-    "y": 825,
-    "label": "water"
+    "x": 6,
+    "y": 6,
+    "label": "clothing"
   },
   {
-    "x": 1180,
-    "y": 830,
-    "label": "water"
+    "x": 7,
+    "y": 6,
+    "label": "personTogether"
   },
   {
-    "x": 1380,
-    "y": 825,
-    "label": "water"
+    "x": 8,
+    "y": 6,
+    "label": "dress"
   },
   {
-    "x": 1580,
-    "y": 835,
-    "label": "water"
-  },
-  {
-    "x": 1780,
-    "y": 840,
-    "label": "boat"
-  },
-  {
-    "x": 1950,
-    "y": 845,
-    "label": "boat"
-  },
-  {
-    "x": 150,
-    "y": 920,
-    "label": "water"
-  },
-  {
-    "x": 320,
-    "y": 910,
-    "label": "water"
-  },
-  {
-    "x": 500,
-    "y": 905,
-    "label": "reflection"
-  },
-  {
-    "x": 680,
-    "y": 900,
-    "label": "water"
-  },
-  {
-    "x": 860,
-    "y": 895,
+    "x": 9,
+    "y": 6,
     "label": "shadow"
   },
   {
-    "x": 1040,
-    "y": 900,
-    "label": "water"
+    "x": 10,
+    "y": 6,
+    "label": "jetty"
   },
   {
-    "x": 1220,
-    "y": 905,
-    "label": "water"
+    "x": 11,
+    "y": 6,
+    "label": "jetty"
   },
   {
-    "x": 1400,
-    "y": 900,
-    "label": "water"
+    "x": 12,
+    "y": 6,
+    "label": "jetty"
   },
   {
-    "x": 1600,
-    "y": 895,
-    "label": "boat"
+    "x": 13,
+    "y": 6,
+    "label": "jetty"
   },
   {
-    "x": 1800,
-    "y": 900,
-    "label": "wood"
-  },
-  {
-    "x": 1950,
-    "y": 910,
-    "label": "wood"
-  },
-  {
-    "x": 100,
-    "y": 990,
-    "label": "water"
-  },
-  {
-    "x": 260,
-    "y": 980,
-    "label": "water"
-  },
-  {
-    "x": 420,
-    "y": 975,
-    "label": "reflection"
-  },
-  {
-    "x": 590,
-    "y": 970,
-    "label": "water"
-  },
-  {
-    "x": 760,
-    "y": 965,
+    "x": 14,
+    "y": 6,
     "label": "shadow"
   },
   {
-    "x": 940,
-    "y": 970,
+    "x": 15,
+    "y": 6,
     "label": "water"
   },
   {
-    "x": 1120,
-    "y": 975,
-    "label": "water"
-  },
-  {
-    "x": 1310,
-    "y": 970,
-    "label": "water"
-  },
-  {
-    "x": 1510,
-    "y": 965,
+    "x": 16,
+    "y": 6,
     "label": "boat"
   },
   {
-    "x": 1710,
-    "y": 970,
-    "label": "wood"
-  },
-  {
-    "x": 1920,
-    "y": 975,
-    "label": "wood"
-  },
-  {
-    "x": 80,
-    "y": 1060,
-    "label": "water"
-  },
-  {
-    "x": 240,
-    "y": 1050,
-    "label": "water"
-  },
-  {
-    "x": 410,
-    "y": 1045,
-    "label": "reflection"
-  },
-  {
-    "x": 580,
-    "y": 1040,
-    "label": "water"
-  },
-  {
-    "x": 750,
-    "y": 1035,
-    "label": "water"
-  },
-  {
-    "x": 930,
-    "y": 1040,
-    "label": "water"
-  },
-  {
-    "x": 1110,
-    "y": 1045,
-    "label": "water"
-  },
-  {
-    "x": 1300,
-    "y": 1040,
-    "label": "water"
-  },
-  {
-    "x": 1490,
-    "y": 1035,
+    "x": 17,
+    "y": 6,
     "label": "boat"
   },
   {
-    "x": 1690,
-    "y": 1040,
+    "x": 18,
+    "y": 6,
     "label": "wood"
   },
   {
-    "x": 1900,
-    "y": 1045,
-    "label": "wood"
+    "x": 19,
+    "y": 6,
+    "label": "building"
   },
   {
-    "x": 60,
-    "y": 1130,
+    "x": 0,
+    "y": 7,
     "label": "water"
   },
   {
-    "x": 220,
-    "y": 1120,
+    "x": 1,
+    "y": 7,
     "label": "water"
   },
   {
-    "x": 390,
-    "y": 1115,
-    "label": "reflection"
-  },
-  {
-    "x": 560,
-    "y": 1110,
-    "label": "water"
-  },
-  {
-    "x": 730,
-    "y": 1105,
-    "label": "water"
-  },
-  {
-    "x": 910,
-    "y": 1110,
+    "x": 2,
+    "y": 7,
     "label": "shadow"
   },
   {
-    "x": 1090,
-    "y": 1115,
-    "label": "water"
-  },
-  {
-    "x": 1280,
-    "y": 1110,
-    "label": "water"
-  },
-  {
-    "x": 1470,
-    "y": 1105,
-    "label": "boat"
-  },
-  {
-    "x": 1670,
-    "y": 1110,
-    "label": "wood"
-  },
-  {
-    "x": 1880,
-    "y": 1120,
-    "label": "wood"
-  },
-  {
-    "x": 50,
-    "y": 1200,
-    "label": "water"
-  },
-  {
-    "x": 210,
-    "y": 1190,
-    "label": "water"
-  },
-  {
-    "x": 380,
-    "y": 1185,
-    "label": "reflection"
-  },
-  {
-    "x": 550,
-    "y": 1180,
-    "label": "water"
-  },
-  {
-    "x": 720,
-    "y": 1175,
-    "label": "water"
-  },
-  {
-    "x": 900,
-    "y": 1180,
+    "x": 3,
+    "y": 7,
     "label": "shadow"
   },
   {
-    "x": 1080,
-    "y": 1185,
-    "label": "water"
-  },
-  {
-    "x": 1270,
-    "y": 1180,
-    "label": "water"
-  },
-  {
-    "x": 1460,
-    "y": 1175,
-    "label": "boat"
-  },
-  {
-    "x": 1660,
-    "y": 1180,
+    "x": 4,
+    "y": 7,
     "label": "wood"
   },
   {
-    "x": 1870,
-    "y": 1185,
-    "label": "wood"
-  },
-  {
-    "x": 1970,
-    "y": 1195,
+    "x": 5,
+    "y": 7,
     "label": "boat"
   },
   {
-    "x": 40,
-    "y": 1270,
-    "label": "water"
+    "x": 6,
+    "y": 7,
+    "label": "boat"
   },
   {
-    "x": 200,
-    "y": 1260,
-    "label": "water"
+    "x": 7,
+    "y": 7,
+    "label": "boat"
   },
   {
-    "x": 370,
-    "y": 1255,
-    "label": "reflection"
+    "x": 8,
+    "y": 7,
+    "label": "boat"
   },
   {
-    "x": 540,
-    "y": 1250,
-    "label": "water"
+    "x": 9,
+    "y": 7,
+    "label": "boat"
   },
   {
-    "x": 710,
-    "y": 1245,
-    "label": "water"
+    "x": 10,
+    "y": 7,
+    "label": "wood"
   },
   {
-    "x": 890,
-    "y": 1250,
+    "x": 11,
+    "y": 7,
     "label": "shadow"
   },
   {
-    "x": 1070,
-    "y": 1255,
-    "label": "water"
-  },
-  {
-    "x": 1260,
-    "y": 1250,
-    "label": "water"
-  },
-  {
-    "x": 1450,
-    "y": 1245,
-    "label": "boat"
-  },
-  {
-    "x": 1650,
-    "y": 1250,
-    "label": "wood"
-  },
-  {
-    "x": 1860,
-    "y": 1255,
-    "label": "wood"
-  },
-  {
-    "x": 1960,
-    "y": 1265,
-    "label": "boat"
-  },
-  {
-    "x": 30,
-    "y": 1340,
-    "label": "water"
-  },
-  {
-    "x": 190,
-    "y": 1330,
-    "label": "water"
-  },
-  {
-    "x": 360,
-    "y": 1325,
+    "x": 12,
+    "y": 7,
     "label": "reflection"
   },
   {
-    "x": 530,
-    "y": 1320,
+    "x": 13,
+    "y": 7,
     "label": "water"
   },
   {
-    "x": 700,
-    "y": 1315,
+    "x": 14,
+    "y": 7,
     "label": "water"
   },
   {
-    "x": 880,
-    "y": 1320,
-    "label": "shadow"
+    "x": 15,
+    "y": 7,
+    "label": "reflection"
   },
   {
-    "x": 1060,
-    "y": 1325,
-    "label": "water"
-  },
-  {
-    "x": 1250,
-    "y": 1320,
-    "label": "water"
-  },
-  {
-    "x": 1440,
-    "y": 1315,
+    "x": 16,
+    "y": 7,
     "label": "boat"
   },
   {
-    "x": 1640,
-    "y": 1320,
+    "x": 17,
+    "y": 7,
+    "label": "boat"
+  },
+  {
+    "x": 18,
+    "y": 7,
     "label": "wood"
   },
   {
-    "x": 1850,
-    "y": 1330,
+    "x": 19,
+    "y": 7,
+    "label": "water"
+  },
+  {
+    "x": 0,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 8,
+    "label": "reflection"
+  },
+  {
+    "x": 2,
+    "y": 8,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 8,
+    "label": "boat"
+  },
+  {
+    "x": 4,
+    "y": 8,
+    "label": "boat"
+  },
+  {
+    "x": 5,
+    "y": 8,
     "label": "wood"
   },
   {
-    "x": 1955,
-    "y": 1340,
+    "x": 6,
+    "y": 8,
+    "label": "wood"
+  },
+  {
+    "x": 7,
+    "y": 8,
+    "label": "wood"
+  },
+  {
+    "x": 8,
+    "y": 8,
+    "label": "wood"
+  },
+  {
+    "x": 9,
+    "y": 8,
+    "label": "shadow"
+  },
+  {
+    "x": 10,
+    "y": 8,
+    "label": "shadow"
+  },
+  {
+    "x": 11,
+    "y": 8,
+    "label": "reflection"
+  },
+  {
+    "x": 12,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 13,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 8,
+    "label": "reflection"
+  },
+  {
+    "x": 15,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 16,
+    "y": 8,
+    "label": "reflection"
+  },
+  {
+    "x": 17,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 19,
+    "y": 8,
+    "label": "water"
+  },
+  {
+    "x": 0,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 9,
+    "label": "reflection"
+  },
+  {
+    "x": 2,
+    "y": 9,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 9,
+    "label": "wood"
+  },
+  {
+    "x": 4,
+    "y": 9,
+    "label": "wood"
+  },
+  {
+    "x": 5,
+    "y": 9,
+    "label": "wood"
+  },
+  {
+    "x": 6,
+    "y": 9,
+    "label": "shadow"
+  },
+  {
+    "x": 7,
+    "y": 9,
+    "label": "shadow"
+  },
+  {
+    "x": 8,
+    "y": 9,
+    "label": "shadow"
+  },
+  {
+    "x": 9,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 10,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 11,
+    "y": 9,
+    "label": "reflection"
+  },
+  {
+    "x": 12,
+    "y": 9,
+    "label": "reflection"
+  },
+  {
+    "x": 13,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 15,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 16,
+    "y": 9,
+    "label": "reflection"
+  },
+  {
+    "x": 17,
+    "y": 9,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 9,
+    "label": "boat"
+  },
+  {
+    "x": 19,
+    "y": 9,
+    "label": "boat"
+  },
+  {
+    "x": 0,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 2,
+    "y": 10,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 10,
+    "label": "wood"
+  },
+  {
+    "x": 4,
+    "y": 10,
+    "label": "wood"
+  },
+  {
+    "x": 5,
+    "y": 10,
+    "label": "shadow"
+  },
+  {
+    "x": 6,
+    "y": 10,
+    "label": "shadow"
+  },
+  {
+    "x": 7,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 8,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 9,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 10,
+    "y": 10,
+    "label": "reflection"
+  },
+  {
+    "x": 11,
+    "y": 10,
+    "label": "reflection"
+  },
+  {
+    "x": 12,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 13,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 10,
+    "label": "reflection"
+  },
+  {
+    "x": 15,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 16,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 17,
+    "y": 10,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 10,
+    "label": "boat"
+  },
+  {
+    "x": 19,
+    "y": 10,
+    "label": "boat"
+  },
+  {
+    "x": 0,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 2,
+    "y": 11,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 11,
+    "label": "boat"
+  },
+  {
+    "x": 4,
+    "y": 11,
+    "label": "shadow"
+  },
+  {
+    "x": 5,
+    "y": 11,
+    "label": "shadow"
+  },
+  {
+    "x": 6,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 7,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 8,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 9,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 10,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 11,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 12,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 13,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 15,
+    "y": 11,
+    "label": "reflection"
+  },
+  {
+    "x": 16,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 17,
+    "y": 11,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 11,
+    "label": "boat"
+  },
+  {
+    "x": 19,
+    "y": 11,
+    "label": "boat"
+  },
+  {
+    "x": 0,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 1,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 2,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 4,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 5,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 6,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 7,
+    "y": 12,
+    "label": "shadow"
+  },
+  {
+    "x": 8,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 9,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 10,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 11,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 12,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 13,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 15,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 16,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 17,
+    "y": 12,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 19,
+    "y": 12,
+    "label": "boat"
+  },
+  {
+    "x": 0,
+    "y": 13,
+    "label": "signature"
+  },
+  {
+    "x": 1,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 2,
+    "y": 13,
+    "label": "boat"
+  },
+  {
+    "x": 3,
+    "y": 13,
+    "label": "boat"
+  },
+  {
+    "x": 4,
+    "y": 13,
+    "label": "boat"
+  },
+  {
+    "x": 5,
+    "y": 13,
+    "label": "boat"
+  },
+  {
+    "x": 6,
+    "y": 13,
+    "label": "shadow"
+  },
+  {
+    "x": 7,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 8,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 9,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 10,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 11,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 12,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 13,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 14,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 15,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 16,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 17,
+    "y": 13,
+    "label": "water"
+  },
+  {
+    "x": 18,
+    "y": 13,
+    "label": "boat"
+  },
+  {
+    "x": 19,
+    "y": 13,
     "label": "boat"
   }
 ]
