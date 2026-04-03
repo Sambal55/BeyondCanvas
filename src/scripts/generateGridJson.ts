@@ -12,8 +12,8 @@ import rowerGridLabels from '../data/json/rowerGridLabels.json'
 import seineGridLabels from '../data/json/seineGridLabels.json'
 import { getZoneForLabel } from '../utils/zoneHelper'
 
-const rowersPath = 'public/assets/images/rowers.jpg'
-const seinePath = 'public/assets/images/seine.jpg'
+const rowersPath = './assets/images/rowers.jpg'
+const seinePath = './assets/images/seine.jpg'
 
 function generateGridJson(
   painting: Painting,
