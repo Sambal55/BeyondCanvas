@@ -802,7 +802,7 @@
   {
     "x": 0,
     "y": 8,
-    "label": "nothing"
+    "label": "clothing"
   },
   {
     "x": 1,
@@ -832,7 +832,7 @@
   {
     "x": 6,
     "y": 8,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 7,
@@ -902,7 +902,7 @@
   {
     "x": 0,
     "y": 9,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 1,
@@ -1067,22 +1067,22 @@
   {
     "x": 13,
     "y": 10,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 14,
     "y": 10,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 15,
     "y": 10,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 16,
     "y": 10,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 17,
@@ -1097,7 +1097,7 @@
   {
     "x": 19,
     "y": 10,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 0,
@@ -1162,22 +1162,22 @@
   {
     "x": 12,
     "y": 11,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 13,
     "y": 11,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 14,
     "y": 11,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 15,
     "y": 11,
-    "label": "nothing"
+    "label": "personTogether"
   },
   {
     "x": 16,

@@ -4,7 +4,7 @@ View which has the painting Luncheon of the Boating Party by Renoir-->
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { onMounted, watch } from 'vue'
-import rowerGrid from '@/data/rowerGrid.json'
+import rowerGrid from '@/data/json/rowerGrid.json'
 import DebugGrid from '@/components/DebugGrid.vue'
 
 const grid = rowerGrid

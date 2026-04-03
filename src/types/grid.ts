@@ -4,7 +4,8 @@ export interface GridCube {
   id: number
   isImportant: boolean
   importantCubeInfo: ImportantCubeInfo | null
-  audio: string | null
+  label: string // Map eventSound based on zone
+  zone: string // Map ambienceSound based on zone
   position: Position
 }
 
