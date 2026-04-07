@@ -1,4 +1,4 @@
-import {zoneLabelsMap} from '../data/mappings/ambienceMap'
+import { zoneLabelsMap } from '../data/mappings/ambienceMap'
 
 export function getZoneForLabel(label: string | null): string | null {
   if (!label) return null

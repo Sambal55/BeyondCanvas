@@ -24,8 +24,8 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="image-wrapper">
-    <!--    TODO maybe switch alt to more descriptive description-->
+  <div class="image-wrapper scaled">
+    <!--    TODO switch alt to more descriptive description-->
     <img
       :src="grid.painting.imagePath"
       :width="grid.painting.paintingSize.width"
@@ -48,7 +48,9 @@ onMounted(() => {
         height: '100px',
       }"
     >
-      <span style="color: greenyellow" class="coords">{{ cube.position.x }}, {{ cube.position.y }}</span>
+      <span style="color: greenyellow" class="coords"
+        >{{ cube.position.x }}, {{ cube.position.y }}</span
+      >
     </div>
   </div>
 </template>
@@ -71,5 +73,9 @@ onMounted(() => {
 
 .cube.visible {
   border-color: magenta;
+}
+.scaled {
+  transform: scale(1.75);
+  transform-origin: top left;
 }
 </style>
