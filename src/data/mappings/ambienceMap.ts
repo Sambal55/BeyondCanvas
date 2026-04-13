@@ -26,7 +26,7 @@ export const zoneLabelsMap: Record<string, string[]> = {
     'food',
     'wood',
     'cafe',
-    'woman'
+    'woman',
   ],
   water: ['water', 'boat', 'swimmer', 'jetty', 'sail'],
 }
