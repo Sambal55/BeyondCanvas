@@ -22,15 +22,18 @@ export const zoneLabelsMap: Record<string, string[]> = {
     'glass',
     'tablecloth',
     'clothing',
+    'dress',
     'food',
     'wood',
     'cafe',
+    'woman'
   ],
-  water: ['water', 'waterTogether', 'boat'],
+  water: ['water', 'boat', 'swimmer', 'jetty', 'sail'],
 }
 
 export const ambienceMap: Record<string, string> = {
-  sky: 'ambience_sky.mp3',
-  leaves: 'ambience_leaves.mp3',
-  people: 'ambience_people.mp3',
+  sky: 'morningbreeze_birds.mp3',
+  leaves: 'rustling_leaves.mp3',
+  people: 'crowd_background.mp3',
+  water: 'lakesound.mp3',
 }
