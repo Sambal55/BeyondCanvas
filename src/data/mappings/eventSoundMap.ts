@@ -5,7 +5,7 @@
  *
  */
 
-const eventSoundMap: Record<string, string[]> = {
+export const eventSoundMap: Record<string, string[]> = {
   sky: ['bike_breeze.mp3', 'sky1.mp3', 'wind_leaves.mp3'],
   leaves: [],
   drinkingGirl: ['sipping_wine.mp3'],

@@ -3,29 +3,31 @@ import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 export function observeGridCubes() {
   const store = useGridVisibilityStore()
 
+  const root = document.querySelector('.scroll-container')
+  console.log("ROOT:", root)
+
   const observer = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         const el = entry.target as HTMLElement
-        const idString = el.dataset.id
-        if (!idString) return
+        const id = Number(el.dataset.id)
 
-        const id = Number(idString)
-        if (isNaN(id)) return
+        if (!id) return
 
-        if (entry.isIntersecting) {
+        if (entry.isIntersecting){
           store.add(id)
-        } else {
-          store.remove(id)
         }
+        else store.remove(id)
       })
+      console.log(store.list.length)
+
     },
     {
+      root,        // <-- THIS IS THE FIX
       threshold: 0.5,
-    },
+    }
+
   )
 
-  const cubes = document.querySelectorAll<HTMLElement>('.cube')
-
-  cubes.forEach((cube) => observer.observe(cube))
+  document.querySelectorAll('.cube').forEach((cube) => observer.observe(cube))
 }
