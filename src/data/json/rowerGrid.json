@@ -505,8 +505,8 @@
       "id": 45,
       "isImportant": false,
       "importantCubeInfo": null,
-      "label": "boat",
-      "zone": "water",
+      "label": "sky",
+      "zone": "sky",
       "position": {
         "x": 4,
         "y": 2

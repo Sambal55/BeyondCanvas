@@ -16,26 +16,39 @@ watch(
     const newlyVisible = newVisible.filter(id => !oldVisible.includes(id))
     const newlyHidden = oldVisible.filter(id => !newVisible.includes(id))
 
-    // handle SFX
+    // --- HANDLE NEWLY VISIBLE ---
     newlyVisible.forEach(id => {
       const cube = painting.cubes.find(c => c.id === id)
       if (cube) sfx.onCubeVisible(cube)
     })
 
-    newlyHidden.forEach(id => sfx.onCubeHidden(id))
+    // --- HANDLE NEWLY HIDDEN ---
+    newlyHidden.forEach(id => {
+      const cube = painting.cubes.find(c => c.id === id)
+      if (!cube) return
 
-    // handle ambience
+      const stillVisible = newVisible.some(vId => {
+        const other = painting.cubes.find(c => c.id === vId)
+        return other?.label === cube.label
+      })
+
+      if (!stillVisible) {
+        sfx.onLabelHidden(cube.label)
+      }
+    })
+
+    // --- HANDLE AMBIENCE ---
     const visibleZones = newVisible
       .map(id => painting.cubes.find(c => c.id === id)?.zone)
-      .filter(Boolean) as string[]
+      .filter(Boolean)
 
     if (visibleZones.length > 0) {
-      const zone = visibleZones[0] // or pick most frequent
-      ambience.playZone(zone)
+      ambience.playZone(visibleZones[0])
     }
   },
   { deep: true }
 )
+
 </script>
 
 <template>
