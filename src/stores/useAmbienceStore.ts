@@ -20,7 +20,7 @@ export const useAmbienceStore = defineStore('ambience', {
         this.audio = null
       }
 
-      const src = `public/assets/audio/${ambienceMap[zone]}`
+      const src = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
       const audio = new Audio(src)
       audio.loop = true
       audio.volume = this.baseVolume

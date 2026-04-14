@@ -14,7 +14,7 @@ export const useSfxStore = defineStore('sfx', {
       const sound = eventSoundMap[cube.label]
       if (!sound) return
 
-      const src = `public/assets/audio/${sound}` // FIXED PATH
+      const src = `${import.meta.env.BASE_URL}assets/audio/${sound}`
       const audio = new Audio(src)
       audio.volume = 1
 
