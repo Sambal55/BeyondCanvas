@@ -3,16 +3,22 @@ import { ambienceMap } from '@/data/mappings/ambienceMap'
 import { fadeOutAndStop, fadeVolume } from '@/utils/audioFade'
 import { audioConfig } from '@/config/audioConfig'
 
+type AmbienceZone = keyof typeof audioConfig.ambienceVolume
+
 export const useAmbienceStore = defineStore('ambience', {
   state: () => ({
     audio: null as HTMLAudioElement | null,
-    currentZone: null as string | null,
+    currentZone: null as AmbienceZone | null,    // So we can use zone specific volume also in restore function
+    currentVolume: 0 as number,
   }),
 
   actions: {
-    playZone(zone: string) {
-      if (this.currentZone === zone) return
+    playZone(zone: AmbienceZone) {
 
+      if (this.currentZone === zone) return
+      const targetVolume = audioConfig.ambienceVolume[zone]
+      this.currentVolume = targetVolume
+      console.log(zone, targetVolume)
       const newSrc = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
       const newAudio = new Audio(newSrc)
       newAudio.loop = true
@@ -30,7 +36,7 @@ export const useAmbienceStore = defineStore('ambience', {
       }
 
       // Fade in the new ambience
-      fadeVolume(newAudio, audioConfig.ambienceBaseVolume, audioConfig.fadeDuration.crossfade)
+      fadeVolume(newAudio, targetVolume, audioConfig.fadeDuration.crossfade)
 
       // Replace reference
       this.audio = newAudio
@@ -40,13 +46,17 @@ export const useAmbienceStore = defineStore('ambience', {
     // Reduce and fade ambience volume for SFX
     duck() {
       if (!this.audio) return
-      fadeVolume(this.audio, audioConfig.ambienceDuckedVolume, audioConfig.fadeDuration.duckDuration)
+      fadeVolume(
+        this.audio,
+        audioConfig.ambienceDuckedVolume,
+        audioConfig.fadeDuration.duckDuration,
+      )
     },
 
     // Restore and unfade ambience volume after SFX
     restore() {
       if (!this.audio) return
-      fadeVolume(this.audio, audioConfig.ambienceBaseVolume, audioConfig.fadeDuration.duckDuration)
+      fadeVolume(this.audio, this.currentVolume, audioConfig.fadeDuration.duckDuration)
     },
 
     stop() {
