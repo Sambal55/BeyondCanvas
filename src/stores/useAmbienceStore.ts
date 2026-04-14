@@ -40,13 +40,13 @@ export const useAmbienceStore = defineStore('ambience', {
     // Reduce and fade ambience volume for SFX
     duck() {
       if (!this.audio) return
-      fadeVolume(this.audio, audioConfig.duckedVolume, audioConfig.fadeDuration.duckedVolume)
+      fadeVolume(this.audio, audioConfig.ambienceDuckedVolume, audioConfig.fadeDuration.duckDuration)
     },
 
     // Restore and unfade ambience volume after SFX
     restore() {
       if (!this.audio) return
-      fadeVolume(this.audio, audioConfig.duckedVolume, audioConfig.fadeDuration.duckedVolume)
+      fadeVolume(this.audio, audioConfig.ambienceBaseVolume, audioConfig.fadeDuration.duckDuration)
     },
 
     stop() {

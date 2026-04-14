@@ -6,8 +6,8 @@ export const audioConfig = {
 
   fadeDuration: {
     crossfade: 400,
-    duck: 150,
-    restore: 300,
+    duckDuration: 150,
+    restoreDuration: 300,
     sfxFadeOut: 300,
   },
 
