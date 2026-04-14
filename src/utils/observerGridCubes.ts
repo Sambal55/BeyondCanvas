@@ -23,7 +23,7 @@ export function observeGridCubes() {
 
     },
     {
-      root,        // <-- THIS IS THE FIX
+      root,
       threshold: 0.5,
     }
 

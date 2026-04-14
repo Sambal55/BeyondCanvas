@@ -1,7 +1,6 @@
 import { defineStore } from 'pinia'
 import { ambienceMap } from '@/data/mappings/ambienceMap'
-// import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
-// import { computed, watch } from 'vue'
+
 
 export const useAmbienceStore = defineStore('ambience', {
   state: () => ({
@@ -21,7 +20,6 @@ export const useAmbienceStore = defineStore('ambience', {
         this.audio = null
       }
 
-      //todo make ambience folder
       const src = `public/assets/audio/${ambienceMap[zone]}`
       const audio = new Audio(src)
       audio.loop = true

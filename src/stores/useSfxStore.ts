@@ -13,12 +13,18 @@ export const useSfxStore = defineStore('sfx', {
 
       const sound = eventSoundMap[cube.label]
       if (!sound) return
-      // console.log(sound + " cube position x: " + cube.position.x + " cube.position y: " + cube.position.y)
-      const audio = new Audio(`public/assets/audio/${sound}`)
+
+      const src = `public/assets/audio/${sound}` // FIXED PATH
+      const audio = new Audio(src)
       audio.volume = 1
-      // console.log(audio.src)
+
+      audio.play().catch(err => {
+        console.warn("SFX failed to play:", err)
+      })
+
       this.playedOnce.add(cube.id)
     },
+
 
     onCubeHidden(id: number) {
       // allow replay next time it enters

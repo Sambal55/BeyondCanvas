@@ -34,6 +34,6 @@ export const zoneLabelsMap: Record<string, string[]> = {
 export const ambienceMap: Record<string, string> = {
   sky: 'morningbreeze_birds.mp3',
   leaves: 'rustling_leaves.mp3',
-  people: 'crowd_background.mp3',
+  people: 'crowd_backgrond.mp3',
   water: 'lakesound.mp3',
 }
