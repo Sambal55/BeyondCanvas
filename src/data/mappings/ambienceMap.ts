@@ -37,3 +37,4 @@ export const ambienceMap: Record<string, string> = {
   people: 'crowd_backgrond.mp3',
   water: 'lakesound.mp3',
 }
+

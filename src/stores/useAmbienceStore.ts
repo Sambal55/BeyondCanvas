@@ -1,56 +1,61 @@
 import { defineStore } from 'pinia'
 import { ambienceMap } from '@/data/mappings/ambienceMap'
-
+import { fadeOutAndStop, fadeVolume } from '@/utils/audioFade'
+import { audioConfig } from '@/config/audioConfig'
 
 export const useAmbienceStore = defineStore('ambience', {
   state: () => ({
     audio: null as HTMLAudioElement | null,
     currentZone: null as string | null,
-    baseVolume: 0.6,
-    duckedVolume: 0.25,
   }),
 
   actions: {
     playZone(zone: string) {
       if (this.currentZone === zone) return
-      this.currentZone = zone
 
+      const newSrc = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
+      const newAudio = new Audio(newSrc)
+      newAudio.loop = true
+      // Volume fades in later
+      newAudio.volume = 0
+      newAudio.play()
+
+      // If an old ambience is playing, fade it out
       if (this.audio) {
-        this.audio.pause()
-        this.audio = null
+        const oldAudio = this.audio
+
+        fadeVolume(oldAudio, 0, audioConfig.fadeDuration.crossfade, () => {
+          oldAudio.pause()
+        })
       }
 
-      const src = `public/assets/audio/${ambienceMap[zone]}`
-      const audio = new Audio(src)
-      audio.loop = true
-      audio.volume = this.baseVolume
-      audio.play()
+      // Fade in the new ambience
+      fadeVolume(newAudio, audioConfig.ambienceBaseVolume, audioConfig.fadeDuration.crossfade)
 
-      this.audio = audio
+      // Replace reference
+      this.audio = newAudio
+      this.currentZone = zone
     },
 
+    // Reduce and fade ambience volume for SFX
     duck() {
       if (!this.audio) return
-      this.fadeVolume(this.audio, this.duckedVolume, 150)
+      fadeVolume(this.audio, audioConfig.duckedVolume, audioConfig.fadeDuration.duckedVolume)
     },
 
+    // Restore and unfade ambience volume after SFX
     restore() {
       if (!this.audio) return
-      this.fadeVolume(this.audio, this.baseVolume, 300)
+      fadeVolume(this.audio, audioConfig.duckedVolume, audioConfig.fadeDuration.duckedVolume)
     },
 
-    fadeVolume(audio: HTMLAudioElement, target: number, duration = 200) {
-      const start = audio.volume
-      const diff = target - start
-      const steps = 20
-      const stepTime = duration / steps
+    stop() {
+      if (!this.audio) return
 
-      let i = 0
-      const interval = setInterval(() => {
-        i++
-        audio.volume = start + diff * (i / steps)
-        if (i >= steps) clearInterval(interval)
-      }, stepTime)
+      fadeOutAndStop(this.audio, audioConfig.fadeDuration.crossfade, () => {
+        this.audio = null
+        this.currentZone = null
+      })
     },
   },
 })

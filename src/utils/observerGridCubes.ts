@@ -4,7 +4,6 @@ export function observeGridCubes() {
   const store = useGridVisibilityStore()
 
   const root = document.querySelector('.scroll-container')
-  console.log("ROOT:", root)
 
   const observer = new IntersectionObserver(
     (entries) => {
@@ -19,8 +18,6 @@ export function observeGridCubes() {
         }
         else store.remove(id)
       })
-      console.log(store.list.length)
-
     },
     {
       root,
