@@ -1,0 +1,29 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite
+.vite/
+*.local
+
+# Build output
+dist/
+dist-ssr/
+*.log
+
+# Editor junk
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.*
+!.env.example
+
+# Optional: VSCode settings
+.vscode/
+.idea
+/dist
+.vite
