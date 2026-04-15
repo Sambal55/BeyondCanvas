@@ -13,7 +13,7 @@ function closePopup() {
 <template>
   <div v-if="isVisible" class="important-popup">
     <button class="close-btn" @click="closePopup">×</button>
-    <h2 style="border: 1px solid greenyellow">Important</h2>
+    <h2 style="border: 1px solid greenyellow">Informatie</h2>
     <p style="border: 1px solid blueviolet">{{ cube?.importantCubeInfo }}</p>
   </div>
 </template>

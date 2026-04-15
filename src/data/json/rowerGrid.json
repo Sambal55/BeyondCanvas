@@ -19,8 +19,8 @@
   "cubes": [
     {
       "id": 1,
-      "isImportant": true,
-      "importantCubeInfo": "  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A dignissimos, dolorem illum ipsam modi \n quisquam. Consequuntur, culpa dicta eaque, eum iure maxime non nostrum praesentium quis similique tempore velit vero!\n",
+      "isImportant": false,
+      "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
       "position": {
@@ -481,8 +481,8 @@
     },
     {
       "id": 43,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "isImportant": true,
+      "importantCubeInfo": "Geheel links, hangend tegen de balustrade, staat Alphonse Fournaise junior, zoon van de restauranteigenaar, verhuurder van boten.\n Hij draagt een sportieve strohoed en is gekleed in een stoer wit roeiershemd",
       "label": "personAlone",
       "zone": "people",
       "position": {
@@ -646,8 +646,8 @@
     },
     {
       "id": 58,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "isImportant": true,
+      "importantCubeInfo": "Achter Maggiolo staat weer een groepje van drie personen, met actrice Jeanne Samary, schilder Paul Lhote (met lichte hoed) en Pierre Lestringuèz, een vriend van Renoir.",
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1064,8 +1064,8 @@
     },
     {
       "id": 96,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "isImportant": true,
+      "importantCubeInfo": "Tussen Caillebotte en Legault in staat journalist Adrien Maggiolo.",
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1493,8 +1493,8 @@
     },
     {
       "id": 135,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "isImportant": true,
+      "importantCubeInfo": "Caillebotte is in gesprek met Angèle Legault, een voormalige prostituee uit Montmartre die een rijke Parijzenaar huwde en zich vervolgens presenteerde als een heuse dame.",
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1735,8 +1735,8 @@
     },
     {
       "id": 157,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "isImportant": true,
+      "importantCubeInfo": "Geheel rechts, schrijlings over een stoel, zit Gustave Caillebotte, toen nog vooral bekend als kunsthandelaar-mecenas.\n Hij draagt een sportieve strohoed en is gekleed in een stoer wit roeiershemd.",
       "label": "personTogether",
       "zone": "people",
       "position": {

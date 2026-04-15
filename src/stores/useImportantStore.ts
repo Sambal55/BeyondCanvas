@@ -26,7 +26,7 @@ export const useImportantStore = defineStore('importantStore', () => {
   function triggerHaptics() {
     if (navigator.vibrate) {
       console.log('vibrate 500')
-      navigator.vibrate(500) // simple haptic pulse
+      navigator.vibrate(500)
     }
   }
 
