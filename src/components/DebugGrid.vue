@@ -2,11 +2,14 @@
 import { onMounted } from 'vue'
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
+import { usePaintingStore } from '@/stores/usePaintingStore'
 import { Grid } from '@/types/grid'
+import ImportantPopup from '@/components/ImportantPopup.vue'
 
 const { grid } = defineProps<{
   grid: Grid
 }>()
+usePaintingStore().load(grid)
 
 // calculate cube positions
 const positionedCubes = grid.cubes.map((c) => ({
@@ -24,6 +27,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <ImportantPopup/>
   <div class="scroll-container">
     <div class="image-wrapper scaled">
       <!--    TODO switch alt to more descriptive description-->
