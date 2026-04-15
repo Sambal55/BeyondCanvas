@@ -59,5 +59,9 @@ export default [
     rules: {
       camelcase: ['error', { ignoreDestructuring: true }],
     },
+    env: {
+      node: true,
+    }
   },
+
 ]
