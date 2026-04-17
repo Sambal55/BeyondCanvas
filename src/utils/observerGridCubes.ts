@@ -1,7 +1,11 @@
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
+import { useImportantStore } from '@/stores/useImportantStore'
+import { usePaintingStore } from '@/stores/usePaintingStore'
 
 export function observeGridCubes() {
-  const store = useGridVisibilityStore()
+  const visibilityStore = useGridVisibilityStore()
+  const importantStore = useImportantStore()
+  const paintingStore = usePaintingStore()
 
   const root = document.querySelector('.scroll-container')
 
@@ -10,20 +14,31 @@ export function observeGridCubes() {
       entries.forEach((entry) => {
         const el = entry.target as HTMLElement
         const id = Number(el.dataset.id)
-
         if (!id) return
 
-        if (entry.isIntersecting){
-          store.add(id)
+        const cube = paintingStore.cubeById(id)
+
+        if (entry.isIntersecting) {
+          visibilityStore.add(id)
+
+          // Important cube logic
+          if (cube?.importantCubeInfo?.description?.trim()) {
+            importantStore.setImportantCube(cube)
+          }
+        } else {
+          visibilityStore.remove(id)
+
+          //  Only clear if THIS cube was the active important cube
+          if (importantStore.activeCube?.id === id) {
+            importantStore.clearImportantCube()
+          }
         }
-        else store.remove(id)
       })
     },
     {
       root,
       threshold: 0.5,
-    }
-
+    },
   )
 
   document.querySelectorAll('.cube').forEach((cube) => observer.observe(cube))

@@ -19,7 +19,6 @@
   "cubes": [
     {
       "id": 1,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -30,7 +29,6 @@
     },
     {
       "id": 2,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -41,7 +39,6 @@
     },
     {
       "id": 3,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -52,7 +49,6 @@
     },
     {
       "id": 4,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -63,7 +59,6 @@
     },
     {
       "id": 5,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -74,7 +69,6 @@
     },
     {
       "id": 6,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -85,7 +79,6 @@
     },
     {
       "id": 7,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -96,7 +89,6 @@
     },
     {
       "id": 8,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -107,7 +99,6 @@
     },
     {
       "id": 9,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -118,7 +109,6 @@
     },
     {
       "id": 10,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -129,7 +119,6 @@
     },
     {
       "id": 11,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -140,7 +129,6 @@
     },
     {
       "id": 12,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -151,7 +139,6 @@
     },
     {
       "id": 13,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -162,7 +149,6 @@
     },
     {
       "id": 14,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -173,7 +159,6 @@
     },
     {
       "id": 15,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -184,7 +169,6 @@
     },
     {
       "id": 16,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -195,7 +179,6 @@
     },
     {
       "id": 17,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -206,7 +189,6 @@
     },
     {
       "id": 18,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -217,7 +199,6 @@
     },
     {
       "id": 19,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -228,7 +209,6 @@
     },
     {
       "id": 20,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -239,7 +219,6 @@
     },
     {
       "id": 21,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -250,7 +229,6 @@
     },
     {
       "id": 22,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -261,7 +239,6 @@
     },
     {
       "id": 23,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -272,7 +249,6 @@
     },
     {
       "id": 24,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -283,7 +259,6 @@
     },
     {
       "id": 25,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -294,7 +269,6 @@
     },
     {
       "id": 26,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -305,7 +279,6 @@
     },
     {
       "id": 27,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -316,7 +289,6 @@
     },
     {
       "id": 28,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -327,7 +299,6 @@
     },
     {
       "id": 29,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sunshade",
       "zone": "sky",
@@ -338,7 +309,6 @@
     },
     {
       "id": 30,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -349,7 +319,6 @@
     },
     {
       "id": 31,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -360,7 +329,6 @@
     },
     {
       "id": 32,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -371,7 +339,6 @@
     },
     {
       "id": 33,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -382,8 +349,10 @@
     },
     {
       "id": 34,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Charles Ephrussi en Jules Laforgue",
+        "description": "Achter Ellen, boven in het doek, zijn Charles Ephrussi en zijn secretaris Jules Lagorgue in gesprek. Charles is een rijke kunsthandelaar en criticus. Jules is zijn secretaris en is tevens dichter. Charles heeft een hoge hoed op, wat moet aanduiden dat hij een vermogende man van status is. Jules heeft echter een simpele baret op zijn hoofd, wat suggereert dat hij van mindere status en of minder vermogend is."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -393,7 +362,6 @@
     },
     {
       "id": 35,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -404,7 +372,6 @@
     },
     {
       "id": 36,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -415,7 +382,6 @@
     },
     {
       "id": 37,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -426,7 +392,6 @@
     },
     {
       "id": 38,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -437,7 +402,6 @@
     },
     {
       "id": 39,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -448,7 +412,6 @@
     },
     {
       "id": 40,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -459,7 +422,6 @@
     },
     {
       "id": 41,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -470,7 +432,6 @@
     },
     {
       "id": 42,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -481,8 +442,10 @@
     },
     {
       "id": 43,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Alphonse Fournaise",
+        "description": "Geheel links, hangend tegen de balustrade staat Alphonse Fournaise Junior, de zoon van de restauranteigenaar en verhuurder van boten. Alphonse draagt een sportieve strohoed, en is gekleed in een stoer wit roeiersoverhemd. Hij lijkt erg te genieten van de frisse lucht en zomermiddag met vrienden. "
+      },
       "label": "personAlone",
       "zone": "people",
       "position": {
@@ -492,7 +455,6 @@
     },
     {
       "id": 44,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -503,7 +465,6 @@
     },
     {
       "id": 45,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -514,7 +475,6 @@
     },
     {
       "id": 46,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -525,7 +485,6 @@
     },
     {
       "id": 47,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -536,7 +495,6 @@
     },
     {
       "id": 48,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -547,7 +505,6 @@
     },
     {
       "id": 49,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -558,7 +515,6 @@
     },
     {
       "id": 50,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -569,7 +525,6 @@
     },
     {
       "id": 51,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -580,7 +535,6 @@
     },
     {
       "id": 52,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -591,7 +545,6 @@
     },
     {
       "id": 53,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -602,7 +555,6 @@
     },
     {
       "id": 54,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -613,7 +565,6 @@
     },
     {
       "id": 55,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -624,7 +575,6 @@
     },
     {
       "id": 56,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -635,7 +585,6 @@
     },
     {
       "id": 57,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -646,8 +595,10 @@
     },
     {
       "id": 58,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Groep van drie",
+        "description": "Achter Adrien staat een groepje van drie personen, met actrice Jeanne Samary, schilder Paul Lhote en Pierre Lestringuèz. Paul en Pierre hebben allebei een baard en snor, waarbij Paul een lichte kleinere hoed op heeft, en Pierre een zwarte bolhoed. Jeanne heeft een sierlijke hoed met veren op haar hoofd. Het groepje staat erg dicht op elkaar. Paul is met zijn gezicht erg dichtbij die van Jeanne, en hij heeft een arm om haar middel geslagen. Pierre staat weer dichtbij Paul, en staat tegenover Jeanne. Het lijkt alsof de twee mannen Jeanne proberen te versieren. "
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -657,7 +608,6 @@
     },
     {
       "id": 59,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -668,7 +618,6 @@
     },
     {
       "id": 60,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -679,7 +628,6 @@
     },
     {
       "id": 61,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -690,7 +638,6 @@
     },
     {
       "id": 62,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -701,7 +648,6 @@
     },
     {
       "id": 63,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -712,7 +658,6 @@
     },
     {
       "id": 64,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -723,7 +668,6 @@
     },
     {
       "id": 65,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -734,7 +678,6 @@
     },
     {
       "id": 66,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -745,7 +688,6 @@
     },
     {
       "id": 67,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -756,7 +698,6 @@
     },
     {
       "id": 68,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -767,7 +708,6 @@
     },
     {
       "id": 69,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -778,7 +718,6 @@
     },
     {
       "id": 70,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -789,7 +728,6 @@
     },
     {
       "id": 71,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -800,7 +738,6 @@
     },
     {
       "id": 72,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -811,7 +748,6 @@
     },
     {
       "id": 73,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -822,7 +758,6 @@
     },
     {
       "id": 74,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -833,7 +768,6 @@
     },
     {
       "id": 75,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -844,7 +778,6 @@
     },
     {
       "id": 76,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -855,7 +788,6 @@
     },
     {
       "id": 77,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -866,7 +798,6 @@
     },
     {
       "id": 78,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -877,7 +808,6 @@
     },
     {
       "id": 79,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -888,7 +818,6 @@
     },
     {
       "id": 80,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -899,7 +828,6 @@
     },
     {
       "id": 81,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -910,7 +838,6 @@
     },
     {
       "id": 82,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -921,7 +848,6 @@
     },
     {
       "id": 83,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -932,7 +858,6 @@
     },
     {
       "id": 84,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -943,7 +868,6 @@
     },
     {
       "id": 85,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -954,7 +878,6 @@
     },
     {
       "id": 86,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -965,7 +888,6 @@
     },
     {
       "id": 87,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -976,7 +898,6 @@
     },
     {
       "id": 88,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -987,7 +908,6 @@
     },
     {
       "id": 89,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -998,8 +918,10 @@
     },
     {
       "id": 90,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Raoul Barbier en Louise Alphonsine",
+        "description": "In het midden van het doek, met bolhoed zit de oorlogsheld Baron Raoul Barbier, flirtend met de dochter van de restuaranteigenaar Fournaise: Louise-Alphonsine. Raoul zit met de rug naar ons toe, en praat met Louise-Alphonsine. Louise-Alphonsine luisterd aandachtig naar Raoul en leunt, net zoals haar broer, op de balustrade. Met haar ellenboog op de balustrade ondersteund ze haar hoofd in haar hand."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1009,7 +931,6 @@
     },
     {
       "id": 91,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1020,7 +941,6 @@
     },
     {
       "id": 92,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1031,8 +951,10 @@
     },
     {
       "id": 93,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Ellen Andrée",
+        "description": "Rechtsachter Raoul zit Ellen Andrée, actrice en schildersmodel van beroep. Ze nuttigt een glas rode wijn, en lijkt niet geïnteresseerd in de vreemde man, rechts van haar, die een praatje met haar probeert te maken. Ellen draagt een soortgelijke strohoed als die van Aline met een witte band en rode bloem aan de zijkant."
+      },
       "label": "drinkingGirl",
       "zone": "people",
       "position": {
@@ -1042,7 +964,6 @@
     },
     {
       "id": 94,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1053,7 +974,6 @@
     },
     {
       "id": 95,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -1064,8 +984,10 @@
     },
     {
       "id": 96,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Adrien Maggiolo",
+        "description": "Tussen Gustavo en Angèle staat journalist Adrien Maggiolo. Adrien heeft zijn blik gericht op Angèle. Hij heeft krullend bruin haar met een snor en sikje, hij heeft een wit overhemd aan met daaroverheen een crème wollen trui."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1075,7 +997,6 @@
     },
     {
       "id": 97,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1086,7 +1007,6 @@
     },
     {
       "id": 98,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1097,7 +1017,6 @@
     },
     {
       "id": 99,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1108,7 +1027,6 @@
     },
     {
       "id": 100,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1119,7 +1037,6 @@
     },
     {
       "id": 101,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1130,7 +1047,6 @@
     },
     {
       "id": 102,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1141,7 +1057,6 @@
     },
     {
       "id": 103,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1152,7 +1067,6 @@
     },
     {
       "id": 104,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1163,7 +1077,6 @@
     },
     {
       "id": 105,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1174,7 +1087,6 @@
     },
     {
       "id": 106,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1185,7 +1097,6 @@
     },
     {
       "id": 107,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1196,7 +1107,6 @@
     },
     {
       "id": 108,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1207,7 +1117,6 @@
     },
     {
       "id": 109,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1218,7 +1127,6 @@
     },
     {
       "id": 110,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1229,7 +1137,6 @@
     },
     {
       "id": 111,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1240,7 +1147,6 @@
     },
     {
       "id": 112,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1251,7 +1157,6 @@
     },
     {
       "id": 113,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drinkingGirl",
       "zone": "people",
@@ -1262,7 +1167,6 @@
     },
     {
       "id": 114,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drinkingGirl",
       "zone": "people",
@@ -1273,7 +1177,6 @@
     },
     {
       "id": 115,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1284,7 +1187,6 @@
     },
     {
       "id": 116,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1295,7 +1197,6 @@
     },
     {
       "id": 117,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1306,7 +1207,6 @@
     },
     {
       "id": 118,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1317,7 +1217,6 @@
     },
     {
       "id": 119,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1328,7 +1227,6 @@
     },
     {
       "id": 120,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1339,7 +1237,6 @@
     },
     {
       "id": 121,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1350,7 +1247,6 @@
     },
     {
       "id": 122,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1361,7 +1257,6 @@
     },
     {
       "id": 123,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1372,7 +1267,6 @@
     },
     {
       "id": 124,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1383,7 +1277,6 @@
     },
     {
       "id": 125,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1394,7 +1287,6 @@
     },
     {
       "id": 126,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1405,7 +1297,6 @@
     },
     {
       "id": 127,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1416,7 +1307,6 @@
     },
     {
       "id": 128,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1427,7 +1317,6 @@
     },
     {
       "id": 129,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1438,7 +1327,6 @@
     },
     {
       "id": 130,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1449,7 +1337,6 @@
     },
     {
       "id": 131,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1460,7 +1347,6 @@
     },
     {
       "id": 132,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1471,7 +1357,6 @@
     },
     {
       "id": 133,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1482,7 +1367,6 @@
     },
     {
       "id": 134,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1493,8 +1377,10 @@
     },
     {
       "id": 135,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Angèle Legault",
+        "description": "Angèle Legault is in gesprek met Gustavo aan de rechterkant. Angèle is een voormalig prostituee uit Montmartre die een rijke Parijzenaar huwde en zich vervolgens presenteerde als een heuse dame. Angèle heeft rood-bruinig haar en draagt een blauwe jurk met een witte kraag, en kijkt geïnteresseerd naar Gustavo."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1504,7 +1390,6 @@
     },
     {
       "id": 136,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1515,7 +1400,6 @@
     },
     {
       "id": 137,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1526,7 +1410,6 @@
     },
     {
       "id": 138,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1537,7 +1420,6 @@
     },
     {
       "id": 139,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1548,7 +1430,6 @@
     },
     {
       "id": 140,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1559,7 +1440,6 @@
     },
     {
       "id": 141,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1570,7 +1450,6 @@
     },
     {
       "id": 142,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1581,7 +1460,6 @@
     },
     {
       "id": 143,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1592,8 +1470,10 @@
     },
     {
       "id": 144,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Aline Charigot",
+        "description": "Linksonder vlakbij Alphonse zit Aline Charigot aan tafel. Dit is Renoirs latere vrouw en model, die hij op dit moment nog maar net kende. Op de tafel zit een klein bruinharig hondje waarmee Aline zit te knuffelen. Aline zelf heeft een kleine strohoed op, met een witte band en grote rode bloem aan de voorkant."
+      },
       "label": "dogGirl",
       "zone": "people",
       "position": {
@@ -1603,7 +1483,6 @@
     },
     {
       "id": 145,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1614,7 +1493,6 @@
     },
     {
       "id": 146,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1625,7 +1503,6 @@
     },
     {
       "id": 147,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1636,7 +1513,6 @@
     },
     {
       "id": 148,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1647,7 +1523,6 @@
     },
     {
       "id": 149,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1658,7 +1533,6 @@
     },
     {
       "id": 150,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1669,7 +1543,6 @@
     },
     {
       "id": 151,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1680,7 +1553,6 @@
     },
     {
       "id": 152,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1691,7 +1563,6 @@
     },
     {
       "id": 153,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1702,7 +1573,6 @@
     },
     {
       "id": 154,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1713,7 +1583,6 @@
     },
     {
       "id": 155,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1724,7 +1593,6 @@
     },
     {
       "id": 156,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1735,8 +1603,10 @@
     },
     {
       "id": 157,
-      "isImportant": false,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Gustavo Caillebotte",
+        "description": "Rechts onderin, schrijlings over een stoel, zit Gustave Caillebotte toen nog vooral bekend als kunsthandelaar-mecenas. Gustavo draagt, net zoals Alphonse, een sportieve strohoed, en een stoer wit roeiershemd."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1746,7 +1616,6 @@
     },
     {
       "id": 158,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1757,7 +1626,6 @@
     },
     {
       "id": 159,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1768,7 +1636,6 @@
     },
     {
       "id": 160,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1779,7 +1646,6 @@
     },
     {
       "id": 161,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1790,7 +1656,6 @@
     },
     {
       "id": 162,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1801,7 +1666,6 @@
     },
     {
       "id": 163,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1812,7 +1676,6 @@
     },
     {
       "id": 164,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -1823,7 +1686,6 @@
     },
     {
       "id": 165,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1834,7 +1696,6 @@
     },
     {
       "id": 166,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1845,7 +1706,6 @@
     },
     {
       "id": 167,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1856,7 +1716,6 @@
     },
     {
       "id": 168,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1867,7 +1726,6 @@
     },
     {
       "id": 169,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1878,7 +1736,6 @@
     },
     {
       "id": 170,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1889,7 +1746,6 @@
     },
     {
       "id": 171,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1900,7 +1756,6 @@
     },
     {
       "id": 172,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -1911,7 +1766,6 @@
     },
     {
       "id": 173,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1922,7 +1776,6 @@
     },
     {
       "id": 174,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1933,7 +1786,6 @@
     },
     {
       "id": 175,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1944,7 +1796,6 @@
     },
     {
       "id": 176,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1955,7 +1806,6 @@
     },
     {
       "id": 177,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1966,7 +1816,6 @@
     },
     {
       "id": 178,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1977,7 +1826,6 @@
     },
     {
       "id": 179,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1988,7 +1836,6 @@
     },
     {
       "id": 180,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1999,7 +1846,6 @@
     },
     {
       "id": 181,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2010,7 +1856,6 @@
     },
     {
       "id": 182,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -2021,7 +1866,6 @@
     },
     {
       "id": 183,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dogGirl",
       "zone": "people",
@@ -2032,7 +1876,6 @@
     },
     {
       "id": 184,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2043,7 +1886,6 @@
     },
     {
       "id": 185,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -2054,7 +1896,6 @@
     },
     {
       "id": 186,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -2065,7 +1906,6 @@
     },
     {
       "id": 187,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -2076,7 +1916,6 @@
     },
     {
       "id": 188,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -2087,7 +1926,6 @@
     },
     {
       "id": 189,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -2098,7 +1936,6 @@
     },
     {
       "id": 190,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -2109,7 +1946,6 @@
     },
     {
       "id": 191,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -2120,7 +1956,6 @@
     },
     {
       "id": 192,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2131,7 +1966,6 @@
     },
     {
       "id": 193,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2142,7 +1976,6 @@
     },
     {
       "id": 194,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2153,7 +1986,6 @@
     },
     {
       "id": 195,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2164,7 +1996,6 @@
     },
     {
       "id": 196,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2175,7 +2006,6 @@
     },
     {
       "id": 197,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2186,7 +2016,6 @@
     },
     {
       "id": 198,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2197,7 +2026,6 @@
     },
     {
       "id": 199,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2208,7 +2036,6 @@
     },
     {
       "id": 200,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2219,7 +2046,6 @@
     },
     {
       "id": 201,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2230,7 +2056,6 @@
     },
     {
       "id": 202,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2241,7 +2066,6 @@
     },
     {
       "id": 203,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2252,7 +2076,6 @@
     },
     {
       "id": 204,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2263,7 +2086,6 @@
     },
     {
       "id": 205,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2274,7 +2096,6 @@
     },
     {
       "id": 206,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -2285,7 +2106,6 @@
     },
     {
       "id": 207,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -2296,7 +2116,6 @@
     },
     {
       "id": 208,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2307,7 +2126,6 @@
     },
     {
       "id": 209,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2318,7 +2136,6 @@
     },
     {
       "id": 210,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2329,7 +2146,6 @@
     },
     {
       "id": 211,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2340,7 +2156,6 @@
     },
     {
       "id": 212,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2351,7 +2166,6 @@
     },
     {
       "id": 213,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2362,7 +2176,6 @@
     },
     {
       "id": 214,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2373,7 +2186,6 @@
     },
     {
       "id": 215,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2384,7 +2196,6 @@
     },
     {
       "id": 216,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2395,7 +2206,6 @@
     },
     {
       "id": 217,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2406,7 +2216,6 @@
     },
     {
       "id": 218,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2417,7 +2226,6 @@
     },
     {
       "id": 219,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2428,7 +2236,6 @@
     },
     {
       "id": 220,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2439,7 +2246,6 @@
     },
     {
       "id": 221,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2450,7 +2256,6 @@
     },
     {
       "id": 222,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2461,7 +2266,6 @@
     },
     {
       "id": 223,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2472,7 +2276,6 @@
     },
     {
       "id": 224,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2483,7 +2286,6 @@
     },
     {
       "id": 225,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2494,7 +2296,6 @@
     },
     {
       "id": 226,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2505,7 +2306,6 @@
     },
     {
       "id": 227,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2516,7 +2316,6 @@
     },
     {
       "id": 228,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2527,7 +2326,6 @@
     },
     {
       "id": 229,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "drink",
       "zone": "people",
@@ -2538,7 +2336,6 @@
     },
     {
       "id": 230,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2549,7 +2346,6 @@
     },
     {
       "id": 231,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2560,7 +2356,6 @@
     },
     {
       "id": 232,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2571,7 +2366,6 @@
     },
     {
       "id": 233,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2582,7 +2376,6 @@
     },
     {
       "id": 234,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2593,7 +2386,6 @@
     },
     {
       "id": 235,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2604,7 +2396,6 @@
     },
     {
       "id": 236,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -2615,7 +2406,6 @@
     },
     {
       "id": 237,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2626,7 +2416,6 @@
     },
     {
       "id": 238,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2637,7 +2426,6 @@
     },
     {
       "id": 239,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2648,7 +2436,6 @@
     },
     {
       "id": 240,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -2659,7 +2446,6 @@
     },
     {
       "id": 241,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2670,7 +2456,6 @@
     },
     {
       "id": 242,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2681,7 +2466,6 @@
     },
     {
       "id": 243,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2692,7 +2476,6 @@
     },
     {
       "id": 244,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2703,7 +2486,6 @@
     },
     {
       "id": 245,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2714,7 +2496,6 @@
     },
     {
       "id": 246,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2725,7 +2506,6 @@
     },
     {
       "id": 247,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2736,7 +2516,6 @@
     },
     {
       "id": 248,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "food",
       "zone": "people",
@@ -2747,7 +2526,6 @@
     },
     {
       "id": 249,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "glass",
       "zone": "people",
@@ -2758,7 +2536,6 @@
     },
     {
       "id": 250,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2769,7 +2546,6 @@
     },
     {
       "id": 251,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2780,7 +2556,6 @@
     },
     {
       "id": 252,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2791,7 +2566,6 @@
     },
     {
       "id": 253,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2802,7 +2576,6 @@
     },
     {
       "id": 254,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2813,7 +2586,6 @@
     },
     {
       "id": 255,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2824,7 +2596,6 @@
     },
     {
       "id": 256,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2835,7 +2606,6 @@
     },
     {
       "id": 257,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2846,7 +2616,6 @@
     },
     {
       "id": 258,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2857,7 +2626,6 @@
     },
     {
       "id": 259,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2868,7 +2636,6 @@
     },
     {
       "id": 260,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2879,7 +2646,6 @@
     },
     {
       "id": 261,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2890,7 +2656,6 @@
     },
     {
       "id": 262,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -2901,7 +2666,6 @@
     },
     {
       "id": 263,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2912,7 +2676,6 @@
     },
     {
       "id": 264,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2923,7 +2686,6 @@
     },
     {
       "id": 265,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2934,7 +2696,6 @@
     },
     {
       "id": 266,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2945,7 +2706,6 @@
     },
     {
       "id": 267,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2956,7 +2716,6 @@
     },
     {
       "id": 268,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2967,7 +2726,6 @@
     },
     {
       "id": 269,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2978,7 +2736,6 @@
     },
     {
       "id": 270,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -2989,7 +2746,6 @@
     },
     {
       "id": 271,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -3000,7 +2756,6 @@
     },
     {
       "id": 272,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -3011,7 +2766,6 @@
     },
     {
       "id": 273,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tablecloth",
       "zone": "people",
@@ -3022,7 +2776,6 @@
     },
     {
       "id": 274,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3033,7 +2786,6 @@
     },
     {
       "id": 275,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3044,7 +2796,6 @@
     },
     {
       "id": 276,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3055,7 +2806,6 @@
     },
     {
       "id": 277,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3066,7 +2816,6 @@
     },
     {
       "id": 278,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3077,7 +2826,6 @@
     },
     {
       "id": 279,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -3088,7 +2836,6 @@
     },
     {
       "id": 280,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",

@@ -19,7 +19,6 @@
   "cubes": [
     {
       "id": 1,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -30,7 +29,6 @@
     },
     {
       "id": 2,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -41,7 +39,6 @@
     },
     {
       "id": 3,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -52,7 +49,6 @@
     },
     {
       "id": 4,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -63,7 +59,6 @@
     },
     {
       "id": 5,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -74,7 +69,6 @@
     },
     {
       "id": 6,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -85,7 +79,6 @@
     },
     {
       "id": 7,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -96,7 +89,6 @@
     },
     {
       "id": 8,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -107,7 +99,6 @@
     },
     {
       "id": 9,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -118,7 +109,6 @@
     },
     {
       "id": 10,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -129,7 +119,6 @@
     },
     {
       "id": 11,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -140,7 +129,6 @@
     },
     {
       "id": 12,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -151,7 +139,6 @@
     },
     {
       "id": 13,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -162,7 +149,6 @@
     },
     {
       "id": 14,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -173,7 +159,6 @@
     },
     {
       "id": 15,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -184,7 +169,6 @@
     },
     {
       "id": 16,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -195,7 +179,6 @@
     },
     {
       "id": 17,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -206,7 +189,6 @@
     },
     {
       "id": 18,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -217,7 +199,6 @@
     },
     {
       "id": 19,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -228,7 +209,6 @@
     },
     {
       "id": 20,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -239,7 +219,6 @@
     },
     {
       "id": 21,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sail",
       "zone": "water",
@@ -250,7 +229,6 @@
     },
     {
       "id": 22,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -261,7 +239,6 @@
     },
     {
       "id": 23,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -272,7 +249,6 @@
     },
     {
       "id": 24,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -283,7 +259,6 @@
     },
     {
       "id": 25,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -294,7 +269,6 @@
     },
     {
       "id": 26,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -305,7 +279,6 @@
     },
     {
       "id": 27,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -316,7 +289,6 @@
     },
     {
       "id": 28,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -327,7 +299,6 @@
     },
     {
       "id": 29,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -338,7 +309,6 @@
     },
     {
       "id": 30,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -349,7 +319,6 @@
     },
     {
       "id": 31,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -360,7 +329,6 @@
     },
     {
       "id": 32,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -371,7 +339,6 @@
     },
     {
       "id": 33,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -382,7 +349,6 @@
     },
     {
       "id": 34,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -393,7 +359,6 @@
     },
     {
       "id": 35,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -404,7 +369,6 @@
     },
     {
       "id": 36,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -415,7 +379,6 @@
     },
     {
       "id": 37,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -426,7 +389,6 @@
     },
     {
       "id": 38,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -437,7 +399,6 @@
     },
     {
       "id": 39,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -448,7 +409,6 @@
     },
     {
       "id": 40,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -459,7 +419,6 @@
     },
     {
       "id": 41,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sail",
       "zone": "water",
@@ -470,7 +429,6 @@
     },
     {
       "id": 42,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -481,7 +439,6 @@
     },
     {
       "id": 43,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -492,7 +449,6 @@
     },
     {
       "id": 44,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -503,7 +459,6 @@
     },
     {
       "id": 45,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -514,7 +469,6 @@
     },
     {
       "id": 46,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -525,7 +479,6 @@
     },
     {
       "id": 47,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -536,7 +489,6 @@
     },
     {
       "id": 48,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -547,7 +499,6 @@
     },
     {
       "id": 49,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -558,7 +509,6 @@
     },
     {
       "id": 50,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -569,7 +519,6 @@
     },
     {
       "id": 51,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -580,7 +529,6 @@
     },
     {
       "id": 52,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -591,7 +539,6 @@
     },
     {
       "id": 53,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -602,7 +549,6 @@
     },
     {
       "id": 54,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -613,7 +559,6 @@
     },
     {
       "id": 55,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -624,7 +569,6 @@
     },
     {
       "id": 56,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -635,7 +579,6 @@
     },
     {
       "id": 57,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -646,7 +589,6 @@
     },
     {
       "id": 58,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -657,7 +599,6 @@
     },
     {
       "id": 59,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -668,7 +609,6 @@
     },
     {
       "id": 60,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -679,7 +619,6 @@
     },
     {
       "id": 61,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sail",
       "zone": "water",
@@ -690,7 +629,6 @@
     },
     {
       "id": 62,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -701,7 +639,6 @@
     },
     {
       "id": 63,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -712,7 +649,6 @@
     },
     {
       "id": 64,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -723,7 +659,6 @@
     },
     {
       "id": 65,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -734,7 +669,6 @@
     },
     {
       "id": 66,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -745,7 +679,6 @@
     },
     {
       "id": 67,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -756,7 +689,6 @@
     },
     {
       "id": 68,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -767,7 +699,6 @@
     },
     {
       "id": 69,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -778,7 +709,6 @@
     },
     {
       "id": 70,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -789,7 +719,6 @@
     },
     {
       "id": 71,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -800,7 +729,6 @@
     },
     {
       "id": 72,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -811,7 +739,6 @@
     },
     {
       "id": 73,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -822,7 +749,6 @@
     },
     {
       "id": 74,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -833,7 +759,6 @@
     },
     {
       "id": 75,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -844,7 +769,6 @@
     },
     {
       "id": 76,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -855,7 +779,6 @@
     },
     {
       "id": 77,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -866,7 +789,6 @@
     },
     {
       "id": 78,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -877,7 +799,6 @@
     },
     {
       "id": 79,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -888,7 +809,6 @@
     },
     {
       "id": 80,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -899,7 +819,6 @@
     },
     {
       "id": 81,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sail",
       "zone": "water",
@@ -910,7 +829,6 @@
     },
     {
       "id": 82,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sail",
       "zone": "water",
@@ -921,7 +839,6 @@
     },
     {
       "id": 83,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -932,7 +849,6 @@
     },
     {
       "id": 84,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -943,7 +859,6 @@
     },
     {
       "id": 85,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -954,7 +869,6 @@
     },
     {
       "id": 86,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -965,7 +879,6 @@
     },
     {
       "id": 87,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -976,7 +889,6 @@
     },
     {
       "id": 88,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -987,7 +899,6 @@
     },
     {
       "id": 89,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -998,7 +909,6 @@
     },
     {
       "id": 90,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1009,7 +919,6 @@
     },
     {
       "id": 91,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1020,7 +929,6 @@
     },
     {
       "id": 92,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1031,7 +939,6 @@
     },
     {
       "id": 93,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1042,7 +949,6 @@
     },
     {
       "id": 94,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "woman",
       "zone": "people",
@@ -1053,7 +959,6 @@
     },
     {
       "id": 95,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -1064,7 +969,6 @@
     },
     {
       "id": 96,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1075,7 +979,6 @@
     },
     {
       "id": 97,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1086,7 +989,6 @@
     },
     {
       "id": 98,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1097,7 +999,6 @@
     },
     {
       "id": 99,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -1108,7 +1009,6 @@
     },
     {
       "id": 100,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1119,7 +1019,6 @@
     },
     {
       "id": 101,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1130,7 +1029,6 @@
     },
     {
       "id": 102,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1141,7 +1039,6 @@
     },
     {
       "id": 103,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1152,7 +1049,6 @@
     },
     {
       "id": 104,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "leaves",
       "zone": "leaves",
@@ -1163,7 +1059,6 @@
     },
     {
       "id": 105,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1174,7 +1069,6 @@
     },
     {
       "id": 106,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1185,7 +1079,6 @@
     },
     {
       "id": 107,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1196,7 +1089,6 @@
     },
     {
       "id": 108,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -1207,7 +1099,6 @@
     },
     {
       "id": 109,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1218,7 +1109,6 @@
     },
     {
       "id": 110,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1229,7 +1119,6 @@
     },
     {
       "id": 111,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "woman",
       "zone": "people",
@@ -1240,7 +1129,6 @@
     },
     {
       "id": 112,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1251,7 +1139,6 @@
     },
     {
       "id": 113,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1262,7 +1149,6 @@
     },
     {
       "id": 114,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1273,7 +1159,6 @@
     },
     {
       "id": 115,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -1284,7 +1169,6 @@
     },
     {
       "id": 116,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1295,7 +1179,6 @@
     },
     {
       "id": 117,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1306,7 +1189,6 @@
     },
     {
       "id": 118,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1317,7 +1199,6 @@
     },
     {
       "id": 119,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1328,7 +1209,6 @@
     },
     {
       "id": 120,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1339,7 +1219,6 @@
     },
     {
       "id": 121,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1350,7 +1229,6 @@
     },
     {
       "id": 122,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1361,7 +1239,6 @@
     },
     {
       "id": 123,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1372,7 +1249,6 @@
     },
     {
       "id": 124,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "tree",
       "zone": "leaves",
@@ -1383,7 +1259,6 @@
     },
     {
       "id": 125,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sky",
       "zone": "sky",
@@ -1394,7 +1269,6 @@
     },
     {
       "id": 126,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1405,7 +1279,6 @@
     },
     {
       "id": 127,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1416,7 +1289,6 @@
     },
     {
       "id": 128,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1427,7 +1299,6 @@
     },
     {
       "id": 129,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1438,7 +1309,6 @@
     },
     {
       "id": 130,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1449,7 +1319,6 @@
     },
     {
       "id": 131,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1460,7 +1329,6 @@
     },
     {
       "id": 132,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1471,7 +1339,6 @@
     },
     {
       "id": 133,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1482,7 +1349,6 @@
     },
     {
       "id": 134,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1493,7 +1359,6 @@
     },
     {
       "id": 135,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1504,7 +1369,6 @@
     },
     {
       "id": 136,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1515,7 +1379,6 @@
     },
     {
       "id": 137,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1526,7 +1389,6 @@
     },
     {
       "id": 138,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sign",
       "zone": "none",
@@ -1537,7 +1399,6 @@
     },
     {
       "id": 139,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1548,7 +1409,6 @@
     },
     {
       "id": 140,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1559,7 +1419,6 @@
     },
     {
       "id": 141,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1570,7 +1429,6 @@
     },
     {
       "id": 142,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1581,7 +1439,6 @@
     },
     {
       "id": 143,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "swimmer",
       "zone": "water",
@@ -1592,7 +1449,6 @@
     },
     {
       "id": 144,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "splash",
       "zone": "none",
@@ -1603,7 +1459,6 @@
     },
     {
       "id": 145,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1614,7 +1469,6 @@
     },
     {
       "id": 146,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1625,7 +1479,6 @@
     },
     {
       "id": 147,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
@@ -1636,7 +1489,6 @@
     },
     {
       "id": 148,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1647,7 +1499,6 @@
     },
     {
       "id": 149,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1658,7 +1509,6 @@
     },
     {
       "id": 150,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1669,7 +1519,6 @@
     },
     {
       "id": 151,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1680,7 +1529,6 @@
     },
     {
       "id": 152,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "clothing",
       "zone": "people",
@@ -1691,7 +1539,6 @@
     },
     {
       "id": 153,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1702,7 +1549,6 @@
     },
     {
       "id": 154,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1713,7 +1559,6 @@
     },
     {
       "id": 155,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1724,7 +1569,6 @@
     },
     {
       "id": 156,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -1735,7 +1579,6 @@
     },
     {
       "id": 157,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1746,7 +1589,6 @@
     },
     {
       "id": 158,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sign",
       "zone": "none",
@@ -1757,7 +1599,6 @@
     },
     {
       "id": 159,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "sign",
       "zone": "none",
@@ -1768,7 +1609,6 @@
     },
     {
       "id": 160,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1779,7 +1619,6 @@
     },
     {
       "id": 161,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1790,7 +1629,6 @@
     },
     {
       "id": 162,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1801,7 +1639,6 @@
     },
     {
       "id": 163,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1812,7 +1649,6 @@
     },
     {
       "id": 164,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "personAlone",
       "zone": "people",
@@ -1823,7 +1659,6 @@
     },
     {
       "id": 165,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1834,7 +1669,6 @@
     },
     {
       "id": 166,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1845,7 +1679,6 @@
     },
     {
       "id": 167,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1856,7 +1689,6 @@
     },
     {
       "id": 168,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1867,7 +1699,6 @@
     },
     {
       "id": 169,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dog",
       "zone": "people",
@@ -1878,7 +1709,6 @@
     },
     {
       "id": 170,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1889,7 +1719,6 @@
     },
     {
       "id": 171,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "dress",
       "zone": "people",
@@ -1900,7 +1729,6 @@
     },
     {
       "id": 172,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1911,7 +1739,6 @@
     },
     {
       "id": 173,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "wood",
       "zone": "people",
@@ -1922,7 +1749,6 @@
     },
     {
       "id": 174,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -1933,7 +1759,6 @@
     },
     {
       "id": 175,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1944,7 +1769,6 @@
     },
     {
       "id": 176,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1955,7 +1779,6 @@
     },
     {
       "id": 177,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1966,7 +1789,6 @@
     },
     {
       "id": 178,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -1977,7 +1799,6 @@
     },
     {
       "id": 179,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1988,7 +1809,6 @@
     },
     {
       "id": 180,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -1999,7 +1819,6 @@
     },
     {
       "id": 181,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2010,7 +1829,6 @@
     },
     {
       "id": 182,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2021,7 +1839,6 @@
     },
     {
       "id": 183,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -2032,7 +1849,6 @@
     },
     {
       "id": 184,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2043,7 +1859,6 @@
     },
     {
       "id": 185,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2054,7 +1869,6 @@
     },
     {
       "id": 186,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2065,7 +1879,6 @@
     },
     {
       "id": 187,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2076,7 +1889,6 @@
     },
     {
       "id": 188,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2087,7 +1899,6 @@
     },
     {
       "id": 189,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2098,7 +1909,6 @@
     },
     {
       "id": 190,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2109,7 +1919,6 @@
     },
     {
       "id": 191,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2120,7 +1929,6 @@
     },
     {
       "id": 192,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2131,7 +1939,6 @@
     },
     {
       "id": 193,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2142,7 +1949,6 @@
     },
     {
       "id": 194,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "jetty",
       "zone": "water",
@@ -2153,7 +1959,6 @@
     },
     {
       "id": 195,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2164,7 +1969,6 @@
     },
     {
       "id": 196,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2175,7 +1979,6 @@
     },
     {
       "id": 197,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2186,7 +1989,6 @@
     },
     {
       "id": 198,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2197,7 +1999,6 @@
     },
     {
       "id": 199,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -2208,7 +2009,6 @@
     },
     {
       "id": 200,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "building",
       "zone": "none",
@@ -2219,7 +2019,6 @@
     },
     {
       "id": 201,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2230,7 +2029,6 @@
     },
     {
       "id": 202,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2241,7 +2039,6 @@
     },
     {
       "id": 203,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2252,7 +2049,6 @@
     },
     {
       "id": 204,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2263,7 +2059,6 @@
     },
     {
       "id": 205,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2274,7 +2069,6 @@
     },
     {
       "id": 206,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2285,7 +2079,6 @@
     },
     {
       "id": 207,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2296,7 +2089,6 @@
     },
     {
       "id": 208,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2307,7 +2099,6 @@
     },
     {
       "id": 209,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2318,7 +2109,6 @@
     },
     {
       "id": 210,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2329,7 +2119,6 @@
     },
     {
       "id": 211,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2340,7 +2129,6 @@
     },
     {
       "id": 212,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2351,7 +2139,6 @@
     },
     {
       "id": 213,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2362,7 +2149,6 @@
     },
     {
       "id": 214,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2373,7 +2159,6 @@
     },
     {
       "id": 215,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2384,7 +2169,6 @@
     },
     {
       "id": 216,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2395,7 +2179,6 @@
     },
     {
       "id": 217,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2406,7 +2189,6 @@
     },
     {
       "id": 218,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2417,7 +2199,6 @@
     },
     {
       "id": 219,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2428,7 +2209,6 @@
     },
     {
       "id": 220,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2439,7 +2219,6 @@
     },
     {
       "id": 221,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2450,7 +2229,6 @@
     },
     {
       "id": 222,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2461,7 +2239,6 @@
     },
     {
       "id": 223,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2472,7 +2249,6 @@
     },
     {
       "id": 224,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2483,7 +2259,6 @@
     },
     {
       "id": 225,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2494,7 +2269,6 @@
     },
     {
       "id": 226,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2505,7 +2279,6 @@
     },
     {
       "id": 227,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2516,7 +2289,6 @@
     },
     {
       "id": 228,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2527,7 +2299,6 @@
     },
     {
       "id": 229,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2538,7 +2309,6 @@
     },
     {
       "id": 230,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2549,7 +2319,6 @@
     },
     {
       "id": 231,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2560,7 +2329,6 @@
     },
     {
       "id": 232,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2571,7 +2339,6 @@
     },
     {
       "id": 233,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2582,7 +2349,6 @@
     },
     {
       "id": 234,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2593,7 +2359,6 @@
     },
     {
       "id": 235,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2604,7 +2369,6 @@
     },
     {
       "id": 236,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2615,7 +2379,6 @@
     },
     {
       "id": 237,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2626,7 +2389,6 @@
     },
     {
       "id": 238,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2637,7 +2399,6 @@
     },
     {
       "id": 239,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2648,7 +2409,6 @@
     },
     {
       "id": 240,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2659,7 +2419,6 @@
     },
     {
       "id": 241,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2670,7 +2429,6 @@
     },
     {
       "id": 242,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2681,7 +2439,6 @@
     },
     {
       "id": 243,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2692,7 +2449,6 @@
     },
     {
       "id": 244,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2703,7 +2459,6 @@
     },
     {
       "id": 245,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2714,7 +2469,6 @@
     },
     {
       "id": 246,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2725,7 +2479,6 @@
     },
     {
       "id": 247,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2736,7 +2489,6 @@
     },
     {
       "id": 248,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2747,7 +2499,6 @@
     },
     {
       "id": 249,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2758,7 +2509,6 @@
     },
     {
       "id": 250,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2769,7 +2519,6 @@
     },
     {
       "id": 251,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2780,7 +2529,6 @@
     },
     {
       "id": 252,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2791,7 +2539,6 @@
     },
     {
       "id": 253,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2802,7 +2549,6 @@
     },
     {
       "id": 254,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2813,7 +2559,6 @@
     },
     {
       "id": 255,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2824,7 +2569,6 @@
     },
     {
       "id": 256,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2835,7 +2579,6 @@
     },
     {
       "id": 257,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2846,7 +2589,6 @@
     },
     {
       "id": 258,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2857,7 +2599,6 @@
     },
     {
       "id": 259,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2868,7 +2609,6 @@
     },
     {
       "id": 260,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2879,7 +2619,6 @@
     },
     {
       "id": 261,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "signature",
       "zone": "none",
@@ -2890,7 +2629,6 @@
     },
     {
       "id": 262,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2901,7 +2639,6 @@
     },
     {
       "id": 263,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2912,7 +2649,6 @@
     },
     {
       "id": 264,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2923,7 +2659,6 @@
     },
     {
       "id": 265,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2934,7 +2669,6 @@
     },
     {
       "id": 266,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2945,7 +2679,6 @@
     },
     {
       "id": 267,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -2956,7 +2689,6 @@
     },
     {
       "id": 268,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2967,7 +2699,6 @@
     },
     {
       "id": 269,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2978,7 +2709,6 @@
     },
     {
       "id": 270,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -2989,7 +2719,6 @@
     },
     {
       "id": 271,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3000,7 +2729,6 @@
     },
     {
       "id": 272,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3011,7 +2739,6 @@
     },
     {
       "id": 273,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3022,7 +2749,6 @@
     },
     {
       "id": 274,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3033,7 +2759,6 @@
     },
     {
       "id": 275,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -3044,7 +2769,6 @@
     },
     {
       "id": 276,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -3055,7 +2779,6 @@
     },
     {
       "id": 277,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "water",
       "zone": "water",
@@ -3066,7 +2789,6 @@
     },
     {
       "id": 278,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3077,7 +2799,6 @@
     },
     {
       "id": 279,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
@@ -3088,7 +2809,6 @@
     },
     {
       "id": 280,
-      "isImportant": false,
       "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",

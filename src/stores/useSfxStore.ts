@@ -3,7 +3,7 @@ import { eventSoundMap } from '@/data/mappings/eventSoundMap'
 import { GridCube } from '@/types/grid'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { fadeVolume, fadeOutAndStop } from '@/utils/audioFade'
-import {audioConfig} from '@/config/audioConfig'
+import { audioConfig } from '@/config/audioConfig'
 
 export const useSfxStore = defineStore('sfx', {
   state: () => ({
@@ -65,6 +65,6 @@ export const useSfxStore = defineStore('sfx', {
       })
 
       this.playingAudio.clear()
-    }
+    },
   },
 })

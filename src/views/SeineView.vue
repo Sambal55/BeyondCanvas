@@ -7,7 +7,6 @@ import { usePaintingStore } from '@/stores/usePaintingStore'
 
 const grid = seineGrid
 usePaintingStore().load(seineGrid)
-
 </script>
 
 <template>

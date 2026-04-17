@@ -3,8 +3,8 @@ Where you come only if you remove URL part of Seine or Rowers-->
 
 <script setup lang="ts">
 import { usePaintingStore } from '@/stores/usePaintingStore'
-import {useSfxStore} from '@/stores/useSfxStore'
-import {useAmbienceStore} from '@/stores/useAmbienceStore'
+import { useSfxStore } from '@/stores/useSfxStore'
+import { useAmbienceStore } from '@/stores/useAmbienceStore'
 // no grid, because no painting
 usePaintingStore().load(null)
 
@@ -18,6 +18,4 @@ useSfxStore().stopAll()
   <RouterLink to="/rowers">Luncheon of the Boating Party</RouterLink>
 </template>
 
-<style>
-
-</style>
+<style></style>

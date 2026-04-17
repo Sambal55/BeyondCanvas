@@ -2,11 +2,14 @@
 import { onMounted } from 'vue'
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
+import { usePaintingStore } from '@/stores/usePaintingStore'
 import { Grid } from '@/types/grid'
+import ImportantPopup from '@/components/ImportantPopup.vue'
 
 const { grid } = defineProps<{
   grid: Grid
 }>()
+usePaintingStore().load(grid)
 
 // calculate cube positions
 const positionedCubes = grid.cubes.map((c) => ({
@@ -24,6 +27,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <ImportantPopup />
   <div class="scroll-container">
     <div class="image-wrapper scaled">
       <!--    TODO switch alt to more descriptive description-->
@@ -43,26 +47,25 @@ onMounted(() => {
         :data-x="cube.position.x"
         :data-y="cube.position.y"
         :style="{
-        left: cube.left + 'px',
-        top: cube.top + 'px',
-        width: '100px',
-        height: '100px',
-      }"
+          left: cube.left + 'px',
+          top: cube.top + 'px',
+          width: '100px',
+          height: '100px',
+        }"
       >
-      <span style="color: greenyellow" class="coords"
-      >{{ cube.position.x }}, {{ cube.position.y }}</span
-      >
+        <span style="color: greenyellow" class="coords"
+          >{{ cube.position.x }}, {{ cube.position.y }}</span
+        >
       </div>
     </div>
   </div>
-
 </template>
 
 <style scoped>
 .scroll-container {
-  width: 100%;          /* or whatever viewport-sized bounds you want */
+  width: 100%; /* or whatever viewport-sized bounds you want */
   height: 100vh;
-  overflow: auto;       /* this makes it a scroll+clip container */
+  overflow: auto; /* this makes it a scroll+clip container */
   border: 3px solid blue;
 }
 
@@ -89,7 +92,8 @@ onMounted(() => {
   border-color: magenta;
 }
 
-html, body {
+html,
+body {
   overflow: hidden;
   height: 100%;
   margin: 0;

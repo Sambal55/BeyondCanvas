@@ -4,7 +4,7 @@ import AudioManager from '@/system/AudioManager.vue'
 </script>
 
 <template>
-  <AudioManager/>
+  <AudioManager />
   <RouterLink to="/">Home</RouterLink>
   <br />
   <RouterView />

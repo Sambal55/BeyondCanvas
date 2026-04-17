@@ -2,7 +2,6 @@ import { Painting } from '@/types/painting'
 
 export interface GridCube {
   id: number
-  isImportant: boolean
   importantCubeInfo: ImportantCubeInfo | null
   label: string // Map eventSound based on zone
   zone: string // Map ambienceSound based on zone

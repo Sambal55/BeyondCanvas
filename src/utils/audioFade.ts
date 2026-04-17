@@ -2,7 +2,7 @@ export function fadeVolume(
   audio: HTMLAudioElement,
   targetVolume: number,
   duration = 200,
-  onComplete?: () => void
+  onComplete?: () => void,
 ) {
   const start = audio.volume
   const diff = targetVolume - start
@@ -21,11 +21,7 @@ export function fadeVolume(
   }, stepTime)
 }
 
-export function fadeOutAndStop(
-  audio: HTMLAudioElement,
-  duration = 300,
-  onComplete?: () => void
-) {
+export function fadeOutAndStop(audio: HTMLAudioElement, duration = 300, onComplete?: () => void) {
   const start = audio.volume
   const steps = 20
   const stepTime = duration / steps
@@ -43,4 +39,3 @@ export function fadeOutAndStop(
     }
   }, stepTime)
 }
-
