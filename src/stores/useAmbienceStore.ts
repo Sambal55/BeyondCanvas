@@ -8,13 +8,12 @@ type AmbienceZone = keyof typeof audioConfig.ambienceVolume
 export const useAmbienceStore = defineStore('ambience', {
   state: () => ({
     audio: null as HTMLAudioElement | null,
-    currentZone: null as AmbienceZone | null,    // So we can use zone specific volume also in restore function
+    currentZone: null as AmbienceZone | null, // So we can use zone specific volume also in restore function
     currentVolume: 0 as number,
   }),
 
   actions: {
     playZone(zone: AmbienceZone) {
-
       if (this.currentZone === zone) return
       const targetVolume = audioConfig.ambienceVolume[zone]
       this.currentVolume = targetVolume

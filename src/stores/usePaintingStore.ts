@@ -18,8 +18,8 @@ export const usePaintingStore = defineStore('painting', {
     // You can call cubes, with index starting at 0 and increments by 1
     cubeById: (state) => {
       if (!state.grid) return () => null
-      const map = Object.fromEntries(state.grid.cubes.map(c => [c.id, c]))
+      const map = Object.fromEntries(state.grid.cubes.map((c) => [c.id, c]))
       return (id: number) => map[id] ?? null
-    }
+    },
   },
 })

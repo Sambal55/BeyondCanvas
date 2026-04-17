@@ -3,6 +3,9 @@
  *
  * Script that generates grid for a painting in JSON format
  * Based on label → zone mapping
+ *
+ * You first have to have a Label JSON which you can generate via AI
+ * For instructions on how to do so, see the README file.
  */
 
 import { writeFileSync } from 'fs'
@@ -34,8 +37,9 @@ function generateGridJson(
 
     return {
       id: index + 1,
-      isImportant: false,
       importantCubeInfo: null,
+
+      // If accidentally there is no label connected to zone or no label in mapping
       label: label ?? 'nothing',
       zone: zone ?? 'none',
       position: { x, y },

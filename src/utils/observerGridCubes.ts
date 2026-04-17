@@ -22,7 +22,7 @@ export function observeGridCubes() {
           visibilityStore.add(id)
 
           // Important cube logic
-          if (cube?.isImportant) {
+          if (cube?.importantCubeInfo?.description?.trim()) {
             importantStore.setImportantCube(cube)
           }
         } else {
