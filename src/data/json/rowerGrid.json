@@ -349,10 +349,7 @@
     },
     {
       "id": 34,
-      "importantCubeInfo": {
-        "title": "Charles Ephrussi en Jules Laforgue",
-        "description": "Achter Ellen, boven in het doek, zijn Charles Ephrussi en zijn secretaris Jules Lagorgue in gesprek. Charles is een rijke kunsthandelaar en criticus. Jules is zijn secretaris en is tevens dichter. Charles heeft een hoge hoed op, wat moet aanduiden dat hij een vermogende man van status is. Jules heeft echter een simpele baret op zijn hoofd, wat suggereert dat hij van mindere status en of minder vermogend is."
-      },
+      "importantCubeInfo": null,
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -545,7 +542,10 @@
     },
     {
       "id": 53,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Charles Ephrussi en Jules Laforgue",
+        "description": "Achter Ellen, boven in het doek, zijn Charles Ephrussi en zijn secretaris Jules Lagorgue in gesprek. Charles is een rijke kunsthandelaar en criticus. Jules is zijn secretaris en is tevens dichter. Charles heeft een hoge hoed op, wat moet aanduiden dat hij een vermogende man van status is. Jules heeft echter een simpele baret op zijn hoofd, wat suggereert dat hij van mindere status en of minder vermogend is."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {

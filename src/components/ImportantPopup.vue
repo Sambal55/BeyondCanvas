@@ -54,7 +54,7 @@ onUnmounted(() => {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 
   max-width: 80%;
-  z-index: 99999;
+  z-index: 95;
 
   animation: fadeIn 0.2s ease-out;
 }
