@@ -17,7 +17,7 @@ export const useAmbienceStore = defineStore('ambience', {
       if (this.currentZone === zone) return
       const targetVolume = audioConfig.ambienceVolume[zone]
       this.currentVolume = targetVolume
-      console.log(zone, targetVolume)
+
       const newSrc = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
       const newAudio = new Audio(newSrc)
       newAudio.loop = true
@@ -33,9 +33,13 @@ export const useAmbienceStore = defineStore('ambience', {
           oldAudio.pause()
         })
       }
-
-      // Fade in the new ambience
-      fadeVolume(newAudio, targetVolume, audioConfig.fadeDuration.crossfade)
+      newAudio.addEventListener(
+        'canplay',
+        () => {
+          fadeVolume(newAudio, targetVolume, audioConfig.fadeDuration.crossfade)
+        },
+        { once: true },
+      )
 
       // Replace reference
       this.audio = newAudio

@@ -72,10 +72,8 @@ onMounted(() => {
 .image-wrapper {
   position: relative;
   display: inline-block;
-  transform: scale(1.75);
+  transform: scale(1.3);
   transform-origin: top left;
-  /* give the container real layout space matching the scaled size */
-  /* e.g. if painting is 800x600, scaled 1.75x → 1400x1050 */
 }
 
 .image-wrapper img {

@@ -4,38 +4,63 @@ export function fadeVolume(
   duration = 200,
   onComplete?: () => void,
 ) {
-  const start = audio.volume
-  const diff = targetVolume - start
+  // Cancel previous fade
+  if ((audio as any)._fadeInterval) {
+    clearInterval((audio as any)._fadeInterval)
+  }
+
+  let start = audio.volume
+  if (!Number.isFinite(start)) start = 0
+
+  const end = Math.min(1, Math.max(0, Number.isFinite(targetVolume) ? targetVolume : 0))
+  const diff = end - start
+
   const steps = 20
   const stepTime = duration / steps
 
   let i = 0
   const interval = setInterval(() => {
     i++
-    audio.volume = start + diff * (i / steps)
+
+    const next = start + diff * (i / steps)
+    audio.volume = Math.min(1, Math.max(0, next))
 
     if (i >= steps) {
       clearInterval(interval)
-      if (onComplete) onComplete()
+      audio.volume = end
+      onComplete?.()
     }
   }, stepTime)
+
+  ;(audio as any)._fadeInterval = interval
 }
 
 export function fadeOutAndStop(audio: HTMLAudioElement, duration = 300, onComplete?: () => void) {
-  const start = audio.volume
+  // Cancel previous fade if it exists
+  if ((audio as any)._fadeInterval) {
+    clearInterval((audio as any)._fadeInterval)
+  }
+
+  let start = Math.min(1, Math.max(0, Number.isFinite(audio.volume) ? audio.volume : 0))
+
   const steps = 20
   const stepTime = duration / steps
 
   let i = 0
   const interval = setInterval(() => {
     i++
-    audio.volume = start * (1 - i / steps)
+
+    const next = start * (1 - i / steps)
+    audio.volume = Math.min(1, Math.max(0, next))
 
     if (i >= steps) {
       clearInterval(interval)
+      audio.volume = 0
       audio.pause()
       audio.currentTime = 0
-      if (onComplete) onComplete()
+      onComplete?.()
     }
   }, stepTime)
+
+  ;(audio as any)._fadeInterval = interval
 }
