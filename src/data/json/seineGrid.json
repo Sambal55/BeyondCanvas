@@ -2518,10 +2518,7 @@
     },
     {
       "id": 250,
-      "importantCubeInfo": {
-        "title": "Afsnijding techniek",
-        "description": "Opvallend is ook de techniek van 'afsnijding' aan de zijkanten en bij de boten vooraan, onder invloed van de fotografie en de Japanse prentkunst, waarmee de werken een zweem van moderniteit meekregen."
-      },
+      "importantCubeInfo": null,
       "label": "boat",
       "zone": "water",
       "position": {
@@ -2724,7 +2721,10 @@
     },
     {
       "id": 270,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Afsnijding techniek",
+        "description": "Opvallend is ook de techniek van 'afsnijding' aan de zijkanten en bij de boten vooraan, onder invloed van de fotografie en de Japanse prentkunst, waarmee de werken een zweem van moderniteit meekregen."
+      },
       "label": "boat",
       "zone": "water",
       "position": {
