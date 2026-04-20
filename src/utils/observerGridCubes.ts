@@ -36,10 +36,17 @@ export function observeGridCubes() {
     { root: scrollRoot, threshold: 0.5 },
   )
 
+  let hasScrolled = false
+
+  scrollRoot.addEventListener('scroll', () => {
+    hasScrolled = true
+  }, { once: true })
   const centerObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return
+        // User needs to start scrolling before important cube can be shown
+        if (!hasScrolled) return
         const cube = getCubeFromEntry(entry)
         if (!cube?.importantCubeInfo?.description?.trim()) return
 
@@ -60,7 +67,7 @@ export function observeGridCubes() {
         if (!cube?.importantCubeInfo?.description?.trim()) return
 
         const { x, y } = cube.position
-        // if cube is not at the edge return and use centerObserver
+        // if cube is not at the edge, return and use centerObserver
         if (x !== 0 && x !== 19 && y !== 0 && y !== 13) return
 
         // set importantCube if cube IS at the edge
