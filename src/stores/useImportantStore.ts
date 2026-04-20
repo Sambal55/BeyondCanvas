@@ -11,7 +11,6 @@ export const useImportantStore = defineStore('importantStore', () => {
 
     // Only trigger haptics when a NEW important cube appears
     if (!activeCube.value || activeCube.value.id !== cube.id) {
-      console.log('setImportantCube trigger popup')
       triggerHaptics()
     }
 
@@ -26,7 +25,6 @@ export const useImportantStore = defineStore('importantStore', () => {
 
   function triggerHaptics() {
     if (navigator.vibrate) {
-      console.log('vibrate 500')
       navigator.vibrate(500)
     }
   }

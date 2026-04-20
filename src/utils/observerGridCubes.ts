@@ -7,10 +7,15 @@ export function observeGridCubes() {
   const importantStore = useImportantStore()
   const paintingStore = usePaintingStore()
 
-  // Root which is necessary because images are scaled up
-  const scrollRoot = document.querySelector('.scroll-container')
+  const scrollRoot = document.querySelector('.scroll-container') as HTMLElement
 
-  // Observer which has all the cubes which are visible on screen
+  function getCubeFromEntry(entry: IntersectionObserverEntry) {
+    const el = entry.target as HTMLElement
+    const id = Number(el.dataset.id)
+    if (!id) return null
+    return paintingStore.cubeById(id)
+  }
+
   const visibilityObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
@@ -22,47 +27,52 @@ export function observeGridCubes() {
           visibilityStore.add(id)
         } else {
           visibilityStore.remove(id)
-
-          // Close popup if active cube exits screen
           if (importantStore.activeCube?.id === id) {
             importantStore.clearImportantCube()
           }
         }
       })
     },
-    {
-      root: scrollRoot,
-      threshold: 0.5,
-    },
+    { root: scrollRoot, threshold: 0.5 },
   )
 
-  // Center observer which detects which cube is in center
   const centerObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {
         if (!entry.isIntersecting) return
-
-        const el = entry.target as HTMLElement
-        const id = Number(el.dataset.id)
-        if (!id) return
-
-        const cube = paintingStore.cubeById(id)
+        const cube = getCubeFromEntry(entry)
         if (!cube?.importantCubeInfo?.description?.trim()) return
+
+        const { x, y } = cube.position
+        if (x === 0 || x === 19 || y === 0 || y === 13) return
 
         importantStore.setImportantCube(cube)
       })
     },
-    {
-      root: null,
-      threshold: 0.1,
-      rootMargin: "-45% 0px -45% 0px",
-    },
+    { root: null, threshold: 0.1, rootMargin: '-45% 0px -45% 0px' },
   )
 
+  const edgeObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return
+        const cube = getCubeFromEntry(entry)
+        if (!cube?.importantCubeInfo?.description?.trim()) return
 
-  // Observe all cubes with both observers
+        const { x, y } = cube.position
+        // if cube is not at the edge return and use centerObserver
+        if (x !== 0 && x !== 19 && y !== 0 && y !== 13) return
+
+        // set importantCube if cube IS at the edge
+        importantStore.setImportantCube(cube)
+      })
+    },
+    { root: scrollRoot, threshold: 0.5 },
+  )
+
   document.querySelectorAll('.cube').forEach((cube) => {
     visibilityObserver.observe(cube)
     centerObserver.observe(cube)
+    edgeObserver.observe(cube)
   })
 }
