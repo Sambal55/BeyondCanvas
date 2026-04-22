@@ -4,19 +4,19 @@ Where you come only if you remove URL part of Seine or Rowers-->
 <script setup lang="ts">
 import { useSfxStore } from '@/stores/useSfxStore'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
-import { ref } from 'vue'
+// import { ref } from 'vue'
 // no grid, because no painting
 useAmbienceStore().stop()
 useSfxStore().stopAll()
-const showChat = ref(false)
+// const showChat = ref(false)
 
 // function openChat() {
 //   showChat.value = true
 // }
 
-function closeChat() {
-  showChat.value = false
-}
+// function closeChat() {
+//   showChat.value = false
+// }
 </script>
 
 <template>

@@ -1,22 +1,22 @@
 <!--HomeView-->
 
 <script setup lang="ts">
-import { ref } from 'vue'
+// import { ref } from 'vue'
 import { useSfxStore } from '@/stores/useSfxStore'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 
 useAmbienceStore().stop()
 useSfxStore().stopAll()
 
-const showChat = ref(false)
+// const showChat = ref(false)
 
 // function openChat() {
 //   showChat.value = true
 // }
 
-function closeChat() {
-  showChat.value = false
-}
+// function closeChat() {
+//   showChat.value = false
+// }
 </script>
 
 <template>

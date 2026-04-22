@@ -15,7 +15,6 @@ jobs:
 
       - name: Run ESLint (no fix)
         run: npm run lint
-        continue-on-error: true
 
       - name: Run Prettier
         run: npx prettier --write .
