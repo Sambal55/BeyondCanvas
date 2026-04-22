@@ -40,8 +40,8 @@ function generateGridJson(
       importantCubeInfo: null,
 
       // If accidentally there is no label connected to zone or no label in mapping
-      label: label ?? 'nothing',
-      zone: zone ?? 'none',
+      label: label ?? null,
+      zone: zone ?? null,
       position: { x, y },
     }
   })

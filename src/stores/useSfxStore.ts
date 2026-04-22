@@ -16,6 +16,8 @@ export const useSfxStore = defineStore('sfx', {
   actions: {
     onCubeVisible(cube: GridCube) {
       const label = cube.label
+      // If label is null
+      if (!label) return
       if (this.playedLabels.has(label)) return
 
       const sounds = eventSoundMap[label]
@@ -45,6 +47,7 @@ export const useSfxStore = defineStore('sfx', {
     },
 
     onLabelHidden(label: string) {
+      if (!label) return
       const audio = this.playingAudio.get(label)
       if (!audio) return
 

@@ -4,6 +4,7 @@ import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { useSfxStore } from '@/stores/useSfxStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'
+import { AmbienceZone } from '@/types/grid'
 
 const grid = useGridVisibilityStore()
 const ambience = useAmbienceStore()
@@ -40,7 +41,8 @@ watch(
     // --- HANDLE AMBIENCE ---
     const visibleZones = newVisible
       .map((id) => painting.cubes.find((c) => c.id === id)?.zone)
-      .filter(Boolean)
+      .filter((z): z is AmbienceZone => !!z)
+
 
     if (visibleZones.length > 0) {
       ambience.playZone(visibleZones[0])
@@ -51,6 +53,6 @@ watch(
 </script>
 
 <template>
-  <p></p>
   <!-- No UI needed -->
+<div/>
 </template>

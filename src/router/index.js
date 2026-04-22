@@ -5,18 +5,23 @@ const router = createRouter({
   routes: [
     {
       path: '/',
-      name: 'home',
-      component: () => import('../views/HomeView.vue'),
+      name: 'fallback page',
+      component: () => import('@/views/HomeView.vue'),
     },
     {
-      path: '/rowers',
-      name: 'Luncheon of the Boating Party',
-      component: () => import('../views/RowersView.vue'),
+      path: '/painting/:id',
+      name: 'painting',
+      component: () => import('@/views/PaintingView.vue'),
     },
     {
-      path: '/seine',
-      name: 'La Grenouillère',
-      component: () => import('../views/SeineView.vue'),
+      path: '/rowersHome',
+      name: 'Home rowers AI and audio-experience',
+      component: () => import('@/views/RowersHomeView.vue'),
+    },
+    {
+      path: '/seineHome',
+      name: 'Home seine AI and audio-experience',
+      component: () => import('@/views/SeineHomeView.vue'),
     },
   ],
 })

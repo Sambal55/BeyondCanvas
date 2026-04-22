@@ -1,3 +1,5 @@
+import { AmbienceZone } from '@/types/grid'
+
 export const audioConfig = {
   ambienceBaseVolume: 0.6,
   ambienceDuckedVolume: 0.25,
@@ -16,5 +18,5 @@ export const audioConfig = {
     leaves: 1,
     water: 1,
     people: 0.4,
-  },
-}
+  } satisfies Record<AmbienceZone, number>,
+} as const

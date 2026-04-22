@@ -31,9 +31,13 @@ export const zoneLabelsMap: Record<string, string[]> = {
   water: ['water', 'boat', 'swimmer', 'jetty', 'sail'],
 }
 
-export const ambienceMap: Record<string, string> = {
+// As AmbienceZone types in @types/grid.ts
+export const ambienceMap = {
   sky: 'morningbreeze_birds.mp3',
   leaves: 'rustling_leaves.mp3',
   people: 'crowd_backgrond.mp3',
   water: 'lakesound.mp3',
-}
+} as const
+
+
+

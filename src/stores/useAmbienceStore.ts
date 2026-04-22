@@ -2,8 +2,7 @@ import { defineStore } from 'pinia'
 import { ambienceMap } from '@/data/mappings/ambienceMap'
 import { fadeOutAndStop, fadeVolume } from '@/utils/audioFade'
 import { audioConfig } from '@/config/audioConfig'
-
-type AmbienceZone = keyof typeof audioConfig.ambienceVolume
+import { AmbienceZone } from '@/types/grid'
 
 export const useAmbienceStore = defineStore('ambience', {
   state: () => ({
@@ -15,8 +14,9 @@ export const useAmbienceStore = defineStore('ambience', {
   actions: {
     playZone(zone: AmbienceZone) {
       if (this.currentZone === zone) return
-      const targetVolume = audioConfig.ambienceVolume[zone]
+        const targetVolume = audioConfig.ambienceVolume[zone]
       this.currentVolume = targetVolume
+
 
       const newSrc = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
       const newAudio = new Audio(newSrc)
