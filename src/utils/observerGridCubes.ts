@@ -38,9 +38,13 @@ export function observeGridCubes() {
 
   let hasScrolled = false
 
-  scrollRoot.addEventListener('scroll', () => {
-    hasScrolled = true
-  }, { once: true })
+  scrollRoot.addEventListener(
+    'scroll',
+    () => {
+      hasScrolled = true
+    },
+    { once: true },
+  )
   const centerObserver = new IntersectionObserver(
     (entries) => {
       entries.forEach((entry) => {

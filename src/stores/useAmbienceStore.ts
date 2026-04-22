@@ -14,9 +14,8 @@ export const useAmbienceStore = defineStore('ambience', {
   actions: {
     playZone(zone: AmbienceZone) {
       if (this.currentZone === zone) return
-        const targetVolume = audioConfig.ambienceVolume[zone]
+      const targetVolume = audioConfig.ambienceVolume[zone]
       this.currentVolume = targetVolume
-
 
       const newSrc = `${import.meta.env.BASE_URL}assets/audio/${ambienceMap[zone]}`
       const newAudio = new Audio(newSrc)

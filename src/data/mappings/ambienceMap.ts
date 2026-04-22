@@ -38,6 +38,3 @@ export const ambienceMap = {
   people: 'crowd_backgrond.mp3',
   water: 'lakesound.mp3',
 } as const
-
-
-

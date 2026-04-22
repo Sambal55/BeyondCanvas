@@ -43,7 +43,6 @@ watch(
       .map((id) => painting.cubes.find((c) => c.id === id)?.zone)
       .filter((z): z is AmbienceZone => !!z)
 
-
     if (visibleZones.length > 0) {
       ambience.playZone(visibleZones[0])
     }
@@ -54,5 +53,5 @@ watch(
 
 <template>
   <!-- No UI needed -->
-<div/>
+  <div />
 </template>

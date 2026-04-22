@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
   margin: 0;
   padding: 0;
   background: black;
@@ -11,9 +12,10 @@ button,
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   border: none;
-  margin: 1rem 0; /* alleen boven/onder */  cursor: pointer;
+  margin: 1rem 0; /* alleen boven/onder */
+  cursor: pointer;
   font-weight: 600;
-  font-family: "Arial", "Calibri", sans-serif;
+  font-family: 'Arial', 'Calibri', sans-serif;
   font-size: 2rem;
   background: yellow;
   color: blue;
@@ -23,7 +25,6 @@ button:hover,
   background: blue;
   color: yellow;
 }
-
 
 .center-wrapper {
   display: flex;

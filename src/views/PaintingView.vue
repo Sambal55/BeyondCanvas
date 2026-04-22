@@ -19,7 +19,6 @@ store.load(grid)
 </script>
 
 <template>
-
   <RouterLink class="btn" :to="`/${route.params.id}Home`">Terug naar homepagina</RouterLink>
   <DebugGrid :grid="grid" />
 </template>

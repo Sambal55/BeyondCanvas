@@ -12,5 +12,3 @@ export function getZoneForLabel(label: string | null): AmbienceZone | null {
 
   return null
 }
-
-
