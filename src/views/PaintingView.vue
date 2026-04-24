@@ -1,11 +1,11 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
-import DebugGrid from '@/components/DebugGrid.vue'
 import { usePaintingStore } from '@/stores/usePaintingStore'
 
 import rowerGrid from '@/data/json/rowerGrid.json'
 import seineGrid from '@/data/json/seineGrid.json'
 import GridComponent from '@/components/GridComponent.vue'
+import GuidePopup from '@/components/GuidePopup.vue'
 
 const route = useRoute()
 const store = usePaintingStore()
@@ -20,6 +20,7 @@ store.load(grid)
 </script>
 
 <template>
+  <GuidePopup />
   <RouterLink class="btn" :to="`/${route.params.id}Home`">Terug naar homepagina</RouterLink>
   <GridComponent :grid="grid" />
 </template>

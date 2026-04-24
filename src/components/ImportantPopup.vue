@@ -29,12 +29,12 @@ onUnmounted(() => {
 
 <template>
   <div v-if="isVisible" class="important-popup" ref="popupRef">
-    <button class="close-btn" @click="closePopup">×</button>
-
-    <h2>{{ cube?.importantCubeInfo?.title || 'Informatie' }}</h2>
-
+    <div class="header-row">
+      <h2>{{ cube?.importantCubeInfo?.title || 'Informatie' }}</h2>
+      <button class="btn close-btn" @click="closePopup">Sluiten</button>
+    </div>
     <div class="description-container">
-      <p class="description">
+      <p >
         {{ cube?.importantCubeInfo?.description }}
       </p>
     </div>
@@ -48,30 +48,42 @@ onUnmounted(() => {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  background: yellow;
+  background: black;
   padding: 2px 20px;
   border-radius: 12px;
   box-shadow: 0 4px 20px black;
 
   max-width: 80%;
   z-index: 95;
-
+  color: yellow;
   animation: fadeIn 0.2s ease-out;
 }
 
 .close-btn {
   position: absolute;
-  top: 8px;
+  padding: 1px 10px;
   right: 10px;
   background: transparent;
-  border: none;
-  font-size: 22px;
+  font-size: 20px;
   cursor: pointer;
+  color: blue; /* of wit, afhankelijk van je popup */
+}
+
+.close-btn:hover {
+  background: yellow;
+  color: blue;
 }
 
 .description-container {
-  max-height: 50vh; /* of 40vh, wat jij wilt */
+  max-height: 50vh;
   overflow-y: auto;
-  padding-right: 10px; /* ruimte voor scrollbar */
+  padding-right: 10px;
 }
+.header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
 </style>

@@ -3,6 +3,8 @@ body {
   margin: 0;
   padding: 0;
   background: black;
+  font-weight: 600;
+  font-family: 'Arial', 'Calibri', sans-serif;
 }
 
 button,
@@ -14,8 +16,7 @@ button,
   border: none;
   margin: 1rem 0; /* alleen boven/onder */
   cursor: pointer;
-  font-weight: 600;
-  font-family: 'Arial', 'Calibri', sans-serif;
+
   font-size: 2rem;
   background: yellow;
   color: blue;
@@ -34,3 +35,5 @@ button:hover,
   height: 100vh;
   overflow: hidden;
 }
+
+
