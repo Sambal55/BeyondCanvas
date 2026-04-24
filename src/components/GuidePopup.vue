@@ -36,7 +36,7 @@ onUnmounted(() => {
 
     <div class="content">
       <p>
-<!--        Insert Guide text etc-->
+        <!--        Insert Guide text etc-->
       </p>
     </div>
   </div>

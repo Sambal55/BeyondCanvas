@@ -33,7 +33,7 @@ onMounted(() => {
         :src="grid.painting.imagePath"
         :width="grid.painting.paintingSize.width"
         :height="grid.painting.paintingSize.height"
-        :alt="'Kunstbeleving van '+ grid.painting.name"
+        :alt="'Kunstbeleving van ' + grid.painting.name"
       />
 
       <div
@@ -47,11 +47,10 @@ onMounted(() => {
         :style="{
           left: cube.left + 'px',
           top: cube.top + 'px',
-          width: grid.cubeSize.width +'px',
-          height: grid.cubeSize.height +'px',
+          width: grid.cubeSize.width + 'px',
+          height: grid.cubeSize.height + 'px',
         }"
-      >
-      </div>
+      ></div>
     </div>
   </div>
 </template>

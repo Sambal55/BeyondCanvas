@@ -9,6 +9,6 @@ export const useGuideStore = defineStore('guide', {
     closeGuide() {
       // Once used then not show again (unless reload page)
       this.isVisible = false
-    }
-  }
+    },
+  },
 })

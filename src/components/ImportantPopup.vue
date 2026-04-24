@@ -34,7 +34,7 @@ onUnmounted(() => {
       <button class="btn close-btn" @click="closePopup">Sluiten</button>
     </div>
     <div class="description-container">
-      <p >
+      <p>
         {{ cube?.importantCubeInfo?.description }}
       </p>
     </div>
@@ -85,5 +85,4 @@ onUnmounted(() => {
   justify-content: space-between;
   gap: 12px;
 }
-
 </style>
