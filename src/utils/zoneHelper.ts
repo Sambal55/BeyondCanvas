@@ -1,5 +1,5 @@
-import { zoneLabelsMap } from '@/data/mappings/ambienceMap'
-import { AmbienceZone } from '@/types/grid'
+import { zoneLabelsMap } from '../data/mappings/ambienceMap'
+import { AmbienceZone } from '../types/grid'
 
 export function getZoneForLabel(label: string | null): AmbienceZone | null {
   if (!label) return null

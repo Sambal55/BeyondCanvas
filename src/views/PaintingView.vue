@@ -5,6 +5,7 @@ import { usePaintingStore } from '@/stores/usePaintingStore'
 
 import rowerGrid from '@/data/json/rowerGrid.json'
 import seineGrid from '@/data/json/seineGrid.json'
+import GridComponent from '@/components/GridComponent.vue'
 
 const route = useRoute()
 const store = usePaintingStore()
@@ -20,5 +21,5 @@ store.load(grid)
 
 <template>
   <RouterLink class="btn" :to="`/${route.params.id}Home`">Terug naar homepagina</RouterLink>
-  <DebugGrid :grid="grid" />
+  <GridComponent :grid="grid" />
 </template>

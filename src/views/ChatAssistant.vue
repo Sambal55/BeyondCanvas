@@ -2,7 +2,7 @@
 import { onMounted, ref } from 'vue'
 import { GoogleGenerativeAI } from '@google/generative-ai'
 
-// Personality prompt inladen (per schilderij)
+// Personality prompt load
 const props = defineProps<{ personality: string; isOpen: boolean }>()
 const emit = defineEmits(['close'])
 const loadingPrompt = ref(true)
@@ -16,6 +16,7 @@ const genAI = new GoogleGenerativeAI(apiKey)
 // model could change because of deprication or because model is overloaded
 const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' })
 
+// Somehow this doesnt seem to work, while systemPrompt has proper value
 function buildPrompt(userMessage: string) {
   console.log(systemPrompt.value)
   return `
@@ -88,10 +89,8 @@ onMounted(async () => {
 </script>
 
 <template>
-  <!-- Donkere achtergrond -->
   <div v-if="props.isOpen" class="overlay" @click="closePopup"></div>
 
-  <!-- Popup venster -->
   <div v-if="props.isOpen" class="popup">
     <div class="chat-container">
       <div class="messages">
@@ -156,7 +155,6 @@ input {
   border: 1px solid #ccc;
 }
 
-/* Donkere achtergrond */
 .overlay {
   position: fixed;
   inset: 0;
@@ -165,7 +163,6 @@ input {
   z-index: 900;
 }
 
-/* Popup venster */
 .popup {
   position: fixed;
   top: 50%;
@@ -182,7 +179,6 @@ input {
   z-index: 1000;
 }
 
-/* Chat container blijft zoals je had */
 .chat-container {
   display: flex;
   flex-direction: column;

@@ -62,7 +62,7 @@ const generateRowersGrid = generateGridJson(
     year: null,
     artform: null,
     imagePath: rowersPath,
-    name: 'Luncheon of the Boating Party',
+    name: 'Lunch van de roeiers',
     paintingSize: { width: 2000, height: 1441 },
   },
   { width: 100, height: 100 },

@@ -29,12 +29,11 @@ onMounted(() => {
   <ImportantPopup />
   <div class="scroll-container">
     <div class="image-wrapper scaled">
-      <!--    TODO switch alt to more descriptive description-->
       <img
         :src="grid.painting.imagePath"
         :width="grid.painting.paintingSize.width"
         :height="grid.painting.paintingSize.height"
-        :alt="'Kunstbeleving van ' + grid.painting.name"
+        :alt="'Kunstbeleving van '+ grid.painting.name"
       />
 
       <div
@@ -48,13 +47,10 @@ onMounted(() => {
         :style="{
           left: cube.left + 'px',
           top: cube.top + 'px',
-          width: grid.cubeSize.width + 'px',
-          height: grid.cubeSize.height + 'px',
+          width: grid.cubeSize.width +'px',
+          height: grid.cubeSize.height +'px',
         }"
       >
-        <span style="color: greenyellow" class="coords"
-          >{{ cube.position.x }}, {{ cube.position.y }}</span
-        >
       </div>
     </div>
   </div>
@@ -62,10 +58,9 @@ onMounted(() => {
 
 <style scoped>
 .scroll-container {
-  width: 100%; /* or whatever viewport-sized bounds you want */
+  width: 100%;
   height: 100vh;
   overflow: auto; /* this makes it a scroll+clip container */
-  border: 3px solid blue;
 }
 
 .image-wrapper {
@@ -83,10 +78,6 @@ onMounted(() => {
   position: absolute;
   border: 1px solid transparent;
   pointer-events: none;
-}
-
-.cube.visible {
-  border-color: magenta;
 }
 
 html,
