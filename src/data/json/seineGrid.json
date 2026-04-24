@@ -591,7 +591,7 @@
       "id": 58,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 2
@@ -601,7 +601,7 @@
       "id": 59,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 18,
         "y": 2
@@ -611,7 +611,7 @@
       "id": 60,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 2
@@ -791,7 +791,7 @@
       "id": 78,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 3
@@ -811,7 +811,7 @@
       "id": 80,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 3
@@ -989,9 +989,12 @@
     },
     {
       "id": 98,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Café",
+        "description": "In het hart van \"La Grenouillère\" (letterlijk: de kikkerpoel) bevond zich een drijvend café, een innovatie waarmee gasten konden genieten van een drankje te midden van de schoonheid van de rivier. Het café was versierd met groene parasols en witte balustrades, wat een charmant contrast vormde met het azuurblauwe water van de Seine. Het was een plek om te zien en gezien te worden, waar de mensen zich mengde en de laatste roddels uitwisselde."
+      },
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 4
@@ -1011,7 +1014,7 @@
       "id": 100,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 4
@@ -1191,7 +1194,7 @@
       "id": 118,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 5
@@ -1201,7 +1204,7 @@
       "id": 119,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 18,
         "y": 5
@@ -1211,7 +1214,7 @@
       "id": 120,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 5
@@ -1391,7 +1394,7 @@
       "id": 138,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 6
@@ -1411,7 +1414,7 @@
       "id": 140,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 6
@@ -1439,7 +1442,10 @@
     },
     {
       "id": 143,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Zwemmen als tijdverdrijf",
+        "description": "Centraal in \"La Grenouillère\" stond de kunst van het baden. In die tijd waren zwemmen en zich onderdompelen in de rivier populaire tijdverdrijven. \"La Grenouillère\" had een houten brug met duikplanken, waardoor bezoekers in het koele water van de Seine konden springen. Renoirs schilderij legt de badgasten prachtig vast in hun modieuze badpakken, hun houdingen suggereren zowel ontspanning als kameraadschap."
+      },
       "label": "swimmer",
       "zone": "water",
       "position": {
@@ -1451,7 +1457,7 @@
       "id": 144,
       "importantCubeInfo": null,
       "label": "splash",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 3,
         "y": 7
@@ -1479,7 +1485,10 @@
     },
     {
       "id": 147,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Danspaviljoen",
+        "description": "In het midden van het doek is een danspaviljoen te zien, waar paren ronddraaien op de ritmes van levendige muziek. Dit paviljoen was het centrum van de sociale activiteit. In de pers waren er ook wel spotprenten verschenen, waarop deze plek werd neergezet als een plek waar veel werd geflirt."
+      },
       "label": "personTogether",
       "zone": "people",
       "position": {
@@ -1591,7 +1600,7 @@
       "id": 158,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 17,
         "y": 7
@@ -1601,7 +1610,7 @@
       "id": 159,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 18,
         "y": 7
@@ -1611,7 +1620,7 @@
       "id": 160,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 7
@@ -1801,7 +1810,7 @@
       "id": 179,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 18,
         "y": 8
@@ -1811,7 +1820,7 @@
       "id": 180,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 8
@@ -2001,7 +2010,7 @@
       "id": 199,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 18,
         "y": 9
@@ -2011,7 +2020,7 @@
       "id": 200,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 19,
         "y": 9
@@ -2619,9 +2628,12 @@
     },
     {
       "id": 261,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Renoir en Monet",
+        "description": "La Grenouillère en Bain à la Grenouillère zijn twee schilderijen die in 1869 nagenoeg gelijktijdig en op dezelfde locatie werden geschilderd door respectievelijk Pierre-Auguste Renoir en Claude Monet, twee Franse kunstschilders. Beide schilderijen worden gerekend tot de vroegste werken waarin de principes van het impressionisme ten volle werden toegepast. Het schilderij van Renoir is thans te zien in het Nationalmuseum te Stockholm, dat van Monet in het Museum of Modern Art te New York."
+      },
       "label": "signature",
-      "zone": null,
+      "zone": "none",
       "position": {
         "x": 0,
         "y": 13
@@ -2709,7 +2721,10 @@
     },
     {
       "id": 270,
-      "importantCubeInfo": null,
+      "importantCubeInfo": {
+        "title": "Afsnijding techniek",
+        "description": "Opvallend is ook de techniek van 'afsnijding' aan de zijkanten en bij de boten vooraan, onder invloed van de fotografie en de Japanse prentkunst, waarmee de werken een zweem van moderniteit meekregen."
+      },
       "label": "boat",
       "zone": "water",
       "position": {
