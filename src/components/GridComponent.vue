@@ -28,8 +28,8 @@ onMounted(() => {
   observeGridCubes()
   const container = document.querySelector('.scroll-container') as HTMLElement
   applyTouchScroll(container)
-  if (guide.isVisible) return
   detectScrollEdge(container, (edge) => {
+    if (guide.isVisible) return
     if (edge === 'top') {
       speak('Eind boven')
     } else if (edge === 'bottom') {
