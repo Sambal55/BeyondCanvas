@@ -6,6 +6,7 @@ import rowerGrid from '@/data/json/rowerGrid.json'
 import seineGrid from '@/data/json/seineGrid.json'
 import GridComponent from '@/components/GridComponent.vue'
 import GuidePopup from '@/components/GuidePopup.vue'
+import DebugGrid from '@/components/DebugGrid.vue'
 
 const route = useRoute()
 const store = usePaintingStore()
@@ -21,6 +22,7 @@ store.load(grid)
 
 <template>
   <GuidePopup />
-  <RouterLink class="btn" :to="`/${route.params.id}Home`">Terug naar homepagina</RouterLink>
+  <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`">Terug naar homepagina</RouterLink>
   <GridComponent :grid="grid" />
+<!--  <DebugGrid :grid="grid" />-->
 </template>

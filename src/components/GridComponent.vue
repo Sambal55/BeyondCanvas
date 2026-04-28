@@ -5,6 +5,8 @@ import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'
 import { Grid } from '@/types/grid'
 import ImportantPopup from '@/components/ImportantPopup.vue'
+import { applyTouchScroll, detectScrollEdge } from '@/utils/scrollHelpers'
+import { speak } from '@/utils/TTShelper'
 
 const { grid } = defineProps<{
   grid: Grid
@@ -22,6 +24,19 @@ const visibility = useGridVisibilityStore()
 
 onMounted(() => {
   observeGridCubes()
+  const container = document.querySelector('.scroll-container') as HTMLElement
+  applyTouchScroll(container)
+  detectScrollEdge(container, (edge) => {
+    if (edge === 'top') {
+      speak('Eind boven')
+    } else if (edge === 'bottom') {
+      speak('Eind beneden')
+    } else if (edge === 'left') {
+      speak('Eind links')
+    } else if (edge === 'right') {
+      speak('Eind rechts')
+    }
+  })
 })
 </script>
 
@@ -58,7 +73,7 @@ onMounted(() => {
 <style scoped>
 .scroll-container {
   width: 100%;
-  height: 100vh;
+  height: 75vh;
   overflow: auto; /* this makes it a scroll+clip container */
 }
 

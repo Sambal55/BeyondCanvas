@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useImportantStore } from '@/stores/useImportantStore'
 import { onMounted, onUnmounted, ref } from 'vue'
@@ -31,7 +31,7 @@ onUnmounted(() => {
   <div v-if="isVisible" class="important-popup" ref="popupRef">
     <div class="header-row">
       <h2>{{ cube?.importantCubeInfo?.title || 'Informatie' }}</h2>
-      <button class="btn close-btn" @click="closePopup">Sluiten</button>
+      <a class="btn close-btn" @click="closePopup">Sluiten</a>
     </div>
     <div class="description-container">
       <p>
@@ -59,20 +59,7 @@ onUnmounted(() => {
   animation: fadeIn 0.2s ease-out;
 }
 
-.close-btn {
-  position: absolute;
-  padding: 1px 10px;
-  right: 10px;
-  background: transparent;
-  font-size: 20px;
-  cursor: pointer;
-  color: blue; /* of wit, afhankelijk van je popup */
-}
 
-.close-btn:hover {
-  background: yellow;
-  color: blue;
-}
 
 .description-container {
   max-height: 50vh;

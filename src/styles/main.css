@@ -27,6 +27,22 @@ button:hover,
   color: yellow;
 }
 
+.close-btn {
+  all: unset;
+  font-family: inherit;
+  font-size: 1.4rem;
+  cursor: pointer;
+  padding: 6px 12px;
+  color: blue;
+  background: yellow;
+  border-radius: 8px;
+}
+
+.close-btn:hover {
+  background: blue;
+  color: yellow;
+}
+
 .center-wrapper {
   display: flex;
   flex-direction: column;
