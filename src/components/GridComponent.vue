@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
+import { storeToRefs } from 'pinia'
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'
@@ -7,11 +8,12 @@ import { Grid } from '@/types/grid'
 import ImportantPopup from '@/components/ImportantPopup.vue'
 import { applyTouchScroll, detectScrollEdge } from '@/utils/scrollHelpers'
 import { speak } from '@/utils/TTShelper'
-
+import { useGuideStore } from '@/stores/useGuideStore'
 const { grid } = defineProps<{
   grid: Grid
 }>()
 usePaintingStore().load(grid)
+const guide = useGuideStore()
 
 // calculate cube positions
 const positionedCubes = grid.cubes.map((c) => ({
@@ -26,6 +28,7 @@ onMounted(() => {
   observeGridCubes()
   const container = document.querySelector('.scroll-container') as HTMLElement
   applyTouchScroll(container)
+  if (guide.isVisible) return
   detectScrollEdge(container, (edge) => {
     if (edge === 'top') {
       speak('Eind boven')

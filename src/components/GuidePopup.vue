@@ -26,10 +26,7 @@ onMounted(() => {
 })
 
 onUnmounted(() => {
-  const container = document.querySelector('.scroll-container') as HTMLElement
-
   document.removeEventListener('mousedown', handleClickOutside)
-  container.removeEventListener('scroll', handleClickOutside)
 })
 </script>
 
@@ -50,7 +47,8 @@ onUnmounted(() => {
         bewegen. Zodra u een vibratie van de telefoon voelt, betekend dat dat er informatie te lezen
         is op het scherm, over iets wat op het schilderij plaatsvind. Als u zich aan het einde van
         het schilderij bevind, hoort u "Eind" en vervolgens de kant van het schilderij waarvan u het
-        einde hebt bereikt. Veel plezier!
+        einde hebt bereikt. Bovenaan de pagina is een terug knop te vinden, die u terugbrengt naar
+        het hoofdmenu. Veel plezier!
       </p>
     </div>
   </div>
