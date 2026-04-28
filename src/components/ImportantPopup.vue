@@ -59,8 +59,6 @@ onUnmounted(() => {
   animation: fadeIn 0.2s ease-out;
 }
 
-
-
 .description-container {
   max-height: 50vh;
   overflow-y: auto;

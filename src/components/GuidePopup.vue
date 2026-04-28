@@ -39,16 +39,15 @@ onUnmounted(() => {
 
     <div class="content">
       <p>
-        <!--        Insert Guide text etc-->
-        Welkom bij de audiobeleving. Dit is de handleiding die in het kort verteld hoe je door deze
+        Welkom bij de audiobeleving. Dit is de handleiding die in het kort verteld hoe u door deze
         audiobeleving kunt navigeren. U hoort geluiden zodra de audiobeleving start. Deze
         audiogeluiden beschrijven de omgeving van het schilderij, alsof u zich in het schilderij
-        begeeft. Door te scrollen (boven, beneden, links, rechts), kunt u over het schilderij
-        bewegen. Zodra u een vibratie van de telefoon voelt, betekend dat dat er informatie te lezen
+        bevindt. Door te scrollen (boven, beneden, links, rechts), kunt u over het schilderij
+        bewegen. Zodra u een vibratie van de telefoon voelt, betekent dat dat er informatie te lezen
         is op het scherm, over iets wat op het schilderij plaatsvind. Als u zich aan het einde van
-        het schilderij bevind, hoort u "Eind" en vervolgens de kant van het schilderij waarvan u het
-        einde hebt bereikt. Bovenaan de pagina is een terug knop te vinden, die u terugbrengt naar
-        het hoofdmenu. Veel plezier!
+        het schilderij bevindt, hoort u "Eind" en vervolgens de kant van het schilderij waarvan u
+        het einde hebt bereikt. Bovenaan de pagina is een terug knop te vinden, die u terugbrengt
+        naar het hoofdmenu. Veel plezier!
       </p>
     </div>
   </div>

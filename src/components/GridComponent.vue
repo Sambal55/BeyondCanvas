@@ -1,6 +1,5 @@
 <script setup lang="ts">
 import { onMounted } from 'vue'
-import { storeToRefs } from 'pinia'
 import { observeGridCubes } from '@/utils/observerGridCubes'
 import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'

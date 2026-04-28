@@ -21,6 +21,8 @@ store.load(grid)
 
 <template>
   <GuidePopup />
-  <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`">Terug naar hoofdmenu</RouterLink>
+  <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`"
+    >Terug naar hoofdmenu</RouterLink
+  >
   <GridComponent :grid="grid" />
 </template>
