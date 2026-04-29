@@ -3,7 +3,7 @@ import { storeToRefs } from 'pinia'
 import { useGuideStore } from '@/stores/useGuideStore'
 import { onMounted, onUnmounted, ref, watch } from 'vue'
 import { speak } from '@/utils/TTShelper'
-
+import { useTTSStore } from '@/stores/useTTSStore'
 const store = useGuideStore()
 const { isVisible } = storeToRefs(store)
 
