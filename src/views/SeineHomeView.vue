@@ -4,9 +4,11 @@
 // import { ref } from 'vue'
 import { useSfxStore } from '@/stores/useSfxStore'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
+import { useTTSStore } from '@/stores/useTTSStore'
 
 useAmbienceStore().stop()
 useSfxStore().stopAll()
+const tts = useTTSStore()
 
 // const showChat = ref(false)
 
@@ -30,6 +32,8 @@ useSfxStore().stopAll()
     <!--      :isOpen="showChat"-->
     <!--      @close="closeChat"-->
     <!--    />-->
+    <RouterLink class="btn" to="/painting/seine"> Audiobeleving van La Grenouillère</RouterLink>
+
     <a
       class="btn"
       href="https://chatgpt.com/share/69e8cb17-947c-8329-b4e6-b8c2d505d709"
@@ -37,7 +41,7 @@ useSfxStore().stopAll()
       rel="noopener noreferrer"
       >AI-assistent</a
     >
+    <a class="btn" @click="tts.toggle"> TTS {{ tts.enabled ? 'Aan' : 'Uit' }} </a>
 
-    <RouterLink class="btn" to="/painting/seine"> Audiobeleving van La Grenouillère</RouterLink>
   </div>
 </template>

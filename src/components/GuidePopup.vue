@@ -1,32 +1,55 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useGuideStore } from '@/stores/useGuideStore'
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref, watch } from 'vue'
+import { speak } from '@/utils/TTShelper'
 
 const store = useGuideStore()
 const { isVisible } = storeToRefs(store)
 
-const popupRef = ref(null)
+const popupRef = ref<HTMLElement | null>(null)
+const guideText = `
+Welkom bij de audiobeleving. Dit is de handleiding die in het kort vertelt hoe u door deze
+audiobeleving kunt navigeren. U hoort geluiden zodra de audiobeleving start. Deze audiogeluiden
+beschrijven de omgeving van het schilderij, alsof u zich in het schilderij bevindt. Door te scrollen
+(boven, beneden, links, rechts), kunt u over het schilderij bewegen. Zodra u een vibratie van de
+telefoon voelt, betekent dat dat er informatie te lezen is op het scherm, over iets wat op het
+schilderij plaatsvindt. Als u zich aan het einde van het schilderij bevindt, hoort u "Eind" en
+vervolgens de kant van het schilderij waarvan u het einde hebt bereikt. Bovenaan de pagina is een
+terugknop te vinden, die u terugbrengt naar het hoofdmenu. Veel plezier!
+`
 
 function closePopup() {
+  speechSynthesis.cancel() // stop TTS altijd
   store.closeGuide()
 }
 
-function handleClickOutside(e) {
-  if (popupRef.value && !popupRef.value.contains(e.target)) {
+function handleClickOutside(e: Event) {
+  if (popupRef.value && !popupRef.value.contains(e.target as Node)) {
     closePopup()
   }
 }
+
+watch(isVisible, (visible) => {
+  if (visible) {
+    speak("Handleiding. " + guideText)
+  } else {
+    speechSynthesis.cancel()
+  }
+}, { immediate: true })
 
 onMounted(() => {
   const container = document.querySelector('.scroll-container') as HTMLElement
 
   document.addEventListener('mousedown', handleClickOutside)
-  container.addEventListener('scroll', handleClickOutside)
+  if (container instanceof HTMLElement) {
+    container.addEventListener('scroll', handleClickOutside)
+  }
 })
 
 onUnmounted(() => {
   document.removeEventListener('mousedown', handleClickOutside)
+  speechSynthesis.cancel()
 })
 </script>
 
@@ -36,23 +59,11 @@ onUnmounted(() => {
       <h2>Handleiding</h2>
       <a class="btn close-btn" @click="closePopup">Sluiten</a>
     </div>
-
     <div class="content">
-      <p>
-        Welkom bij de audiobeleving. Dit is de handleiding die in het kort verteld hoe u door deze
-        audiobeleving kunt navigeren. U hoort geluiden zodra de audiobeleving start. Deze
-        audiogeluiden beschrijven de omgeving van het schilderij, alsof u zich in het schilderij
-        bevindt. Door te scrollen (boven, beneden, links, rechts), kunt u over het schilderij
-        bewegen. Zodra u een vibratie van de telefoon voelt, betekent dat dat er informatie te lezen
-        is op het scherm, over iets wat op het schilderij plaatsvind. Als u zich aan het einde van
-        het schilderij bevindt, hoort u "Eind" en vervolgens de kant van het schilderij waarvan u
-        het einde hebt bereikt. Bovenaan de pagina is een terug knop te vinden, die u terugbrengt
-        naar het hoofdmenu. Veel plezier!
-      </p>
+      <p>{{guideText}}</p>
     </div>
   </div>
 </template>
-
 <style scoped>
 .guide-popup {
   position: fixed;

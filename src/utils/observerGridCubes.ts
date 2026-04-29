@@ -60,7 +60,7 @@ export function observeGridCubes() {
         importantStore.setImportantCube(cube)
       })
     },
-    { root: null, threshold: 0.1, rootMargin: '-45% 0px -45% 0px' },
+    { root: scrollRoot, threshold: 0.1, rootMargin: '-45% 0px -45% 0px' }
   )
 
   const edgeObserver = new IntersectionObserver(
