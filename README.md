@@ -114,6 +114,7 @@ Run the following command to create the gridJSON:
 ```sh
  npx tsx src/scripts/generateGridJson.ts
 ```
+NOTE: This will delete all of the importantcubes, save previous JSON files.
 
 ## Naming Conventions
 
