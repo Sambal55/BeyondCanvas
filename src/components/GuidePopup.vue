@@ -30,13 +30,17 @@ function handleClickOutside(e: Event) {
   }
 }
 
-watch(isVisible, (visible) => {
-  if (visible) {
-    speak("Handleiding. " + guideText)
-  } else {
-    speechSynthesis.cancel()
-  }
-}, { immediate: true })
+watch(
+  isVisible,
+  (visible) => {
+    if (visible) {
+      speak('Handleiding. ' + guideText)
+    } else {
+      speechSynthesis.cancel()
+    }
+  },
+  { immediate: true },
+)
 
 onMounted(() => {
   const container = document.querySelector('.scroll-container') as HTMLElement
@@ -60,7 +64,7 @@ onUnmounted(() => {
       <a class="btn close-btn" @click="closePopup">Sluiten</a>
     </div>
     <div class="content">
-      <p>{{guideText}}</p>
+      <p>{{ guideText }}</p>
     </div>
   </div>
 </template>

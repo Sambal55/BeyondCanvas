@@ -42,6 +42,5 @@ const tts = useTTSStore()
       >AI-assistent</a
     >
     <a class="btn" @click="tts.toggle"> TTS {{ tts.enabled ? 'Aan' : 'Uit' }} </a>
-
   </div>
 </template>

@@ -27,7 +27,10 @@ export const useImportantStore = defineStore('importantStore', () => {
 
       const tts = useTTSStore()
       if (tts.enabled) {
-        const parts = [fullCube.importantCubeInfo.title, fullCube.importantCubeInfo.description].filter(Boolean)
+        const parts = [
+          fullCube.importantCubeInfo.title,
+          fullCube.importantCubeInfo.description,
+        ].filter(Boolean)
         if (parts.length) speak(parts.join('. '))
       }
 
