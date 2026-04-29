@@ -34,7 +34,9 @@ watch(
   isVisible,
   (visible) => {
     if (visible) {
-      speak('Handleiding. ' + guideText)
+      const tts = useTTSStore()
+      if (tts.enabled){
+      speak('Handleiding. ' + guideText)}
     } else {
       speechSynthesis.cancel()
     }
