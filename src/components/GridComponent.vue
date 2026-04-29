@@ -76,7 +76,7 @@ onMounted(() => {
 .scroll-container {
   width: 100%;
   height: 75vh;
-  overflow: auto; /* this makes it a scroll+clip container */
+  overflow: auto;
 }
 
 .image-wrapper {

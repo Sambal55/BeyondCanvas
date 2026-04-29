@@ -591,7 +591,7 @@
       "id": 58,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 2
@@ -601,7 +601,7 @@
       "id": 59,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 18,
         "y": 2
@@ -611,7 +611,7 @@
       "id": 60,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 2
@@ -791,7 +791,7 @@
       "id": 78,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 3
@@ -811,7 +811,7 @@
       "id": 80,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 3
@@ -994,7 +994,7 @@
         "description": "In het hart van \"La Grenouillère\" (letterlijk: de kikkerpoel) bevond zich een drijvend café, een innovatie waarmee gasten konden genieten van een drankje te midden van de schoonheid van de rivier. Het café was versierd met groene parasols en witte balustrades, wat een charmant contrast vormde met het azuurblauwe water van de Seine. Het was een plek om te zien en gezien te worden, waar de mensen zich mengde en de laatste roddels uitwisselde."
       },
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 4
@@ -1014,7 +1014,7 @@
       "id": 100,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 4
@@ -1194,7 +1194,7 @@
       "id": 118,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 5
@@ -1204,7 +1204,7 @@
       "id": 119,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 18,
         "y": 5
@@ -1214,7 +1214,7 @@
       "id": 120,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 5
@@ -1394,7 +1394,7 @@
       "id": 138,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 6
@@ -1414,7 +1414,7 @@
       "id": 140,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 6
@@ -1457,7 +1457,7 @@
       "id": 144,
       "importantCubeInfo": null,
       "label": "splash",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 3,
         "y": 7
@@ -1600,7 +1600,7 @@
       "id": 158,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 17,
         "y": 7
@@ -1610,7 +1610,7 @@
       "id": 159,
       "importantCubeInfo": null,
       "label": "sign",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 18,
         "y": 7
@@ -1620,7 +1620,7 @@
       "id": 160,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 7
@@ -1810,7 +1810,7 @@
       "id": 179,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 18,
         "y": 8
@@ -1820,7 +1820,7 @@
       "id": 180,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 8
@@ -2010,7 +2010,7 @@
       "id": 199,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 18,
         "y": 9
@@ -2020,7 +2020,7 @@
       "id": 200,
       "importantCubeInfo": null,
       "label": "building",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 19,
         "y": 9
@@ -2633,7 +2633,7 @@
         "description": "La Grenouillère en Bain à la Grenouillère zijn twee schilderijen die in 1869 nagenoeg gelijktijdig en op dezelfde locatie werden geschilderd door respectievelijk Pierre-Auguste Renoir en Claude Monet, twee Franse kunstschilders. Beide schilderijen worden gerekend tot de vroegste werken waarin de principes van het impressionisme ten volle werden toegepast. Het schilderij van Renoir is thans te zien in het Nationalmuseum te Stockholm, dat van Monet in het Museum of Modern Art te New York."
       },
       "label": "signature",
-      "zone": "none",
+      "zone": null,
       "position": {
         "x": 0,
         "y": 13
