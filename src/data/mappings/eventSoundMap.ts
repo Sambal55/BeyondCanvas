@@ -21,7 +21,7 @@ export const eventSoundMap: Record<string, string[]> = {
   sunshade: ['flag_flapping_with_metal.mp3'],
   tablecloth: ['flag_flapping.mp3'],
   water: [],
-  tree: ['tree_branch.mp3'],
+  tree: [],
   boat: ['boat_creak.mp3'],
   swimmer: ['swimmer.mp3'],
   signature: [],

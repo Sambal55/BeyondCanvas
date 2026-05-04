@@ -1,10 +1,4 @@
-<script setup lang="ts">
-import { useSfxStore } from '@/stores/useSfxStore'
-import { useAmbienceStore } from '@/stores/useAmbienceStore'
-
-useAmbienceStore().stop()
-useSfxStore().stopAll()
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <div class="center-wrapper">

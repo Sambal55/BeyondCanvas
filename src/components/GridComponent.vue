@@ -44,7 +44,7 @@ onMounted(() => {
 
 <template>
   <ImportantPopup />
-  <div class="scroll-container">
+  <div class="scroll-container" tabindex="0">
     <div class="image-wrapper scaled">
       <img
         :src="grid.painting.imagePath"

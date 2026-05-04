@@ -10,17 +10,19 @@ body {
 button,
 .btn {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   border: none;
   margin: 1rem 0; /* alleen boven/onder */
   cursor: pointer;
-
+  font-weight: bold;
   font-size: 2rem;
   background: yellow;
   color: blue;
 }
+
 button:hover,
 .btn:hover {
   background: blue;
@@ -30,7 +32,7 @@ button:hover,
 .close-btn {
   all: unset;
   font-family: inherit;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   cursor: pointer;
   padding: 6px 12px;
   color: blue;
@@ -50,4 +52,8 @@ button:hover,
   align-items: center;
   height: 100vh;
   overflow: hidden;
+}
+
+.popupText{
+  font-size: 1.5rem;
 }

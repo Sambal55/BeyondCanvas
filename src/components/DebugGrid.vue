@@ -42,7 +42,7 @@ onMounted(() => {
 
 <template>
   <ImportantPopup />
-  <div class="scroll-container">
+  <div class="scroll-container" tabindex="0">
     <div class="image-wrapper scaled">
       <!--    TODO switch alt to more descriptive description-->
       <img

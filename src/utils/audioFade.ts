@@ -36,7 +36,7 @@ export function fadeVolume(
 }
 
 export function fadeOutAndStop(audio: HTMLAudioElement, duration = 300, onComplete?: () => void) {
-  // Cancel previous fade if it exists
+  // Cancel previous fade if it exis
   if ((audio as any)._fadeInterval) {
     clearInterval((audio as any)._fadeInterval)
   }

@@ -24,6 +24,7 @@ export const useImportantStore = defineStore('importantStore', () => {
     const isNew = Date.now() - lastTime > COOLDOWN_MS
     if (isNew) {
       lastSpokenAt.set(cube.id, Date.now())
+      paintingStore.markCubeSeen(fullCube)
 
       const tts = useTTSStore()
       if (tts.enabled) {

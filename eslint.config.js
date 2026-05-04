@@ -5,6 +5,7 @@ import prettier from 'eslint-config-prettier/flat'
 import oxlint from 'eslint-plugin-oxlint'
 import tsPlugin from '@typescript-eslint/eslint-plugin'
 import globals from "globals"
+import vueA11y from 'eslint-plugin-vuejs-accessibility'
 
 export default [
   {
@@ -45,6 +46,16 @@ export default [
     rules: {
       '@typescript-eslint/no-unused-vars': 'error',
       '@typescript-eslint/no-empty-interface': 'error',
+    },
+  },
+  // Voeg dit toe als apart blok
+  {
+    files: ['**/*.vue'],
+    plugins: {
+      'vuejs-accessibility': vueA11y,
+    },
+    rules: {
+      ...vueA11y.configs.recommended.rules,
     },
   },
 
