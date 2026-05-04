@@ -67,7 +67,6 @@ export const useSfxStore = defineStore('sfx', {
       this.playedLabels.delete(label)
     },
     stopAll() {
-
       this.playedLabels.clear()
 
       // Stop all audios which are playing
@@ -75,7 +74,6 @@ export const useSfxStore = defineStore('sfx', {
         audio.forEach((audioItem) => {
           fadeOutAndStop(audioItem)
         })
-
       })
 
       this.playingAudio.clear()

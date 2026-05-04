@@ -59,9 +59,7 @@ onUnmounted(() => {
 
 <template>
   <div v-if="isVisible" class="guide-popup" ref="popupRef">
-    <section aria-labelledby="guide-title"
-             role="dialog"
-    aria-modal="true–''j">
+    <section aria-labelledby="guide-title" role="dialog" aria-modal="true–''j">
       <div class="header-row">
         <h2>Handleiding</h2>
         <button class="btn close-btn" @click="closePopup">Sluiten</button>
@@ -70,7 +68,6 @@ onUnmounted(() => {
         <p>{{ guideText }}</p>
       </div>
     </section>
-
   </div>
 </template>
 <style scoped>

@@ -6,7 +6,7 @@ import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { useSfxStore } from '@/stores/useSfxStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'
 import { useGuideStore } from '@/stores/useGuideStore'
-import { AmbienceZone, GridCube } from '@/types/grid'
+import { AmbienceZone } from '@/types/grid'
 
 const grid = useGridVisibilityStore()
 const ambience = useAmbienceStore()
@@ -35,7 +35,8 @@ function handleVisibleCubes(newVisible: number[], oldVisible: number[]) {
       return other?.label === cube.label
     })
 
-    if (!stillVisible && cube.label !== null) {  // ← null guard
+    if (!stillVisible && cube.label !== null) {
+      // ← null guard
       sfx.onLabelHidden(cube.label)
     }
   })

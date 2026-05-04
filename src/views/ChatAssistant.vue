@@ -77,7 +77,6 @@ onMounted(async () => {
   try {
     const res = await fetch(file)
     console.log('[DEBUG] Fetch status:', res.status)
-
   } catch {
     systemPrompt.value = await fetch(file).then((r) => r.text())
   }
