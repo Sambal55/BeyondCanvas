@@ -16,11 +16,11 @@ export const usePaintingStore = defineStore('painting', {
       this.grid = grid
       // Reset with new painting
       this.seenImportantCubeIds.clear()
-    }
+    },
   },
 
   getters: {
-    importantCubes: (state) => state.grid?.cubes.filter(c => c.importantCubeInfo !== null) ?? [],
+    importantCubes: (state) => state.grid?.cubes.filter((c) => c.importantCubeInfo !== null) ?? [],
 
     cubes: (state) => state.grid?.cubes ?? [],
     painting: (state) => state.grid?.painting ?? null,

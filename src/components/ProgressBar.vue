@@ -6,15 +6,14 @@ const painting = usePaintingStore()
 
 const total = computed(() => painting.importantCubes.length)
 const seen = computed(() => painting.seenImportantCubeIds.size)
-const progress = computed(() =>
-  total.value === 0 ? 0 : (seen.value / total.value) * 100
-)
+const progress = computed(() => (total.value === 0 ? 0 : (seen.value / total.value) * 100))
 </script>
 
 <template>
   <div class="progress-bar">
     <div class="progress-bar__fill" :style="{ width: `${progress}%` }">
-      <h2 class="progress-label">{{ seen.valueOf() }} / {{ total.valueOf() }}</h2>    </div>
+      <h2 class="progress-label">{{ seen.valueOf() }} / {{ total.valueOf() }}</h2>
+    </div>
   </div>
 </template>
 
@@ -49,5 +48,4 @@ const progress = computed(() =>
   color: yellow;
   pointer-events: none;
 }
-
 </style>

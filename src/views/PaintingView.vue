@@ -32,9 +32,9 @@ onUnmounted(() => {
   <GuidePopup />
   <div id="top-bar">
     <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`"
-    >Terug naar hoofdmenu</RouterLink
+      >Terug naar hoofdmenu</RouterLink
     >
-    <ProgressBar/>
+    <ProgressBar />
   </div>
 
   <GridComponent :grid="grid" />

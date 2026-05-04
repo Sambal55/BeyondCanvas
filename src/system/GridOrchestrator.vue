@@ -24,7 +24,6 @@ function handleVisibleCubes(newVisible: number[], oldVisible: number[]) {
     const cube = painting.cubeById(id)
     if (cube) {
       sfx.onCubeVisible(cube)
-
     }
   })
 

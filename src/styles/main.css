@@ -53,3 +53,7 @@ button:hover,
   height: 100vh;
   overflow: hidden;
 }
+
+.popupText{
+  font-size: 1.5rem;
+}
