@@ -22,7 +22,10 @@ function handleVisibleCubes(newVisible: number[], oldVisible: number[]) {
   // --- HANDLE NEWLY VISIBLE ---
   newlyVisible.forEach((id) => {
     const cube = painting.cubeById(id)
-    if (cube) sfx.onCubeVisible(cube)
+    if (cube) {
+      sfx.onCubeVisible(cube)
+
+    }
   })
 
   // --- HANDLE NEWLY HIDDEN ---

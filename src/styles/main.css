@@ -10,7 +10,8 @@ body {
 button,
 .btn {
   text-decoration: none;
-  display: inline-block;
+  display: flex;
+  align-items: center;
   padding: 0.6rem 1.2rem;
   border-radius: 8px;
   border: none;
@@ -39,7 +40,7 @@ button:hover,
   border-radius: 8px;
 }
 
-.Zclose-btn:hover {
+.close-btn:hover {
   background: blue;
   color: yellow;
 }

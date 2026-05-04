@@ -9,6 +9,7 @@ import GuidePopup from '@/components/GuidePopup.vue'
 import { onUnmounted } from 'vue'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { useSfxStore } from '@/stores/useSfxStore'
+import ProgressBar from '@/components/ProgressBar.vue'
 
 const route = useRoute()
 const store = usePaintingStore()
@@ -29,8 +30,19 @@ onUnmounted(() => {
 
 <template>
   <GuidePopup />
-  <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`"
+  <div id="top-bar">
+    <RouterLink id="back-button" class="btn" :to="`/${route.params.id}Home`"
     >Terug naar hoofdmenu</RouterLink
-  >
+    >
+    <ProgressBar/>
+  </div>
+
   <GridComponent :grid="grid" />
 </template>
+<style scoped>
+#top-bar {
+  display: flex;
+  align-items: stretch;
+  gap: 1rem;
+}
+</style>
