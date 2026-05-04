@@ -10,7 +10,14 @@ const progress = computed(() => (total.value === 0 ? 0 : (seen.value / total.val
 </script>
 
 <template>
-  <div class="progress-bar">
+  <div
+    class="progress-bar"
+    role="progressbar"
+    :aria-valuenow="seen"
+    aria-valuemin="0"
+    :aria-valuemax="total"
+    :aria-label="`${seen} van ${total} informatiepunten gezien`"
+  >
     <div class="progress-bar__fill" :style="{ width: `${progress}%` }">
       <h2 class="progress-label">{{ seen.valueOf() }} / {{ total.valueOf() }}</h2>
     </div>

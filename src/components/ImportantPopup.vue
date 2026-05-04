@@ -1,38 +1,77 @@
 <script setup lang="ts">
 import { storeToRefs } from 'pinia'
 import { useImportantStore } from '@/stores/useImportantStore'
-import { onMounted, onUnmounted, ref } from 'vue'
+import { onMounted, onUnmounted, ref, watch } from 'vue'
 
 const store = useImportantStore()
 const { activeCube: cube, isVisible } = storeToRefs(store)
 
-const popupRef = ref(null)
+const popupRef = ref<HTMLElement | null>(null)
+let previouslyFocusedElement: HTMLElement | null = null
 
 function closePopup() {
   store.clearImportantCube()
+
+  // Focus terugzetten naar waar de gebruiker was
+  if (previouslyFocusedElement) {
+    previouslyFocusedElement.focus()
+  }
 }
 
-function handleClickOutside(event) {
-  if (popupRef.value && !popupRef.value.contains(event.target)) {
+function handleClickOutside(event: Event) {
+  if (popupRef.value && !popupRef.value.contains(event.target as Node)) {
     closePopup()
   }
 }
 
+// ESC sluit popup
+function handleEscape(event: KeyboardEvent) {
+  if (event.key === 'Escape' && isVisible.value) {
+    closePopup()
+  }
+}
+
+watch(isVisible, (visible) => {
+  if (visible) {
+    previouslyFocusedElement = document.activeElement as HTMLElement
+
+    requestAnimationFrame(() => {
+      popupRef.value?.focus()
+    })
+  }
+})
+
 onMounted(() => {
   document.addEventListener('mousedown', handleClickOutside)
+  document.addEventListener('keydown', handleEscape)
 })
 
 onUnmounted(() => {
   document.removeEventListener('mousedown', handleClickOutside)
+  document.removeEventListener('keydown', handleEscape)
 })
 </script>
 
 <template>
-  <div v-if="isVisible" class="important-popup" ref="popupRef">
+  <div
+    v-if="isVisible"
+    class="important-popup"
+    ref="popupRef"
+    tabindex="0"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="important-title"
+  >
     <div class="header-row">
-      <h1>{{ cube?.importantCubeInfo?.title || 'Informatie' }}</h1>
-      <button class="btn close-btn" @click="closePopup">Sluiten</button>
+      <h1 id="important-title">
+        {{ cube?.importantCubeInfo?.title || 'Informatie' }}
+      </h1>
+
+      <button class="btn close-btn" @click="closePopup">
+        Sluiten
+      </button>
     </div>
+
     <div class="description-container">
       <p class="popupText">
         {{ cube?.importantCubeInfo?.description }}

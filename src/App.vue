@@ -5,5 +5,7 @@ import GridOrchestrator from '@/system/GridOrchestrator.vue'
 
 <template>
   <GridOrchestrator />
-  <RouterView />
+  <main>
+    <RouterView />
+  </main>
 </template>

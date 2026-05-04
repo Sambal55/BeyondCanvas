@@ -18,6 +18,7 @@ const tts = useTTSStore()
       role="button"
       >AI-assistent</a
     >
-    <button class="btn" @click="tts.toggle">TTS {{ tts.enabled ? 'Aan' : 'Uit' }}</button>
-  </div>
+    <button class="btn" @click="tts.toggle" :aria-pressed="tts.enabled">
+      TTS {{ tts.enabled ? 'Aan' : 'Uit' }}
+    </button>  </div>
 </template>

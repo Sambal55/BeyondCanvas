@@ -4,10 +4,13 @@ import { useGuideStore } from '@/stores/useGuideStore'
 import { onMounted, onUnmounted, ref, watch } from 'vue'
 import { speak } from '@/utils/TTShelper'
 import { useTTSStore } from '@/stores/useTTSStore'
+
 const store = useGuideStore()
 const { isVisible } = storeToRefs(store)
 
 const popupRef = ref<HTMLElement | null>(null)
+let previouslyFocusedElement: HTMLElement | null = null
+
 const guideText = `
 Welkom bij de audiobeleving. Dit is de handleiding die in het kort vertelt hoe u door deze
 audiobeleving kunt navigeren. U hoort geluiden zodra de audiobeleving start. Deze audiogeluiden
@@ -21,8 +24,13 @@ Veel plezier!
 `
 
 function closePopup() {
-  speechSynthesis.cancel() // stop TTS altijd
+  speechSynthesis.cancel()
   store.closeGuide()
+
+  // reset focus to where user previously was
+  if (previouslyFocusedElement) {
+    previouslyFocusedElement.focus()
+  }
 }
 
 function handleClickOutside(e: Event) {
@@ -31,19 +39,22 @@ function handleClickOutside(e: Event) {
   }
 }
 
-watch(
-  isVisible,
-  (visible) => {
-    if (visible) {
-      const tts = useTTSStore()
-      if (tts.enabled){
-      speak('Handleiding. ' + guideText)}
-    } else {
-      speechSynthesis.cancel()
+watch(isVisible, (visible) => {
+  if (visible) {
+    previouslyFocusedElement = document.activeElement as HTMLElement
+
+    const tts = useTTSStore()
+    if (tts.enabled) {
+      speak('Handleiding. ' + guideText)
     }
-  },
-  { immediate: true },
-)
+
+    requestAnimationFrame(() => {
+      popupRef.value?.focus()
+    })
+  } else {
+    speechSynthesis.cancel()
+  }
+})
 
 onMounted(() => {
   const container = document.querySelector('.scroll-container') as HTMLElement
@@ -61,18 +72,28 @@ onUnmounted(() => {
 </script>
 
 <template>
-  <div v-if="isVisible" class="guide-popup" ref="popupRef">
-    <section aria-labelledby="guide-title" role="dialog" aria-modal="true">
+  <div
+    v-if="isVisible"
+    class="guide-popup"
+    ref="popupRef"
+    tabindex="0"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="guide-title"
+  >
+    <section>
       <div class="header-row">
-        <h1>Handleiding</h1>
+        <h1 id="guide-title">Handleiding</h1>
         <button class="btn close-btn" @click="closePopup">Sluiten</button>
       </div>
-      <div class="content popupText" tabindex="0">
+
+      <div class="content popupText">
         <p>{{ guideText }}</p>
       </div>
     </section>
   </div>
 </template>
+
 <style scoped>
 .guide-popup {
   position: fixed;
@@ -89,11 +110,10 @@ onUnmounted(() => {
   animation: fadeIn 0.2s ease-out;
 }
 
-/* header: button links, titel rechts */
 .header-row {
   display: flex;
-  align-items: center; /* verticaal centreren */
-  justify-content: space-between; /* button links, titel rechts */
+  align-items: center;
+  justify-content: space-between;
   gap: 12px;
 }
 

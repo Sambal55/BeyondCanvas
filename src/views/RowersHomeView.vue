@@ -20,7 +20,9 @@ const tts = useTTSStore()
       rel="noopener noreferrer"
       >AI-assistent</a
     >
-    <button class="btn" @click="tts.toggle">TTS {{ tts.enabled ? 'Aan' : 'Uit' }}</button>
+    <button class="btn" @click="tts.toggle" :aria-pressed="tts.enabled">
+      TTS {{ tts.enabled ? 'Aan' : 'Uit' }}
+    </button>
   </div>
 </template>
 <style></style>
