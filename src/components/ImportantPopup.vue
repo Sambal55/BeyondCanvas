@@ -31,7 +31,7 @@ onUnmounted(() => {
   <div v-if="isVisible" class="important-popup" ref="popupRef">
     <div class="header-row">
       <h2>{{ cube?.importantCubeInfo?.title || 'Informatie' }}</h2>
-      <a class="btn close-btn" @click="closePopup">Sluiten</a>
+      <button class="btn close-btn" @click="closePopup">Sluiten</button>
     </div>
     <div class="description-container">
       <p>

@@ -2,13 +2,13 @@
 Where you come only if you remove URL part of Seine or Rowers-->
 
 <script setup lang="ts">
-import { useSfxStore } from '@/stores/useSfxStore'
-import { useAmbienceStore } from '@/stores/useAmbienceStore'
+// import { useSfxStore } from '@/stores/useSfxStore'
+// import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { useTTSStore } from '@/stores/useTTSStore'
 // import { ref } from 'vue'
 // no grid, because no painting
-useAmbienceStore().stop()
-useSfxStore().stopAll()
+// useAmbienceStore().stop()
+// useSfxStore().stopAll()
 // const showChat = ref(false)
 
 // function openChat() {
@@ -27,14 +27,14 @@ const tts = useTTSStore()
     <RouterLink class="btn" to="/painting/rowers"
       >Audiobeleving van Lunch van de roeiers
     </RouterLink>
-    <a
+    <button
       class="btn"
       href="https://chatgpt.com/share/69e8cbbe-eb98-832b-8c8f-bd457c30165d"
       target="_blank"
       rel="noopener noreferrer"
-      >AI-assistent</a
+      >AI-assistent</button
     >
-    <a class="btn" @click="tts.toggle"> TTS {{ tts.enabled ? 'Aan' : 'Uit' }} </a>
+    <button class="btn" @click="tts.toggle"> TTS {{ tts.enabled ? 'Aan' : 'Uit' }} </button>
   </div>
 </template>
 <style></style>

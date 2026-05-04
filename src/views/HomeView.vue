@@ -2,8 +2,7 @@
 import { useSfxStore } from '@/stores/useSfxStore'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 
-useAmbienceStore().stop()
-useSfxStore().stopAll()
+
 </script>
 
 <template>

@@ -6,6 +6,9 @@ import rowerGrid from '@/data/json/rowerGrid.json'
 import seineGrid from '@/data/json/seineGrid.json'
 import GridComponent from '@/components/GridComponent.vue'
 import GuidePopup from '@/components/GuidePopup.vue'
+import { onUnmounted } from 'vue'
+import { useAmbienceStore } from '@/stores/useAmbienceStore'
+import { useSfxStore } from '@/stores/useSfxStore'
 
 const route = useRoute()
 const store = usePaintingStore()
@@ -17,6 +20,11 @@ const grids: Record<string, any> = {
 
 const grid = grids[route.params.id as string]
 store.load(grid)
+
+onUnmounted(() => {
+  useAmbienceStore().stop()
+  useSfxStore().stopAll()
+})
 </script>
 
 <template>

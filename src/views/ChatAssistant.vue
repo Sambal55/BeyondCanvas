@@ -73,13 +73,11 @@ function closePopup() {
 onMounted(async () => {
   console.log(props.personality)
   const file = `assets/ai/${props.personality}.txt`
-  console.log('🔍 Personality file path:', file)
+  console.log('Personality file path:', file)
   try {
     const res = await fetch(file)
     console.log('[DEBUG] Fetch status:', res.status)
 
-    // const text = await res.text()
-    // console.log('[DEBUG] Loaded file content:', text)
   } catch {
     systemPrompt.value = await fetch(file).then((r) => r.text())
   }
@@ -89,7 +87,7 @@ onMounted(async () => {
 </script>
 
 <template>
-  <div v-if="props.isOpen" class="overlay" @click="closePopup"></div>
+  <button v-if="props.isOpen" class="overlay" @click="closePopup"></button>
 
   <div v-if="props.isOpen" class="popup">
     <div class="chat-container">

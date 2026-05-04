@@ -2,7 +2,7 @@ import { defineStore } from 'pinia'
 import { eventSoundMap } from '@/data/mappings/eventSoundMap'
 import { GridCube } from '@/types/grid'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
-import { fadeVolume, fadeOutAndStop } from '@/utils/audioFade'
+import { fadeOutAndStop, fadeVolume } from '@/utils/audioFade'
 import { audioConfig } from '@/config/audioConfig'
 
 export const useSfxStore = defineStore('sfx', {
@@ -10,7 +10,7 @@ export const useSfxStore = defineStore('sfx', {
     // If label SFX is already playing, not another instance of that same label should be started
     playedLabels: new Set<string>(),
     // Keeps track of current playing SFX audio(s)
-    playingAudio: new Map<string, HTMLAudioElement>(),
+    playingAudio: new Map<string, HTMLAudioElement[]>(),
   }),
 
   actions: {
@@ -36,11 +36,17 @@ export const useSfxStore = defineStore('sfx', {
       audio.play().catch((err) => console.warn('SFX failed:', err))
 
       // store reference
-      this.playingAudio.set(label, audio)
+      const existing = this.playingAudio.get(label) ?? []
+      this.playingAudio.set(label, [...existing, audio])
 
       audio.onended = () => {
         ambience.restore()
-        this.playingAudio.delete(label)
+        const audios = this.playingAudio.get(label) ?? []
+        this.playingAudio.set(
+          label,
+          audios.filter((a) => a !== audio),
+        )
+        this.playedLabels.delete(label)
       }
 
       this.playedLabels.add(label)
@@ -48,23 +54,28 @@ export const useSfxStore = defineStore('sfx', {
 
     onLabelHidden(label: string) {
       if (!label) return
-      const audio = this.playingAudio.get(label)
-      if (!audio) return
+      const audios = this.playingAudio.get(label) ?? []
 
-      fadeVolume(audio, 0, audioConfig.fadeDuration.sfxFadeOut, () => {
-        audio.pause()
-        audio.currentTime = 0
-        this.playingAudio.delete(label)
+      audios.forEach((audio) => {
+        fadeVolume(audio, 0, audioConfig.fadeDuration.sfxFadeOut, () => {
+          audio.pause()
+          audio.currentTime = 0
+        })
       })
 
+      this.playingAudio.delete(label)
       this.playedLabels.delete(label)
     },
     stopAll() {
+
       this.playedLabels.clear()
 
       // Stop all audios which are playing
       this.playingAudio.forEach((audio) => {
-        fadeOutAndStop(audio)
+        audio.forEach((audioItem) => {
+          fadeOutAndStop(audioItem)
+        })
+
       })
 
       this.playingAudio.clear()

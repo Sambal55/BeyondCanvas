@@ -16,11 +16,12 @@ button,
   border: none;
   margin: 1rem 0; /* alleen boven/onder */
   cursor: pointer;
-
+  font-weight: bold;
   font-size: 2rem;
   background: yellow;
   color: blue;
 }
+
 button:hover,
 .btn:hover {
   background: blue;
@@ -38,7 +39,7 @@ button:hover,
   border-radius: 8px;
 }
 
-.close-btn:hover {
+.Zclose-btn:hover {
   background: blue;
   color: yellow;
 }
