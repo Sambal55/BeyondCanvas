@@ -1,10 +1,9 @@
 import { AmbienceZone } from '@/types/grid'
 
 export const audioConfig = {
-  ambienceBaseVolume: 0.6,
-  ambienceDuckedVolume: 0.25,
+  ambienceDuckedVolume: 0.3,
 
-  sfxBaseVolume: 0.4,
+  sfxBaseVolume: 1,
 
   fadeDuration: {
     crossfade: 400,
@@ -15,7 +14,7 @@ export const audioConfig = {
 
   ambienceVolume: {
     sky: 0.4,
-    leaves: 1,
+    leaves: 0.9,
     water: 1,
     people: 0.4,
   } satisfies Record<AmbienceZone, number>,
