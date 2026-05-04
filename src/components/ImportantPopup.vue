@@ -67,9 +67,7 @@ onUnmounted(() => {
         {{ cube?.importantCubeInfo?.title || 'Informatie' }}
       </h1>
 
-      <button class="btn close-btn" @click="closePopup">
-        Sluiten
-      </button>
+      <button class="btn close-btn" @click="closePopup">Sluiten</button>
     </div>
 
     <div class="description-container">

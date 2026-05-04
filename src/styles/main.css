@@ -54,7 +54,7 @@ button:hover,
   overflow: hidden;
 }
 
-.popupText{
+.popupText {
   font-size: 1.5rem;
 }
 :focus-visible {

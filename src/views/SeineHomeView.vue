@@ -20,5 +20,6 @@ const tts = useTTSStore()
     >
     <button class="btn" @click="tts.toggle" :aria-pressed="tts.enabled">
       TTS {{ tts.enabled ? 'Aan' : 'Uit' }}
-    </button>  </div>
+    </button>
+  </div>
 </template>
