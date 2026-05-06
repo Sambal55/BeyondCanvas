@@ -1,18 +1,16 @@
 # BeyondCanvas
-
-This template should help get you started developing with Vue 3 in Vite.
-
+This project was developed by Lisa Welling as part of a graduation thesis at the Amsterdam University of Applied Sciences [2026].
 ## Tech Stack Overview
 
 | Category         | Technology                          |
 |------------------|-------------------------------------|
 | Framework        | Vue 3 (Composition API)             |
 | Build Tool       | Vite                                |
-| Language         | TypeScript                          |
+| Language         | TypeScript 6.0.2 + HTML                          |
 | State Management | Pinia                               |
 | Routing          | Vue Router                          |
 | Styling          | CSS / Scoped CSS                    |
-| Linting          | ESLint (Flat Config)                |
+| Linting          | ESLint + OxLint + vueA11y           |
 | Formatting       | Prettier                            |
 | Asset Handling   | `/public` folder                    |
 | Grid Generation  | Node script (`generateGridJson.ts`) |
@@ -42,10 +40,20 @@ npm install
 npm run dev
 ```
 
-### Compile and Minify for Production
+### Quick hosting on local IP for Development
 
 ```sh
-npm run build
+npm run dev-host
+```
+
+### Compile and Minify for Production
+If you merge to main, a CICD pipeline will automatically start, with the jobs listed in the `Beyondcanvas/github/deploy.yml` file. 
+
+```sh
+git checkout main
+git merge develop
+git push origin main
+git checkout develop
 ```
 
 ### Lint with [ESLint](https://eslint.org/)
@@ -59,6 +67,18 @@ npm run lint
 ```sh
 npm run format
 ```
+## Naming Conventions
+
+| Item              | Convention               | Example                  |
+|-------------------|--------------------------|--------------------------|
+| Vue Components    | PascalCase               | PaintingGrid.vue         |
+| Views             | PascalCase               | RowersView.vue           |
+| Functions         | camelCase                | generateGridJson()       |
+| Stores             | camelCase + `use` prefix | useGridVisibilityStore() |
+| Files in /scripts | camelCase                | generateGridJson.ts      |
+| Types             | PascalCase               | Grid, Painting, GridCube |
+| Utils             | camelCase                | audioFade.ts, zoneHelper.ts |    
+
 
 ## Grid generation Workflow
 
@@ -66,11 +86,9 @@ This script generates a complete Grid object (in JSON) based on a painting and a
 you want to add a new painting to BeyondCanvas.
 
 ### Put painting image in public folder
-
 Put the painting as an img in the public/assets/images directory.
 
 ### Generate Labels with AI
-
 Use [Claude](https://claude.ai/new) to generate a JSON with labels for gridcubes based on the following prompt:
 
 ```
@@ -80,7 +98,28 @@ Use only categories such as: water, leaves, tree, sky, boat, person, clothing, w
 Return the result as JSON.
 ```
 
-Put the painting as an attachment to the prompt.
+Put the painting as an attachment to the prompt. Also adjust the size of the painting in the prompt. in pixels, because the `generateGridJson.ts` script also works with pixel measurements.
+Always check if the generated labels by Claude correspond with the contents of the cube.
+E.g if a cube is mostly water, it would not make sense if the generated label is `leaves` adjust this accordingly. You can use the `DebugGrid.vue` to see all the cubes which overlap onto the painting, with corresponding x and y coordinates. 
+
+To use the `DebugGrid.vue` component, adjust the follwing code in `PaintingView.vue`:
+
+```Vue
+  <GridComponent :grid="grid" />
+```
+Becomes
+```Vue
+  <DebugGrid :grid="grid" />
+```
+And 
+```Vue
+import GridComponent from '@/components/GridComponent.vue'
+```
+Becomes
+```Vue
+import DebugGrid from '@/components/DebugGrid.vue'
+```
+Put the original `GridComponent` back once you've finished checking the cubes.
 
 ### Results in JSON format
 
@@ -97,7 +136,6 @@ Make sure the labels are in English and in this format:
 ```
 
 ### Adjust generateGridJson script
-
 Put the generated LabelJSON of the painting in the data directory.
 Import said LabelJSON in the generateGridJson file as a normal path not as Vue path with @.
 Adjust const paintingPath to the path of the painting in generateGridJson, also normal path.
@@ -105,27 +143,14 @@ Add Labels which don't exist yet in the audioMap const. Put the sounds which cor
 audioMap record.
 
 Adjust the generation const to the specifics of the painting.
-Adjust the writingFileSync line to a new name specific for that painting.
+Adjust the `writingFileSync` line to a new name specific for that painting.
 
 ### Run generateGridJson script
-
 Run the following command to create the gridJSON:
 
 ```sh
  npx tsx src/scripts/generateGridJson.ts
 ```
-NOTE: This will delete all of the importantcubes, save previous JSON files.
-
-## Naming Conventions
-
-| Item              | Convention               | Example                  |
-|-------------------|--------------------------|--------------------------|
-| Vue Components    | PascalCase               | PaintingGrid.vue         |
-| Views             | PascalCase               | RowersView.vue           |
-| Functions         | camelCase                | generateGridJson()       |
-| Composables       | camelCase + `use` prefix | useGridVisibilityStore() |
-| Files in /scripts | camelCase                | generateGridJson.ts      |
-| Types             | PascalCase               | Grid, Painting, GridCube |
 
 
 
