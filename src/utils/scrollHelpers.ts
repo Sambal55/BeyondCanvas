@@ -1,6 +1,14 @@
+/**
+ * @author Lisa Welling
+ * If a user scrolls to the edge of a painting, then this function is used to detect which edge that is.
+ * TTS is later being used in the GridComponent to give this information to the user.
+ *
+ * @param container in which edges should be detected
+ * @param callback which gives the detected edge back
+ */
 export function detectScrollEdge(container: HTMLElement, callback: (edge: string) => void) {
   let last = { top: false, bottom: false, left: false, right: false }
-  // Tolarance to account for scaling and minor pixel differance
+  // Tolerance to account for scaling and minor pixel differance
   const tolerance = 2
 
   container.addEventListener('scroll', () => {

@@ -36,7 +36,6 @@ onUnmounted(() => {
     >
     <ProgressBar />
   </div>
-
   <GridComponent :grid="grid" />
 </template>
 <style scoped>

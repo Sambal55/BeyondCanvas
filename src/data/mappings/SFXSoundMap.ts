@@ -1,11 +1,22 @@
 /**
  * @author Lisa Welling
  *
- * Choose eventSound based on label in GridCube.
+ * Choose SFX sound based on label in GridCube.
  *
+ * Add new labels to SFXSoundMap, with the corresponding audio. in the brackets.
+ * The audiofile must be placed inside public/assets/audio.
+ *
+ * Example new labels:
+ * You created a new zone in ambienceMap and zoneLabelsMap called city.
+ * City has 2 corresponding labels: taxi and plane.
+ * Add taxi and plane to the SFXSoundMap record like this:
+ * taxi: ['taxi_honk.mp3'],
+ * plane: ['overhead_plane.mp3']
+ *
+ * Then go to the ambienceMap and add the labels to the zone, see instructions in ambienceMap.ts.
  */
 
-export const eventSoundMap: Record<string, string[]> = {
+export const SFXSoundMap: Record<string, string[]> = {
   sky: [],
   leaves: [],
   drinkingGirl: ['sipping_wine.mp3'],

@@ -1,5 +1,5 @@
 import { defineStore } from 'pinia'
-import { eventSoundMap } from '@/data/mappings/eventSoundMap'
+import { SFXSoundMap } from '@/data/mappings/SFXSoundMap'
 import { GridCube } from '@/types/grid'
 import { useAmbienceStore } from '@/stores/useAmbienceStore'
 import { fadeOutAndStop, fadeVolume } from '@/utils/audioFade'
@@ -20,7 +20,7 @@ export const useSfxStore = defineStore('sfx', {
       if (!label) return
       if (this.playedLabels.has(label)) return
 
-      const sounds = eventSoundMap[label]
+      const sounds = SFXSoundMap[label]
       if (!sounds || sounds.length === 0) return
 
       // pick a random sound from the array

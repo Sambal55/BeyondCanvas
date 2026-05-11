@@ -29,6 +29,7 @@ export const useAmbienceStore = defineStore('ambience', {
         const oldAudio = this.audio
 
         fadeVolume(oldAudio, 0, audioConfig.fadeDuration.crossfade, () => {
+          // Pause old audio when volume levels reach 0
           oldAudio.pause()
         })
       }

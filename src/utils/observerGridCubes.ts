@@ -2,6 +2,15 @@ import { useGridVisibilityStore } from '@/stores/useGridVisibilityStore'
 import { useImportantStore } from '@/stores/useImportantStore'
 import { usePaintingStore } from '@/stores/usePaintingStore'
 
+/**
+ * @author Lisa Welling
+ *
+ * Function which has multiple observer which each serve a different purpose.
+ * visibilityObserver --> observes all visible cubes in the scrollRoot
+ * centerObserver --> observer which is used for setting importantCubes if they are slightly in the center of the scrollRoot
+ * * edgeObserver --> also used for importantCubes, but uses a lower threshold for cubes
+ *  *                  at the edges of the painting where the center threshold is never reached
+ */
 export function observeGridCubes() {
   const visibilityStore = useGridVisibilityStore()
   const importantStore = useImportantStore()
