@@ -39,22 +39,26 @@ function handleClickOutside(e: Event) {
   }
 }
 
-watch(isVisible, (visible) => {
-  if (visible) {
-    previouslyFocusedElement = document.activeElement as HTMLElement
+watch(
+  isVisible,
+  (visible) => {
+    if (visible) {
+      previouslyFocusedElement = document.activeElement as HTMLElement
 
-    const tts = useTTSStore()
-    if (tts.enabled) {
-      speak('Handleiding. ' + guideText)
+      const tts = useTTSStore()
+      if (tts.enabled) {
+        speak('Handleiding. ' + guideText)
+      }
+
+      requestAnimationFrame(() => {
+        popupRef.value?.focus()
+      })
+    } else {
+      speechSynthesis.cancel()
     }
-
-    requestAnimationFrame(() => {
-      popupRef.value?.focus()
-    })
-  } else {
-    speechSynthesis.cancel()
-  }
-})
+  },
+  { immediate: true },
+)
 
 onMounted(() => {
   const container = document.querySelector('.scroll-container') as HTMLElement
