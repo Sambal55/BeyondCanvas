@@ -2,12 +2,15 @@ import { defineStore } from 'pinia'
 
 export const useGuideStore = defineStore('guide', {
   state: () => ({
-    isVisible: true,
+    isVisible: false,
   }),
 
   actions: {
+    openGuide() {
+      console.log('open')
+      this.isVisible = true
+    },
     closeGuide() {
-      // Once used then not show again (unless reload page)
       this.isVisible = false
     },
   },

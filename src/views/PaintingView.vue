@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { useRoute } from 'vue-router'
 import { usePaintingStore } from '@/stores/usePaintingStore'
-
 import rowerGrid from '@/data/json/rowerGrid.json'
 import seineGrid from '@/data/json/seineGrid.json'
 import GridComponent from '@/components/GridComponent.vue'
