@@ -5,12 +5,6 @@ import { audioConfig } from '@/config/audioConfig'
 import { AmbienceZone } from '@/types/grid'
 
 export const useAmbienceStore = defineStore('ambience', {
-  state: () => ({
-    audio: null as HTMLAudioElement | null,
-    currentZone: null as AmbienceZone | null, // So we can use zone specific volume also in restore function
-    currentVolume: 0 as number,
-  }),
-
   actions: {
     playZone(zone: AmbienceZone) {
       if (this.currentZone === zone) return
@@ -33,15 +27,23 @@ export const useAmbienceStore = defineStore('ambience', {
           oldAudio.pause()
         })
       }
+
+      let cancelled = false
+      ;(newAudio as any)._cancelPending = () => {
+        cancelled = true
+      }
+
+      // Dan pas de listener, zodat hij cancelled kent via closure
       newAudio.addEventListener(
         'canplay',
         () => {
-          fadeVolume(newAudio, targetVolume, audioConfig.fadeDuration.crossfade)
+          if (!cancelled) {
+            fadeVolume(newAudio, targetVolume, audioConfig.fadeDuration.crossfade)
+          }
         },
         { once: true },
       )
 
-      // Replace reference
       this.audio = newAudio
       this.currentZone = zone
     },
@@ -65,10 +67,20 @@ export const useAmbienceStore = defineStore('ambience', {
     stop() {
       if (!this.audio) return
 
+      if ((this.audio as any)._cancelPending) {
+        ;(this.audio as any)._cancelPending()
+      }
+
       fadeOutAndStop(this.audio, audioConfig.fadeDuration.crossfade, () => {
         this.audio = null
         this.currentZone = null
       })
     },
   },
+
+  state: () => ({
+    audio: null as HTMLAudioElement | null,
+    currentZone: null as AmbienceZone | null, // So we can use zone specific volume also in restore function
+    currentVolume: 0 as number,
+  }),
 })
