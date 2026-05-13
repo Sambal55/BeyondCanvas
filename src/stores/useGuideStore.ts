@@ -7,11 +7,12 @@ export const useGuideStore = defineStore('guide', {
 
   actions: {
     openGuide() {
-      console.log('open')
+      if (localStorage.getItem('guideSeenBefore')) return
       this.isVisible = true
     },
     closeGuide() {
       this.isVisible = false
+      localStorage.setItem('guideSeenBefore', 'true')
     },
   },
 })
