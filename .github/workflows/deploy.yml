@@ -17,7 +17,7 @@ jobs:
         run: npm run lint
 
       - name: Run Prettier
-        run: npx prettier --write .
+        run: npm run format
 
       - name: Build
         run: npm run build
